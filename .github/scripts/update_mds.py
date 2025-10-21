@@ -333,8 +333,8 @@ def main(dry_run=False, output_dir=None, sample_jwt=None):
 
         print("MDS JWT parsed successfully")
 
-    aaguid_data = extract_aaguids(mds_data)
-    print(f"Found {len(aaguid_data)} AAGUIDs in MDS")
+        aaguid_data = extract_aaguids(mds_data)
+        print(f"Found {len(aaguid_data)} AAGUIDs in MDS")
 
         # Always download the combined AAGUID JSON from the canonical remote
         combined_map = None
