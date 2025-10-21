@@ -1,0 +1,142 @@
+[
+  {
+    "description": "USB/NFC Passcode Authenticator",
+    "mds_entry": {
+      "aaguid": "cfcb13a2-244f-4b36-9077-82b79d6a7de7",
+      "metadataStatement": {
+        "aaguid": "cfcb13a2-244f-4b36-9077-82b79d6a7de7",
+        "attachmentHint": [
+          "external",
+          "wired",
+          "wireless",
+          "nfc"
+        ],
+        "attestationRootCertificates": [
+          "MIICCTCCAa+gAwIBAgIJAPAzegcU6sVAMAoGCCqGSM49BAMCMHYxCzAJBgNVBAYTAkRFMSEwHwYDVQQKExhJbmZpbmVvbiBUZWNobm9sb2dpZXMgQUcxKTAnBgNVBAsTIENBIGZvciBBdXRoZW50aWNhdG9yIEF0dGVzdGF0aW9uMRkwFwYDVQQDExBJbmZpbmVvbiBGSURPIENBMB4XDTE4MDQyNTEzMzUxM1oXDTIzMDMxMDEzMzUxM1owdjELMAkGA1UEBhMCREUxITAfBgNVBAoTGEluZmluZW9uIFRlY2hub2xvZ2llcyBBRzEpMCcGA1UECxMgQ0EgZm9yIEF1dGhlbnRpY2F0b3IgQXR0ZXN0YXRpb24xGTAXBgNVBAMTEEluZmluZW9uIEZJRE8gQ0EwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASVbD4o+QwltixToOZSFEptDxDa+cZOmny9rP8WyxtgcwH4yNIt37zwdj58oGUgjBCUeD8TDN52AADa9KSVOcsjoyYwJDASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwICBDAKBggqhkjOPQQDAgNIADBFAiA1NhquJNP+Wr3Le29R9BcxdAEJd2YWxHDy8ZEi9khjmAIhAKzRd9f5df4kQ9QAUNZrSlT/my7OIXiMx0wH8eMY42Ff"
+        ],
+        "attestationTypes": [
+          "basic_full"
+        ],
+        "authenticationAlgorithms": [
+          "secp256r1_ecdsa_sha256_der"
+        ],
+        "authenticatorGetInfo": {
+          "aaguid": "cfcb13a2-244f-4b36-9077-82b79d6a7de7",
+          "versions": [
+            "FIDO_2_0"
+          ]
+        },
+        "authenticatorVersion": 1,
+        "description": "USB/NFC Passcode Authenticator",
+        "keyProtection": [
+          "hardware",
+          "secure_element"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "on_chip"
+        ],
+        "protocolFamily": "fido2",
+        "publicKeyAlgAndEncodings": [
+          "ecc_x962_raw"
+        ],
+        "schema": 3,
+        "tcDisplay": [],
+        "upv": [
+          {
+            "major": 1,
+            "minor": 0
+          }
+        ],
+        "userVerificationDetails": [
+          [
+            {
+              "caDesc": {
+                "base": 10,
+                "blockSlowdown": 0,
+                "maxRetries": 3,
+                "minLength": 4
+              },
+              "userVerificationMethod": "passcode_internal"
+            }
+          ]
+        ]
+      },
+      "statusReports": [
+        {
+          "certificateNumber": "FIDO20020180926015",
+          "certificationDescriptor": "SLE78 CTAP USB/NFC Ref Design",
+          "certificationPolicyVersion": "1.3.4",
+          "certificationRequirementsVersion": "1.0.0",
+          "effectiveDate": "2020-04-16",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "effectiveDate": "2020-04-16",
+          "status": "FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2020-04-16"
+    },
+    "metadataStatement": {
+      "aaguid": "cfcb13a2-244f-4b36-9077-82b79d6a7de7",
+      "attachmentHint": [
+        "external",
+        "wired",
+        "wireless",
+        "nfc"
+      ],
+      "attestationRootCertificates": [
+        "MIICCTCCAa+gAwIBAgIJAPAzegcU6sVAMAoGCCqGSM49BAMCMHYxCzAJBgNVBAYTAkRFMSEwHwYDVQQKExhJbmZpbmVvbiBUZWNobm9sb2dpZXMgQUcxKTAnBgNVBAsTIENBIGZvciBBdXRoZW50aWNhdG9yIEF0dGVzdGF0aW9uMRkwFwYDVQQDExBJbmZpbmVvbiBGSURPIENBMB4XDTE4MDQyNTEzMzUxM1oXDTIzMDMxMDEzMzUxM1owdjELMAkGA1UEBhMCREUxITAfBgNVBAoTGEluZmluZW9uIFRlY2hub2xvZ2llcyBBRzEpMCcGA1UECxMgQ0EgZm9yIEF1dGhlbnRpY2F0b3IgQXR0ZXN0YXRpb24xGTAXBgNVBAMTEEluZmluZW9uIEZJRE8gQ0EwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASVbD4o+QwltixToOZSFEptDxDa+cZOmny9rP8WyxtgcwH4yNIt37zwdj58oGUgjBCUeD8TDN52AADa9KSVOcsjoyYwJDASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwICBDAKBggqhkjOPQQDAgNIADBFAiA1NhquJNP+Wr3Le29R9BcxdAEJd2YWxHDy8ZEi9khjmAIhAKzRd9f5df4kQ9QAUNZrSlT/my7OIXiMx0wH8eMY42Ff"
+      ],
+      "attestationTypes": [
+        "basic_full"
+      ],
+      "authenticationAlgorithms": [
+        "secp256r1_ecdsa_sha256_der"
+      ],
+      "authenticatorGetInfo": {
+        "aaguid": "cfcb13a2-244f-4b36-9077-82b79d6a7de7",
+        "versions": [
+          "FIDO_2_0"
+        ]
+      },
+      "authenticatorVersion": 1,
+      "description": "USB/NFC Passcode Authenticator",
+      "keyProtection": [
+        "hardware",
+        "secure_element"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "on_chip"
+      ],
+      "protocolFamily": "fido2",
+      "publicKeyAlgAndEncodings": [
+        "ecc_x962_raw"
+      ],
+      "schema": 3,
+      "tcDisplay": [],
+      "upv": [
+        {
+          "major": 1,
+          "minor": 0
+        }
+      ],
+      "userVerificationDetails": [
+        [
+          {
+            "caDesc": {
+              "base": 10,
+              "blockSlowdown": 0,
+              "maxRetries": 3,
+              "minLength": 4
+            },
+            "userVerificationMethod": "passcode_internal"
+          }
+        ]
+      ]
+    },
+    "name": "USB/NFC Passcode Authenticator"
+  }
+]

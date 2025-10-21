@@ -1,0 +1,214 @@
+[
+  {
+    "description": "NEOWAVE Badgeo FIDO2",
+    "mds_entry": {
+      "aaguid": "c5703116-972b-4851-a3e7-ae1259843399",
+      "metadataStatement": {
+        "aaguid": "c5703116-972b-4851-a3e7-ae1259843399",
+        "attachmentHint": [
+          "external",
+          "wired",
+          "wireless",
+          "nfc"
+        ],
+        "attestationRootCertificates": [
+          "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"
+        ],
+        "attestationTypes": [
+          "basic_full"
+        ],
+        "authenticationAlgorithms": [
+          "secp256r1_ecdsa_sha256_raw"
+        ],
+        "authenticatorGetInfo": {
+          "aaguid": "c5703116972b4851a3e7ae1259843399",
+          "extensions": [
+            "hmac-secret"
+          ],
+          "firmwareVersion": 2,
+          "maxMsgSize": 640,
+          "options": {
+            "clientPin": true,
+            "plat": false,
+            "rk": true,
+            "up": false
+          },
+          "pinUvAuthProtocols": [
+            1
+          ],
+          "transports": [
+            "nfc",
+            "usb"
+          ],
+          "versions": [
+            "U2F_V2",
+            "FIDO_2_0"
+          ]
+        },
+        "authenticatorVersion": 2,
+        "cryptoStrength": 128,
+        "description": "NEOWAVE Badgeo FIDO2",
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAACqUlEQVRIx2P8//8/Ay0BEwONwagFpFlw8cKFirIyR3t7S1Oz0KDgBfPm//z5k3izvn39lp+Ta2tltWTRIoTofxhYtXKllpq6srwCAikoRIVHvH379j9x4NSpU0AtQI1W5hZwQagPzp87V11ZiXAvIxj9Zzh54kRNZRWRPvj96xcDOM0zMTKiB9G8uXP//fsHNFRASLC+sXHm7Nlubu4Qm3bt3Llu7VpiLGCEmcuIacGZU6fB4cWQX1AQGx/n7OIyaeoUbV0diIvamluePXtGUST/+g32HSODhoYGRISFhaWppYWVlRUo+OHjh6b6BoosgHvqz58/cDl9ff3M7CwIe8+e3atXrqQgmeIokDKzs/X19EGy/xk6OzofP3pEWUbDsAYYRC3tbRwcHED2h/fv62pqCReOjCTmZE0trZy8XAj78KFDy5YuJd50VAsYcepKTU83NjWBqOnu7Hxw/wE+O/7jsgC315mZmRubm9nZ2YFqvnz+0lBfhzOg/qO7lQm/B+EAmHwLioogCo4cOrxk0WIiPUEgkpFBUnKymZk5hN3T1XX3zh1iYoKJcDTBA4qFubmtlYubC8j++vVrTVU1qHQhzQeMBHyhrKxcWFwMUXn61Kn5c+dSv8JJSEy0trGGsCf099+6dQsuxcLCCrH7P5IrSYgDeKFS39TEx8sHZH//9r2uGhFQN65fh2VPNoqqTCUlpeKyUmgxfPpMSWERMAMuX7asv7cXIqilrYXwFrxeg/qOuGZSdEzM3t17Dh06CPT0pk0bN23cCI9FYKZJz8hE98Hff38hDDY2diL90dHdpaurixawrCysre3tunq6iLTX0NAAToIsTx4/tndwiIyOAtYExFjAzc3t4+sLJL99/QosE0VFRe3s7RtbmoGVFUqcjTYdh78FAIhBLlNd7ju1AAAAAElFTkSuQmCC",
+        "keyProtection": [
+          "hardware",
+          "secure_element"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "on_chip"
+        ],
+        "protocolFamily": "fido2",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "supportedExtensions": [
+          {
+            "fail_if_unknown": false,
+            "id": "hmac-secret"
+          }
+        ],
+        "tcDisplay": [],
+        "upv": [
+          {
+            "major": 1,
+            "minor": 0
+          }
+        ],
+        "userVerificationDetails": [
+          [
+            {
+              "userVerificationMethod": "none"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "passcode_external"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "passcode_external"
+            },
+            {
+              "userVerificationMethod": "presence_internal"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "presence_internal"
+            }
+          ]
+        ]
+      },
+      "statusReports": [
+        {
+          "effectiveDate": "2021-09-21",
+          "status": "NOT_FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2021-09-21"
+    },
+    "metadataStatement": {
+      "aaguid": "c5703116-972b-4851-a3e7-ae1259843399",
+      "attachmentHint": [
+        "external",
+        "wired",
+        "wireless",
+        "nfc"
+      ],
+      "attestationRootCertificates": [
+        "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"
+      ],
+      "attestationTypes": [
+        "basic_full"
+      ],
+      "authenticationAlgorithms": [
+        "secp256r1_ecdsa_sha256_raw"
+      ],
+      "authenticatorGetInfo": {
+        "aaguid": "c5703116972b4851a3e7ae1259843399",
+        "extensions": [
+          "hmac-secret"
+        ],
+        "firmwareVersion": 2,
+        "maxMsgSize": 640,
+        "options": {
+          "clientPin": true,
+          "plat": false,
+          "rk": true,
+          "up": false
+        },
+        "pinUvAuthProtocols": [
+          1
+        ],
+        "transports": [
+          "nfc",
+          "usb"
+        ],
+        "versions": [
+          "U2F_V2",
+          "FIDO_2_0"
+        ]
+      },
+      "authenticatorVersion": 2,
+      "cryptoStrength": 128,
+      "description": "NEOWAVE Badgeo FIDO2",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAACqUlEQVRIx2P8//8/Ay0BEwONwagFpFlw8cKFirIyR3t7S1Oz0KDgBfPm//z5k3izvn39lp+Ta2tltWTRIoTofxhYtXKllpq6srwCAikoRIVHvH379j9x4NSpU0AtQI1W5hZwQagPzp87V11ZiXAvIxj9Zzh54kRNZRWRPvj96xcDOM0zMTKiB9G8uXP//fsHNFRASLC+sXHm7Nlubu4Qm3bt3Llu7VpiLGCEmcuIacGZU6fB4cWQX1AQGx/n7OIyaeoUbV0diIvamluePXtGUST/+g32HSODhoYGRISFhaWppYWVlRUo+OHjh6b6BoosgHvqz58/cDl9ff3M7CwIe8+e3atXrqQgmeIokDKzs/X19EGy/xk6OzofP3pEWUbDsAYYRC3tbRwcHED2h/fv62pqCReOjCTmZE0trZy8XAj78KFDy5YuJd50VAsYcepKTU83NjWBqOnu7Hxw/wE+O/7jsgC315mZmRubm9nZ2YFqvnz+0lBfhzOg/qO7lQm/B+EAmHwLioogCo4cOrxk0WIiPUEgkpFBUnKymZk5hN3T1XX3zh1iYoKJcDTBA4qFubmtlYubC8j++vVrTVU1qHQhzQeMBHyhrKxcWFwMUXn61Kn5c+dSv8JJSEy0trGGsCf099+6dQsuxcLCCrH7P5IrSYgDeKFS39TEx8sHZH//9r2uGhFQN65fh2VPNoqqTCUlpeKyUmgxfPpMSWERMAMuX7asv7cXIqilrYXwFrxeg/qOuGZSdEzM3t17Dh06CPT0pk0bN23cCI9FYKZJz8hE98Hff38hDDY2diL90dHdpaurixawrCysre3tunq6iLTX0NAAToIsTx4/tndwiIyOAtYExFjAzc3t4+sLJL99/QosE0VFRe3s7RtbmoGVFUqcjTYdh78FAIhBLlNd7ju1AAAAAElFTkSuQmCC",
+      "keyProtection": [
+        "hardware",
+        "secure_element"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "on_chip"
+      ],
+      "protocolFamily": "fido2",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "supportedExtensions": [
+        {
+          "fail_if_unknown": false,
+          "id": "hmac-secret"
+        }
+      ],
+      "tcDisplay": [],
+      "upv": [
+        {
+          "major": 1,
+          "minor": 0
+        }
+      ],
+      "userVerificationDetails": [
+        [
+          {
+            "userVerificationMethod": "none"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "passcode_external"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "passcode_external"
+          },
+          {
+            "userVerificationMethod": "presence_internal"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "presence_internal"
+          }
+        ]
+      ]
+    },
+    "name": "NEOWAVE Badgeo FIDO2"
+  }
+]

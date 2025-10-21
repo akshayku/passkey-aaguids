@@ -1,0 +1,232 @@
+[
+  {
+    "description": "NEOWAVE WINKEO V2.0",
+    "mds_entry": {
+      "aaguid": "2c2aeed8-8174-4159-814b-486e92a261d0",
+      "metadataStatement": {
+        "aaguid": "2c2aeed8-8174-4159-814b-486e92a261d0",
+        "attachmentHint": [
+          "external",
+          "wired"
+        ],
+        "attestationRootCertificates": [
+          "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"
+        ],
+        "attestationTypes": [
+          "basic_full"
+        ],
+        "authenticationAlgorithms": [
+          "secp256r1_ecdsa_sha256_raw"
+        ],
+        "authenticatorGetInfo": {
+          "aaguid": "2c2aeed881744159814b486e92a261d0",
+          "algorithms": [
+            {
+              "alg": -7,
+              "type": "public-key"
+            }
+          ],
+          "extensions": [
+            "credBlob",
+            "credProtect",
+            "hmac-secret",
+            "largeBlobKey",
+            "minPinLength",
+            "uvm"
+          ],
+          "firmwareVersion": 33619976,
+          "maxCredBlobLength": 256,
+          "maxCredentialCountInList": 16,
+          "maxCredentialIdLength": 16,
+          "maxMsgSize": 1200,
+          "maxRPIDsForSetMinPINLength": 32,
+          "maxSerializedLargeBlobArray": 1024,
+          "minPINLength": 4,
+          "options": {
+            "alwaysUv": false,
+            "authnrCfg": true,
+            "clientPin": true,
+            "credMgmt": true,
+            "largeBlobs": true,
+            "makeCredUvNotRqd": true,
+            "pinUvAuthToken": true,
+            "plat": false,
+            "rk": true,
+            "setMinPINLength": true,
+            "up": true
+          },
+          "pinUvAuthProtocols": [
+            2,
+            1
+          ],
+          "transports": [
+            "usb"
+          ],
+          "versions": [
+            "U2F_V2",
+            "FIDO_2_0",
+            "FIDO_2_1"
+          ]
+        },
+        "authenticatorVersion": 33619976,
+        "cryptoStrength": 128,
+        "description": "NEOWAVE WINKEO V2.0",
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAACqUlEQVRIx2P8//8/Ay0BEwONwagFpFlw8cKFirIyR3t7S1Oz0KDgBfPm//z5k3izvn39lp+Ta2tltWTRIoTofxhYtXKllpq6srwCAikoRIVHvH379j9x4NSpU0AtQI1W5hZwQagPzp87V11ZiXAvIxj9Zzh54kRNZRWRPvj96xcDOM0zMTKiB9G8uXP//fsHNFRASLC+sXHm7Nlubu4Qm3bt3Llu7VpiLGCEmcuIacGZU6fB4cWQX1AQGx/n7OIyaeoUbV0diIvamluePXtGUST/+g32HSODhoYGRISFhaWppYWVlRUo+OHjh6b6BoosgHvqz58/cDl9ff3M7CwIe8+e3atXrqQgmeIokDKzs/X19EGy/xk6OzofP3pEWUbDsAYYRC3tbRwcHED2h/fv62pqCReOjCTmZE0trZy8XAj78KFDy5YuJd50VAsYcepKTU83NjWBqOnu7Hxw/wE+O/7jsgC315mZmRubm9nZ2YFqvnz+0lBfhzOg/qO7lQm/B+EAmHwLioogCo4cOrxk0WIiPUEgkpFBUnKymZk5hN3T1XX3zh1iYoKJcDTBA4qFubmtlYubC8j++vVrTVU1qHQhzQeMBHyhrKxcWFwMUXn61Kn5c+dSv8JJSEy0trGGsCf099+6dQsuxcLCCrH7P5IrSYgDeKFS39TEx8sHZH//9r2uGhFQN65fh2VPNoqqTCUlpeKyUmgxfPpMSWERMAMuX7asv7cXIqilrYXwFrxeg/qOuGZSdEzM3t17Dh06CPT0pk0bN23cCI9FYKZJz8hE98Hff38hDDY2diL90dHdpaurixawrCysre3tunq6iLTX0NAAToIsTx4/tndwiIyOAtYExFjAzc3t4+sLJL99/QosE0VFRe3s7RtbmoGVFUqcjTYdh78FAIhBLlNd7ju1AAAAAElFTkSuQmCC",
+        "isFreshUserVerificationRequired": true,
+        "isKeyRestricted": true,
+        "keyProtection": [
+          "hardware",
+          "secure_element"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "software"
+        ],
+        "protocolFamily": "fido2",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "tcDisplay": [],
+        "upv": [
+          {
+            "major": 1,
+            "minor": 0
+          },
+          {
+            "major": 1,
+            "minor": 1
+          }
+        ],
+        "userVerificationDetails": [
+          [
+            {
+              "userVerificationMethod": "passcode_external"
+            },
+            {
+              "userVerificationMethod": "presence_internal"
+            }
+          ]
+        ]
+      },
+      "statusReports": [
+        {
+          "effectiveDate": "2025-03-13",
+          "status": "NOT_FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2025-03-13"
+    },
+    "metadataStatement": {
+      "aaguid": "2c2aeed8-8174-4159-814b-486e92a261d0",
+      "attachmentHint": [
+        "external",
+        "wired"
+      ],
+      "attestationRootCertificates": [
+        "MIICdDCCAhmgAwIBAgIURpQLWQrmGDSMGg/o7x7x/7oUiZUwCgYIKoZIzj0EAwIwPDELMAkGA1UEBhMCQ0gxEDAOBgNVBAoMB1dJU2VLZXkxGzAZBgNVBAMMElNlYWxTUSBJT1QgUk9PVCBHQTAeFw0yNDA4MDkxMTEwMTdaFw00OTA4MDMxMTEwMTZaMDoxCzAJBgNVBAYTAkNIMRAwDgYDVQQKDAdXSVNlS2V5MRkwFwYDVQQDDBBTZWFsU1EgSU9UIElDQSAxMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEB34bE9yPfQRcEoI0YFB8ec0CSE0ujmGeCRFddBBBUJJ+63ZruVuorwPcopd1NVQZHfTVh3dV4Jp7V7mSrH6hvqOB+jCB9zASBgNVHRMBAf8ECDAGAQH/AgEAMB8GA1UdIwQYMBaAFMU7H0ynuSbR/bSFKT90dcnTlsyJME0GCCsGAQUFBwEBBEEwPzA9BggrBgEFBQcwAoYxaHR0cDovL3B1YmxpYy53aXNla2V5LmNvbS9jcnQvc2VhbHNxaW90cm9vdGdhLmNlcjBCBgNVHR8EOzA5MDegNaAzhjFodHRwOi8vcHVibGljLndpc2VrZXkuY29tL2NybC9zZWFsc3Fpb3Ryb290Z2EuY3JsMB0GA1UdDgQWBBSoMaOK9llZyMLkswZ8OXx18xzF7DAOBgNVHQ8BAf8EBAMCAYYwCgYIKoZIzj0EAwIDSQAwRgIhALsB6zBbUVXuyj0n2DMwHd8Fx1mzP0pR3n9SHxP2afS8AiEAzzawbyzY/oi8h1B14n9hqB3nzBeTnk6jH5TxY6eSSik=",
+        "MIIDKzCCAtKgAwIBAgIULQxGEw5aJ6uR66UDGzLuLGqeh1AwCgYIKoZIzj0EAwIwOjELMAkGA1UEBhMCQ0gxEDAOBgNVBAoMB1dJU2VLZXkxGTAXBgNVBAMMEFNlYWxTUSBJT1QgSUNBIDEwHhcNMjQxMDIxMTMzODIwWhcNMzQxMDE5MTMzODE5WjCBxzELMAkGA1UEBhMCRlIxDTALBgNVBAgMBFBBQ0ExETAPBgNVBAcMCEdhcmRhbm5lMRAwDgYDVQQKDAdORU9XQVZFMSIwIAYDVQQLDBlBdXRoZW50aWNhdG9yIEF0dGVzdGF0aW9uMT0wOwYDVQQDDDRORU9XQVZFIEJhZGdlbyBGSURPMiAtIEZJRE8yIEF0dGVzdGF0aW9uIENlcnRpZmljYXRlMSEwHwYJKoZIhvcNAQkBFhJjb250YWN0QG5lb3dhdmUuZnIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARYzkhg2Fo6sAW5kgIlT8XSTEBAHU43NjrkX6+y2hBD22XlqtRex9d0HwTz8KbL+qoVRqp4K92hw04qqQkslXXgo4IBJjCCASIwCQYDVR0TBAIwADAfBgNVHSMEGDAWgBSoMaOK9llZyMLkswZ8OXx18xzF7DBLBggrBgEFBQcBAQQ/MD0wOwYIKwYBBQUHMAKGL2h0dHA6Ly9wdWJsaWMud2lzZWtleS5jb20vY3J0L3NlYWxzcWlvdGljYTEuY2VyMBMGA1UdJQQMMAoGCCsGAQUFBwMCMEAGA1UdHwQ5MDcwNaAzoDGGL2h0dHA6Ly9wdWJsaWMud2lzZWtleS5jb20vY3JsL3NlYWxzcWlvdGljYTEuY3JsMB0GA1UdDgQWBBSbsg9Jw8VTKLELdXsrYQpYoOVCTDAOBgNVHQ8BAf8EBAMCB4AwIQYLKwYBBAGC5RwBAQQEEgQQHaFARqgIS9apYrh+zaWZMjAKBggqhkjOPQQDAgNHADBEAiA6KdqmovFuFDNVAPYiO6m51GO7Xu7ISED1jv55/SGkcwIgTxK3QPZwpLJUYhb6HB//nbeo0murS6U7ChKE+JiZgZk=",
+        "MIIB3jCCAYWgAwIBAgIUKyUDGrhRQbU3rmll+re1tYbRs94wCgYIKoZIzj0EAwIwPDELMAkGA1UEBhMCQ0gxEDAOBgNVBAoMB1dJU2VLZXkxGzAZBgNVBAMMElNlYWxTUSBJT1QgUk9PVCBHQTAgFw0yNDA4MDkxMTA0MTRaGA8yMDY0MDczMDExMDQxM1owPDELMAkGA1UEBhMCQ0gxEDAOBgNVBAoMB1dJU2VLZXkxGzAZBgNVBAMMElNlYWxTUSBJT1QgUk9PVCBHQTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABFyY6ONDluhnj383MRw5JfwgMkJrnW0+ItlOTh42nDLtfZkrzRDFh9KFDaOF+21Z2m9KSNqr1MKkqjOiRz2s4NijYzBhMA8GA1UdEwEB/wQFMAMBAf8wHwYDVR0jBBgwFoAUxTsfTKe5JtH9tIUpP3R1ydOWzIkwHQYDVR0OBBYEFMU7H0ynuSbR/bSFKT90dcnTlsyJMA4GA1UdDwEB/wQEAwIBhjAKBggqhkjOPQQDAgNHADBEAiBRJDH40iy8a7LNgZfLUduw8bLDzkT9i0oIvVjeVeLkUgIgW5r3B84x6t8coLCJLoFLipZ75n+N+3m99zFLdRlvIdM="
+      ],
+      "attestationTypes": [
+        "basic_full"
+      ],
+      "authenticationAlgorithms": [
+        "secp256r1_ecdsa_sha256_raw"
+      ],
+      "authenticatorGetInfo": {
+        "aaguid": "2c2aeed881744159814b486e92a261d0",
+        "algorithms": [
+          {
+            "alg": -7,
+            "type": "public-key"
+          }
+        ],
+        "extensions": [
+          "credBlob",
+          "credProtect",
+          "hmac-secret",
+          "largeBlobKey",
+          "minPinLength",
+          "uvm"
+        ],
+        "firmwareVersion": 33619976,
+        "maxCredBlobLength": 256,
+        "maxCredentialCountInList": 16,
+        "maxCredentialIdLength": 16,
+        "maxMsgSize": 1200,
+        "maxRPIDsForSetMinPINLength": 32,
+        "maxSerializedLargeBlobArray": 1024,
+        "minPINLength": 4,
+        "options": {
+          "alwaysUv": false,
+          "authnrCfg": true,
+          "clientPin": true,
+          "credMgmt": true,
+          "largeBlobs": true,
+          "makeCredUvNotRqd": true,
+          "pinUvAuthToken": true,
+          "plat": false,
+          "rk": true,
+          "setMinPINLength": true,
+          "up": true
+        },
+        "pinUvAuthProtocols": [
+          2,
+          1
+        ],
+        "transports": [
+          "usb"
+        ],
+        "versions": [
+          "U2F_V2",
+          "FIDO_2_0",
+          "FIDO_2_1"
+        ]
+      },
+      "authenticatorVersion": 33619976,
+      "cryptoStrength": 128,
+      "description": "NEOWAVE WINKEO V2.0",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAACqUlEQVRIx2P8//8/Ay0BEwONwagFpFlw8cKFirIyR3t7S1Oz0KDgBfPm//z5k3izvn39lp+Ta2tltWTRIoTofxhYtXKllpq6srwCAikoRIVHvH379j9x4NSpU0AtQI1W5hZwQagPzp87V11ZiXAvIxj9Zzh54kRNZRWRPvj96xcDOM0zMTKiB9G8uXP//fsHNFRASLC+sXHm7Nlubu4Qm3bt3Llu7VpiLGCEmcuIacGZU6fB4cWQX1AQGx/n7OIyaeoUbV0diIvamluePXtGUST/+g32HSODhoYGRISFhaWppYWVlRUo+OHjh6b6BoosgHvqz58/cDl9ff3M7CwIe8+e3atXrqQgmeIokDKzs/X19EGy/xk6OzofP3pEWUbDsAYYRC3tbRwcHED2h/fv62pqCReOjCTmZE0trZy8XAj78KFDy5YuJd50VAsYcepKTU83NjWBqOnu7Hxw/wE+O/7jsgC315mZmRubm9nZ2YFqvnz+0lBfhzOg/qO7lQm/B+EAmHwLioogCo4cOrxk0WIiPUEgkpFBUnKymZk5hN3T1XX3zh1iYoKJcDTBA4qFubmtlYubC8j++vVrTVU1qHQhzQeMBHyhrKxcWFwMUXn61Kn5c+dSv8JJSEy0trGGsCf099+6dQsuxcLCCrH7P5IrSYgDeKFS39TEx8sHZH//9r2uGhFQN65fh2VPNoqqTCUlpeKyUmgxfPpMSWERMAMuX7asv7cXIqilrYXwFrxeg/qOuGZSdEzM3t17Dh06CPT0pk0bN23cCI9FYKZJz8hE98Hff38hDDY2diL90dHdpaurixawrCysre3tunq6iLTX0NAAToIsTx4/tndwiIyOAtYExFjAzc3t4+sLJL99/QosE0VFRe3s7RtbmoGVFUqcjTYdh78FAIhBLlNd7ju1AAAAAElFTkSuQmCC",
+      "isFreshUserVerificationRequired": true,
+      "isKeyRestricted": true,
+      "keyProtection": [
+        "hardware",
+        "secure_element"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "software"
+      ],
+      "protocolFamily": "fido2",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "tcDisplay": [],
+      "upv": [
+        {
+          "major": 1,
+          "minor": 0
+        },
+        {
+          "major": 1,
+          "minor": 1
+        }
+      ],
+      "userVerificationDetails": [
+        [
+          {
+            "userVerificationMethod": "passcode_external"
+          },
+          {
+            "userVerificationMethod": "presence_internal"
+          }
+        ]
+      ]
+    },
+    "name": "NEOWAVE WINKEO V2.0"
+  }
+]

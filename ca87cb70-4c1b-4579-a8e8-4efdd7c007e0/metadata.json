@@ -1,0 +1,242 @@
+[
+  {
+    "description": "FIDO Alliance TruU Sample FIDO2 Authenticator",
+    "mds_entry": {
+      "aaguid": "ca87cb70-4c1b-4579-a8e8-4efdd7c007e0",
+      "metadataStatement": {
+        "aaguid": "ca87cb70-4c1b-4579-a8e8-4efdd7c007e0",
+        "alternativeDescriptions": {
+          "fr-FR": "Exemple TruU FIDO2 authenticator de FIDO Alliance",
+          "ru-RU": "Пример TruU FIDO2 аутентификатора от FIDO Alliance",
+          "zh-CN": "FIDO TruU AllianceFIDO2"
+        },
+        "attachmentHint": [
+          "external",
+          "wired"
+        ],
+        "attestationRootCertificates": [
+          "MIICSzCCAfKgAwIBAgIUW3XK8yywbAWliglixIF63dvqYy8wCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxETAPBgNVBAgMCENvbG9yYWRvMQ8wDQYDVQQHDAZEZW52ZXIxEzARBgNVBAoMClRydVUsIEluYy4xIjAgBgNVBAsMGUF1dGhlbnRpY2F0b3IgQXR0ZXN0YXRpb24xEDAOBgNVBAMMB3RydXUuYWkwIBcNMjMxMTAzMjAzNjUxWhgPMjA1MzEwMjYyMDM2NTFaMHwxCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhDb2xvcmFkbzEPMA0GA1UEBwwGRGVudmVyMRMwEQYDVQQKDApUcnVVLCBJbmMuMSIwIAYDVQQLDBlBdXRoZW50aWNhdG9yIEF0dGVzdGF0aW9uMRAwDgYDVQQDDAd0cnV1LmFpMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENAvbtccMr7j/SRWmqIEZTRWNJyj6msYr5lGeAgdSGyC9O0356RIecuaViOqz0DxgS1f/5KPbZp1t0yD2fVRX96NQME4wHQYDVR0OBBYEFA5tL10g88t2qXlPlhISI2dIzlaVMB8GA1UdIwQYMBaAFA5tL10g88t2qXlPlhISI2dIzlaVMAwGA1UdEwEB/wQCMAAwCgYIKoZIzj0EAwIDRwAwRAIgXfuvjsp+4v5iGOqngUgOg1hmbgFPFMgIjyWxCKqw/d8CIFimLNXLDIwA+oIbP1yOfqE8xk6q7/4LWOVYkRALoBC2",
+          "MIIDXzCCAkegAwIBAgILBAAAAAABIVhTCKIwDQYJKoZIhvcNAQELBQAwTDEgMB4GA1UECxMXR2xvYmFsU2lnbiBSb290IENBIC0gUjMxEzARBgNVBAoTCkdsb2JhbFNpZ24xEzARBgNVBAMTCkdsb2JhbFNpZ24wHhcNMDkwMzE4MTAwMDAwWhcNMjkwMzE4MTAwMDAwWjBMMSAwHgYDVQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xvYmFsU2lnbjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMwldpB5BngiFvXAg7aEyiie/QV2EcWtiHL8RgJDx7KKnQRfJMsuS+FggkbhUqsMgUdwbN1k0ev1LKMPgj0MK66X17YUhhB5uzsTgHeMCOFJ0mpiLx9e+pZo34knlTifBtc+ycsmWQ1z3rDI6SYOgxXG71uL0gRgykmmKPZpO/bLyCiR5Z2KYVc3rHQU3HTgOu5yLy6c+9C7v/U9AOEGM+iCK65TpjoWc4zdQQ4gOsC0p6Hpsk+QLjJg6VfLuQSSaGjlOCZgdbKfd/+RFO+uIEn8rUAVSNECMWEZXriX7613t2Saer9fwRPvm2L7DWzgVGkWqQPabumDk3F2xmmFghcCAwEAAaNCMEAwDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFI/wS3+oLkUkrk1Q+mOai97i3Ru8MA0GCSqGSIb3DQEBCwUAA4IBAQBLQNvAUKr+yAzv95ZURUm7lgAJQayzE4aGKAczymvmdLm6AC2upArT9fHxD4q/c2dKg8dEe3jgr25sbwMpjjM5RcOO5LlXbKr8EpbsU8Yt5CRsuZRj+9xTaGdWPoO4zzUhw8lo/s7awlOqzJCK6fBdRoyV3XpYKBovHd7NADdBj+1EbddTKJd+82cEHhXXipa0095MJ6RMG3NzdvQXmcIfeg7jLQitChws/zyrVQ4PkX4268NXSb7hLi18YIvDQVETI53O9zJrlAGomecsMx86OyXShkDOOyyGeMlhLxS67ttVb9+E7gUJTb0o2HLO02JQZR7rkpeDMdmztcpHWD9f"
+        ],
+        "attestationTypes": [
+          "basic_full"
+        ],
+        "authenticationAlgorithms": [
+          "secp256r1_ecdsa_sha256_raw"
+        ],
+        "authenticatorGetInfo": {
+          "aaguid": "ca87cb704c1b4579a8e84efdd7c007e0",
+          "algorithms": [
+            {
+              "alg": -7,
+              "type": "public-key"
+            },
+            {
+              "alg": -257,
+              "type": "public-key"
+            }
+          ],
+          "extensions": [
+            "credProtect",
+            "hmac-secret"
+          ],
+          "firmwareVersion": 1,
+          "maxCredentialCountInList": 16,
+          "maxCredentialIdLength": 128,
+          "maxMsgSize": 1200,
+          "options": {
+            "clientPin": true,
+            "plat": false,
+            "rk": true,
+            "up": true,
+            "uv": true
+          },
+          "pinUvAuthProtocols": [
+            1
+          ],
+          "transports": [
+            "usb",
+            "nfc"
+          ],
+          "versions": [
+            "U2F_V2",
+            "FIDO_2_0"
+          ]
+        },
+        "authenticatorVersion": 1,
+        "cryptoStrength": 128,
+        "description": "FIDO Alliance TruU Sample FIDO2 Authenticator",
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAADCCAMAAACrDgQFAAACdlBMVEUAAAD/AAD/gAD/VVX/gED/ZjP/gCv/bUn/gED/cTn/gDP/dC7/gED/djv/bTf/dzP/cED/eDz/cTnyeTbyc0DzeT3zdDr0ejf0dTX1ej31djv2cTn2djf2cj73dzz3czr3eDj4eDz4dTr4eDn4dTf4eTz4djv5eTn5djj5cz35dzv5dzn5dDf6dzz6dTr6eDn6dTj6eDr6djn2dDz2djv2dDr2dzn3dzz3dTv3dzr3dTn3eDz3djv3eDr3djn4dDj4dTr4dzn4dTn4dzv4dzr4dTn4dzz4djv5djn5djv5dTr5dTn5dTv5dzr5dzn3djv3djv3dTr3djr3dTn3djv3dTv3dzr4djr4dzn4djv4djr4dzn4djv4dTr4dTn4djn4djr4dzn4djv5djr5dzn5dTr5djn5djr3djr3dzn3djv3djr3dzr3dTv4djr4dTr4djn4dTv4djr4djr4dzr4djr4dzr4dTv4djr4djr4djr4djn5dzr5djr5dzr5dTv5djr3djr3dTv3djr3djr3djn4dzv4djr4dzr4dzv4djr4dTr4djr4djr4djr4djv4dzr4dzv4djr4dTr4djr4dTn4djr4djr4djr4djv5djr5djr5djr5dzn3djr3dTr3djr4djr4djr4djr4djv4djr4dzn4djr4dTr4djr4djr4djr4djr4djr4djr4djn4djr4djr4djr4djr4djr4dzr4djr4djr4djv4djr4djr4djr4djr5djr3djr4djr4djr4djr4dzr4djr4djr4djn4djr4djr4djr4djr4djr4djr4djr4djr4djr4djr4djr///8UBbnaAAAA0HRSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAiIyQlJicoKSorLS4vMDEyNTY3ODk6PD0+P0BBQkNERkdISUtMTU5QUlNVV1haW19gYWJjZGVmZ2hqa2xtb3BzdHV3eHx9f4CBgoSFh4iJiouMjZCRkpSVmZqcnZ6foaKkpaanqaqrrK6vsLO0tbe5u7y9vr/AwcLExcbHyMnKy87P0NHS1dbX2Nna29zd3t/g4eLj5OXm5+jp6uvs7e7v8PHy8/T19vf4+fr7/P3+CPW/JAAAAAFi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",
+        "keyProtection": [
+          "hardware",
+          "secure_element"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "on_chip"
+        ],
+        "protocolFamily": "fido2",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "tcDisplay": [
+          "any"
+        ],
+        "upv": [
+          {
+            "major": 1,
+            "minor": 0
+          }
+        ],
+        "userVerificationDetails": [
+          [
+            {
+              "baDesc": {
+                "blockSlowdown": 0,
+                "iAPARThreshold": 0.0,
+                "maxRetries": 5,
+                "maxTemplates": 5,
+                "selfAttestedFAR": 2e-06,
+                "selfAttestedFRR": 0.0
+              },
+              "userVerificationMethod": "fingerprint_internal"
+            }
+          ],
+          [
+            {
+              "caDesc": {
+                "base": 10,
+                "blockSlowdown": 0,
+                "maxRetries": 0,
+                "minLength": 4
+              },
+              "userVerificationMethod": "passcode_external"
+            }
+          ]
+        ]
+      },
+      "statusReports": [
+        {
+          "effectiveDate": "2023-10-06",
+          "status": "NOT_FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2023-10-06"
+    },
+    "metadataStatement": {
+      "aaguid": "ca87cb70-4c1b-4579-a8e8-4efdd7c007e0",
+      "alternativeDescriptions": {
+        "fr-FR": "Exemple TruU FIDO2 authenticator de FIDO Alliance",
+        "ru-RU": "Пример TruU FIDO2 аутентификатора от FIDO Alliance",
+        "zh-CN": "FIDO TruU AllianceFIDO2"
+      },
+      "attachmentHint": [
+        "external",
+        "wired"
+      ],
+      "attestationRootCertificates": [
+        "MIICSzCCAfKgAwIBAgIUW3XK8yywbAWliglixIF63dvqYy8wCgYIKoZIzj0EAwIwfDELMAkGA1UEBhMCVVMxETAPBgNVBAgMCENvbG9yYWRvMQ8wDQYDVQQHDAZEZW52ZXIxEzARBgNVBAoMClRydVUsIEluYy4xIjAgBgNVBAsMGUF1dGhlbnRpY2F0b3IgQXR0ZXN0YXRpb24xEDAOBgNVBAMMB3RydXUuYWkwIBcNMjMxMTAzMjAzNjUxWhgPMjA1MzEwMjYyMDM2NTFaMHwxCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhDb2xvcmFkbzEPMA0GA1UEBwwGRGVudmVyMRMwEQYDVQQKDApUcnVVLCBJbmMuMSIwIAYDVQQLDBlBdXRoZW50aWNhdG9yIEF0dGVzdGF0aW9uMRAwDgYDVQQDDAd0cnV1LmFpMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENAvbtccMr7j/SRWmqIEZTRWNJyj6msYr5lGeAgdSGyC9O0356RIecuaViOqz0DxgS1f/5KPbZp1t0yD2fVRX96NQME4wHQYDVR0OBBYEFA5tL10g88t2qXlPlhISI2dIzlaVMB8GA1UdIwQYMBaAFA5tL10g88t2qXlPlhISI2dIzlaVMAwGA1UdEwEB/wQCMAAwCgYIKoZIzj0EAwIDRwAwRAIgXfuvjsp+4v5iGOqngUgOg1hmbgFPFMgIjyWxCKqw/d8CIFimLNXLDIwA+oIbP1yOfqE8xk6q7/4LWOVYkRALoBC2",
+        "MIIDXzCCAkegAwIBAgILBAAAAAABIVhTCKIwDQYJKoZIhvcNAQELBQAwTDEgMB4GA1UECxMXR2xvYmFsU2lnbiBSb290IENBIC0gUjMxEzARBgNVBAoTCkdsb2JhbFNpZ24xEzARBgNVBAMTCkdsb2JhbFNpZ24wHhcNMDkwMzE4MTAwMDAwWhcNMjkwMzE4MTAwMDAwWjBMMSAwHgYDVQQLExdHbG9iYWxTaWduIFJvb3QgQ0EgLSBSMzETMBEGA1UEChMKR2xvYmFsU2lnbjETMBEGA1UEAxMKR2xvYmFsU2lnbjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMwldpB5BngiFvXAg7aEyiie/QV2EcWtiHL8RgJDx7KKnQRfJMsuS+FggkbhUqsMgUdwbN1k0ev1LKMPgj0MK66X17YUhhB5uzsTgHeMCOFJ0mpiLx9e+pZo34knlTifBtc+ycsmWQ1z3rDI6SYOgxXG71uL0gRgykmmKPZpO/bLyCiR5Z2KYVc3rHQU3HTgOu5yLy6c+9C7v/U9AOEGM+iCK65TpjoWc4zdQQ4gOsC0p6Hpsk+QLjJg6VfLuQSSaGjlOCZgdbKfd/+RFO+uIEn8rUAVSNECMWEZXriX7613t2Saer9fwRPvm2L7DWzgVGkWqQPabumDk3F2xmmFghcCAwEAAaNCMEAwDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFI/wS3+oLkUkrk1Q+mOai97i3Ru8MA0GCSqGSIb3DQEBCwUAA4IBAQBLQNvAUKr+yAzv95ZURUm7lgAJQayzE4aGKAczymvmdLm6AC2upArT9fHxD4q/c2dKg8dEe3jgr25sbwMpjjM5RcOO5LlXbKr8EpbsU8Yt5CRsuZRj+9xTaGdWPoO4zzUhw8lo/s7awlOqzJCK6fBdRoyV3XpYKBovHd7NADdBj+1EbddTKJd+82cEHhXXipa0095MJ6RMG3NzdvQXmcIfeg7jLQitChws/zyrVQ4PkX4268NXSb7hLi18YIvDQVETI53O9zJrlAGomecsMx86OyXShkDOOyyGeMlhLxS67ttVb9+E7gUJTb0o2HLO02JQZR7rkpeDMdmztcpHWD9f"
+      ],
+      "attestationTypes": [
+        "basic_full"
+      ],
+      "authenticationAlgorithms": [
+        "secp256r1_ecdsa_sha256_raw"
+      ],
+      "authenticatorGetInfo": {
+        "aaguid": "ca87cb704c1b4579a8e84efdd7c007e0",
+        "algorithms": [
+          {
+            "alg": -7,
+            "type": "public-key"
+          },
+          {
+            "alg": -257,
+            "type": "public-key"
+          }
+        ],
+        "extensions": [
+          "credProtect",
+          "hmac-secret"
+        ],
+        "firmwareVersion": 1,
+        "maxCredentialCountInList": 16,
+        "maxCredentialIdLength": 128,
+        "maxMsgSize": 1200,
+        "options": {
+          "clientPin": true,
+          "plat": false,
+          "rk": true,
+          "up": true,
+          "uv": true
+        },
+        "pinUvAuthProtocols": [
+          1
+        ],
+        "transports": [
+          "usb",
+          "nfc"
+        ],
+        "versions": [
+          "U2F_V2",
+          "FIDO_2_0"
+        ]
+      },
+      "authenticatorVersion": 1,
+      "cryptoStrength": 128,
+      "description": "FIDO Alliance TruU Sample FIDO2 Authenticator",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPMAAADCCAMAAACrDgQFAAACdlBMVEUAAAD/AAD/gAD/VVX/gED/ZjP/gCv/bUn/gED/cTn/gDP/dC7/gED/djv/bTf/dzP/cED/eDz/cTnyeTbyc0DzeT3zdDr0ejf0dTX1ej31djv2cTn2djf2cj73dzz3czr3eDj4eDz4dTr4eDn4dTf4eTz4djv5eTn5djj5cz35dzv5dzn5dDf6dzz6dTr6eDn6dTj6eDr6djn2dDz2djv2dDr2dzn3dzz3dTv3dzr3dTn3eDz3djv3eDr3djn4dDj4dTr4dzn4dTn4dzv4dzr4dTn4dzz4djv5djn5djv5dTr5dTn5dTv5dzr5dzn3djv3djv3dTr3djr3dTn3djv3dTv3dzr4djr4dzn4djv4djr4dzn4djv4dTr4dTn4djn4djr4dzn4djv5djr5dzn5dTr5djn5djr3djr3dzn3djv3djr3dzr3dTv4djr4dTr4djn4dTv4djr4djr4dzr4djr4dzr4dTv4djr4djr4djr4djn5dzr5djr5dzr5dTv5djr3djr3dTv3djr3djr3djn4dzv4djr4dzr4dzv4djr4dTr4djr4djr4djr4djv4dzr4dzv4djr4dTr4djr4dTn4djr4djr4djr4djv5djr5djr5djr5dzn3djr3dTr3djr4djr4djr4djr4djv4djr4dzn4djr4dTr4djr4djr4djr4djr4djr4djr4djn4djr4djr4djr4djr4djr4dzr4djr4djr4djv4djr4djr4djr4djr5djr3djr4djr4djr4djr4dzr4djr4djr4djn4djr4djr4djr4djr4djr4djr4djr4djr4djr4djr4djr///8UBbnaAAAA0HRSTlMAAQIDBAUGBwgJCgsMDQ4PEBESExQVFhcYGRobHB0eHyAiIyQlJicoKSorLS4vMDEyNTY3ODk6PD0+P0BBQkNERkdISUtMTU5QUlNVV1haW19gYWJjZGVmZ2hqa2xtb3BzdHV3eHx9f4CBgoSFh4iJiouMjZCRkpSVmZqcnZ6foaKkpaanqaqrrK6vsLO0tbe5u7y9vr/AwcLExcbHyMnKy87P0NHS1dbX2Nna29zd3t/g4eLj5OXm5+jp6uvs7e7v8PHy8/T19vf4+fr7/P3+CPW/JAAAAAFi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",
+      "keyProtection": [
+        "hardware",
+        "secure_element"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "on_chip"
+      ],
+      "protocolFamily": "fido2",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "tcDisplay": [
+        "any"
+      ],
+      "upv": [
+        {
+          "major": 1,
+          "minor": 0
+        }
+      ],
+      "userVerificationDetails": [
+        [
+          {
+            "baDesc": {
+              "blockSlowdown": 0,
+              "iAPARThreshold": 0.0,
+              "maxRetries": 5,
+              "maxTemplates": 5,
+              "selfAttestedFAR": 2e-06,
+              "selfAttestedFRR": 0.0
+            },
+            "userVerificationMethod": "fingerprint_internal"
+          }
+        ],
+        [
+          {
+            "caDesc": {
+              "base": 10,
+              "blockSlowdown": 0,
+              "maxRetries": 0,
+              "minLength": 4
+            },
+            "userVerificationMethod": "passcode_external"
+          }
+        ]
+      ]
+    },
+    "name": "FIDO Alliance TruU Sample FIDO2 Authenticator"
+  }
+]

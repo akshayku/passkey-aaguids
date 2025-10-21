@@ -1,0 +1,230 @@
+[
+  {
+    "description": "CardOS FIDO2 Token",
+    "mds_entry": {
+      "aaguid": "8da0e4dc-164b-454e-972e-88f362b23d59",
+      "metadataStatement": {
+        "aaguid": "8da0e4dc-164b-454e-972e-88f362b23d59",
+        "alternativeDescriptions": {
+          "de-DE": "CardOS FIDO2 Token"
+        },
+        "attachmentHint": [
+          "external",
+          "wired",
+          "wireless",
+          "nfc"
+        ],
+        "attestationRootCertificates": [
+          "MIIBmzCCAUGgAwIBAgIJAKIFntEOQ1tXMAoGCCqGSM49BAMCMFMxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKDAZDYXJkT1MxIjAgBgNVBAsMGUF1dGhlbnRpY2F0b3IgQXR0ZXN0YXRpb24xDzANBgNVBAMMBkNhcmRPUzAeFw0yNDA2MDQwOTQwNTdaFw0zOTA2MDEwOTQwNTdaMFMxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKDAZDYXJkT1MxIjAgBgNVBAsMGUF1dGhlbnRpY2F0b3IgQXR0ZXN0YXRpb24xDzANBgNVBAMMBkNhcmRPUzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOs5+63X5miRnDVqnEIUKd4+KzJ+ATN/VxWiBgNmAOOEo1AMVnxBAIf4/ahj5CypuDiLFAcCSvLALT4LmIQivX8wCgYIKoZIzj0EAwIDSAAwRQIgHMT5ymII55Urh+J5h0vK0Gp8LVlrT7BRV7PjIoe3D14CIQDfCXgMAGNpGfo75WOWqKq8vWIyLm0u/cUluvdrL7cZSw=="
+        ],
+        "attestationTypes": [
+          "basic_full"
+        ],
+        "authenticationAlgorithms": [
+          "secp256r1_ecdsa_sha256_raw"
+        ],
+        "authenticatorGetInfo": {
+          "aaguid": "8da0e4dc164b454e972e88f362b23d59",
+          "extensions": [
+            "hmac-secret",
+            "credProtect"
+          ],
+          "maxMsgSize": 1024,
+          "options": {
+            "clientPin": true,
+            "credMgmt": true,
+            "noMcGaPermissionsWithClientPin": false,
+            "pinUvAuthToken": true,
+            "plat": false,
+            "rk": true
+          },
+          "pinUvAuthProtocols": [
+            1,
+            2
+          ],
+          "transports": [
+            "usb",
+            "nfc"
+          ],
+          "versions": [
+            "FIDO_2_0",
+            "FIDO_2_1"
+          ]
+        },
+        "authenticatorVersion": 1,
+        "cryptoStrength": 128,
+        "description": "CardOS FIDO2 Token",
+        "icon": "data:image/png;base64,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",
+        "keyProtection": [
+          "hardware",
+          "secure_element"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "on_chip"
+        ],
+        "protocolFamily": "fido2",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "tcDisplay": [],
+        "upv": [
+          {
+            "major": 1,
+            "minor": 0
+          },
+          {
+            "major": 1,
+            "minor": 1
+          }
+        ],
+        "userVerificationDetails": [
+          [
+            {
+              "userVerificationMethod": "none"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "passcode_external"
+            },
+            {
+              "userVerificationMethod": "presence_internal"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "presence_internal"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "passcode_external"
+            }
+          ]
+        ]
+      },
+      "statusReports": [
+        {
+          "authenticatorVersion": 1,
+          "certificateNumber": "FIDO20020241001001",
+          "certificationDescriptor": "CardOS FIDO2 Token",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2024-10-01",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 1,
+          "effectiveDate": "2024-10-01",
+          "status": "FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2025-02-18"
+    },
+    "metadataStatement": {
+      "aaguid": "8da0e4dc-164b-454e-972e-88f362b23d59",
+      "alternativeDescriptions": {
+        "de-DE": "CardOS FIDO2 Token"
+      },
+      "attachmentHint": [
+        "external",
+        "wired",
+        "wireless",
+        "nfc"
+      ],
+      "attestationRootCertificates": [
+        "MIIBmzCCAUGgAwIBAgIJAKIFntEOQ1tXMAoGCCqGSM49BAMCMFMxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKDAZDYXJkT1MxIjAgBgNVBAsMGUF1dGhlbnRpY2F0b3IgQXR0ZXN0YXRpb24xDzANBgNVBAMMBkNhcmRPUzAeFw0yNDA2MDQwOTQwNTdaFw0zOTA2MDEwOTQwNTdaMFMxCzAJBgNVBAYTAkRFMQ8wDQYDVQQKDAZDYXJkT1MxIjAgBgNVBAsMGUF1dGhlbnRpY2F0b3IgQXR0ZXN0YXRpb24xDzANBgNVBAMMBkNhcmRPUzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABOs5+63X5miRnDVqnEIUKd4+KzJ+ATN/VxWiBgNmAOOEo1AMVnxBAIf4/ahj5CypuDiLFAcCSvLALT4LmIQivX8wCgYIKoZIzj0EAwIDSAAwRQIgHMT5ymII55Urh+J5h0vK0Gp8LVlrT7BRV7PjIoe3D14CIQDfCXgMAGNpGfo75WOWqKq8vWIyLm0u/cUluvdrL7cZSw=="
+      ],
+      "attestationTypes": [
+        "basic_full"
+      ],
+      "authenticationAlgorithms": [
+        "secp256r1_ecdsa_sha256_raw"
+      ],
+      "authenticatorGetInfo": {
+        "aaguid": "8da0e4dc164b454e972e88f362b23d59",
+        "extensions": [
+          "hmac-secret",
+          "credProtect"
+        ],
+        "maxMsgSize": 1024,
+        "options": {
+          "clientPin": true,
+          "credMgmt": true,
+          "noMcGaPermissionsWithClientPin": false,
+          "pinUvAuthToken": true,
+          "plat": false,
+          "rk": true
+        },
+        "pinUvAuthProtocols": [
+          1,
+          2
+        ],
+        "transports": [
+          "usb",
+          "nfc"
+        ],
+        "versions": [
+          "FIDO_2_0",
+          "FIDO_2_1"
+        ]
+      },
+      "authenticatorVersion": 1,
+      "cryptoStrength": 128,
+      "description": "CardOS FIDO2 Token",
+      "icon": "data:image/png;base64,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",
+      "keyProtection": [
+        "hardware",
+        "secure_element"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "on_chip"
+      ],
+      "protocolFamily": "fido2",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "tcDisplay": [],
+      "upv": [
+        {
+          "major": 1,
+          "minor": 0
+        },
+        {
+          "major": 1,
+          "minor": 1
+        }
+      ],
+      "userVerificationDetails": [
+        [
+          {
+            "userVerificationMethod": "none"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "passcode_external"
+          },
+          {
+            "userVerificationMethod": "presence_internal"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "presence_internal"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "passcode_external"
+          }
+        ]
+      ]
+    },
+    "name": "CardOS FIDO2 Token"
+  }
+]

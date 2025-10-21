@@ -1,0 +1,268 @@
+[
+  {
+    "description": "Allthenticator Android App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers",
+    "mds_entry": {
+      "aaguid": "5ca1ab1e-fa57-1337-f1d0-a117371ca702",
+      "metadataStatement": {
+        "aaguid": "5ca1ab1e-fa57-1337-f1d0-a117371ca702",
+        "attachmentHint": [
+          "external",
+          "wired"
+        ],
+        "attestationRootCertificates": [
+          "MIICqDCCAk6gAwIBAgIUGFCc6rhe4EiRa/OSqPNwuoR2jkQwCgYIKoZIzj0EAwIwgaoxCzAJBgNVBAYTAlVTMQ4wDAYDVQQIDAVUZXhhczEQMA4GA1UEBwwHSG91c3RvbjEWMBQGA1UECgwNQWxsdGhlbnRpY2F0ZTEiMCAGA1UECwwZQXV0aGVudGljYXRvciBBdHRlc3RhdGlvbjEWMBQGA1UEAwwNQWxsdGhlbnRpY2F0ZTElMCMGCSqGSIb3DQEJARYWaGVscEBhbGx0aGVudGljYXRlLmNvbTAeFw0yNDAzMTQxNTUyNTJaFw0zNDAzMTIxNTUyNTJaMIGqMQswCQYDVQQGEwJVUzEOMAwGA1UECAwFVGV4YXMxEDAOBgNVBAcMB0hvdXN0b24xFjAUBgNVBAoMDUFsbHRoZW50aWNhdGUxIjAgBgNVBAsMGUF1dGhlbnRpY2F0b3IgQXR0ZXN0YXRpb24xFjAUBgNVBAMMDUFsbHRoZW50aWNhdGUxJTAjBgkqhkiG9w0BCQEWFmhlbHBAYWxsdGhlbnRpY2F0ZS5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS2IAC5t3iERq5xpsEAyqPzjTb+ekx++5Z4Vu6Yrm7SFftzc5BdUVi7qnJpZotId2GfFjad0ZjkIf8T5R5htdVLo1AwTjAdBgNVHQ4EFgQUAy5QOmItkBx+RgFn4EflQVYfn1EwHwYDVR0jBBgwFoAUAy5QOmItkBx+RgFn4EflQVYfn1EwDAYDVR0TAQH/BAIwADAKBggqhkjOPQQDAgNIADBFAiEAwsJai8gkA18gw+aLmTKww0OJNydgN4ozeKe957rRm60CIEgwALnBQkr1AFITibJJ+TDPP2yL5no6HdTEACA7mHwH"
+        ],
+        "attestationTypes": [
+          "basic_full"
+        ],
+        "authenticationAlgorithms": [
+          "rsassa_pkcsv15_sha256_raw",
+          "secp256r1_ecdsa_sha256_raw"
+        ],
+        "authenticatorGetInfo": {
+          "aaguid": "5ca1ab1efa571337f1d0a117371ca702",
+          "algorithms": [
+            {
+              "alg": -7,
+              "type": "public-key"
+            },
+            {
+              "alg": -257,
+              "type": "public-key"
+            }
+          ],
+          "extensions": [
+            "credProtect",
+            "hmac-secret"
+          ],
+          "firmwareVersion": 5,
+          "maxCredentialCountInList": 16,
+          "maxCredentialIdLength": 128,
+          "maxMsgSize": 1200,
+          "options": {
+            "clientPin": false,
+            "rk": true,
+            "up": true,
+            "uv": true
+          },
+          "pinUvAuthProtocols": [
+            1
+          ],
+          "transports": [
+            "usb"
+          ],
+          "versions": [
+            "FIDO_2_0"
+          ]
+        },
+        "authenticatorVersion": 5,
+        "cryptoStrength": 128,
+        "description": "Allthenticator Android App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers",
+        "icon": "data:image/png;base64,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",
+        "keyProtection": [
+          "hardware",
+          "secure_element"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "on_chip"
+        ],
+        "protocolFamily": "fido2",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "tcDisplay": [],
+        "upv": [
+          {
+            "major": 1,
+            "minor": 0
+          }
+        ],
+        "userVerificationDetails": [
+          [
+            {
+              "caDesc": {
+                "base": 10,
+                "blockSlowdown": 0,
+                "maxRetries": 0,
+                "minLength": 4
+              },
+              "userVerificationMethod": "passcode_external"
+            }
+          ],
+          [
+            {
+              "baDesc": {
+                "blockSlowdown": 0,
+                "iAPARThreshold": 0.0,
+                "maxRetries": 0,
+                "maxTemplates": 0,
+                "selfAttestedFAR": 0.0,
+                "selfAttestedFRR": 0.0
+              },
+              "userVerificationMethod": "faceprint_internal"
+            }
+          ],
+          [
+            {
+              "baDesc": {
+                "blockSlowdown": 0,
+                "iAPARThreshold": 0.0,
+                "maxRetries": 0,
+                "maxTemplates": 0,
+                "selfAttestedFAR": 0.0,
+                "selfAttestedFRR": 0.0
+              },
+              "userVerificationMethod": "fingerprint_internal"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "presence_internal"
+            }
+          ]
+        ]
+      },
+      "statusReports": [
+        {
+          "authenticatorVersion": 5,
+          "certificateNumber": "FIDO20020240917002",
+          "certificationDescriptor": "Allthenticator Android App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2024-09-17",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 5,
+          "effectiveDate": "2024-09-17",
+          "status": "FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2024-10-11"
+    },
+    "metadataStatement": {
+      "aaguid": "5ca1ab1e-fa57-1337-f1d0-a117371ca702",
+      "attachmentHint": [
+        "external",
+        "wired"
+      ],
+      "attestationRootCertificates": [
+        "MIICqDCCAk6gAwIBAgIUGFCc6rhe4EiRa/OSqPNwuoR2jkQwCgYIKoZIzj0EAwIwgaoxCzAJBgNVBAYTAlVTMQ4wDAYDVQQIDAVUZXhhczEQMA4GA1UEBwwHSG91c3RvbjEWMBQGA1UECgwNQWxsdGhlbnRpY2F0ZTEiMCAGA1UECwwZQXV0aGVudGljYXRvciBBdHRlc3RhdGlvbjEWMBQGA1UEAwwNQWxsdGhlbnRpY2F0ZTElMCMGCSqGSIb3DQEJARYWaGVscEBhbGx0aGVudGljYXRlLmNvbTAeFw0yNDAzMTQxNTUyNTJaFw0zNDAzMTIxNTUyNTJaMIGqMQswCQYDVQQGEwJVUzEOMAwGA1UECAwFVGV4YXMxEDAOBgNVBAcMB0hvdXN0b24xFjAUBgNVBAoMDUFsbHRoZW50aWNhdGUxIjAgBgNVBAsMGUF1dGhlbnRpY2F0b3IgQXR0ZXN0YXRpb24xFjAUBgNVBAMMDUFsbHRoZW50aWNhdGUxJTAjBgkqhkiG9w0BCQEWFmhlbHBAYWxsdGhlbnRpY2F0ZS5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAS2IAC5t3iERq5xpsEAyqPzjTb+ekx++5Z4Vu6Yrm7SFftzc5BdUVi7qnJpZotId2GfFjad0ZjkIf8T5R5htdVLo1AwTjAdBgNVHQ4EFgQUAy5QOmItkBx+RgFn4EflQVYfn1EwHwYDVR0jBBgwFoAUAy5QOmItkBx+RgFn4EflQVYfn1EwDAYDVR0TAQH/BAIwADAKBggqhkjOPQQDAgNIADBFAiEAwsJai8gkA18gw+aLmTKww0OJNydgN4ozeKe957rRm60CIEgwALnBQkr1AFITibJJ+TDPP2yL5no6HdTEACA7mHwH"
+      ],
+      "attestationTypes": [
+        "basic_full"
+      ],
+      "authenticationAlgorithms": [
+        "rsassa_pkcsv15_sha256_raw",
+        "secp256r1_ecdsa_sha256_raw"
+      ],
+      "authenticatorGetInfo": {
+        "aaguid": "5ca1ab1efa571337f1d0a117371ca702",
+        "algorithms": [
+          {
+            "alg": -7,
+            "type": "public-key"
+          },
+          {
+            "alg": -257,
+            "type": "public-key"
+          }
+        ],
+        "extensions": [
+          "credProtect",
+          "hmac-secret"
+        ],
+        "firmwareVersion": 5,
+        "maxCredentialCountInList": 16,
+        "maxCredentialIdLength": 128,
+        "maxMsgSize": 1200,
+        "options": {
+          "clientPin": false,
+          "rk": true,
+          "up": true,
+          "uv": true
+        },
+        "pinUvAuthProtocols": [
+          1
+        ],
+        "transports": [
+          "usb"
+        ],
+        "versions": [
+          "FIDO_2_0"
+        ]
+      },
+      "authenticatorVersion": 5,
+      "cryptoStrength": 128,
+      "description": "Allthenticator Android App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers",
+      "icon": "data:image/png;base64,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",
+      "keyProtection": [
+        "hardware",
+        "secure_element"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "on_chip"
+      ],
+      "protocolFamily": "fido2",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "tcDisplay": [],
+      "upv": [
+        {
+          "major": 1,
+          "minor": 0
+        }
+      ],
+      "userVerificationDetails": [
+        [
+          {
+            "caDesc": {
+              "base": 10,
+              "blockSlowdown": 0,
+              "maxRetries": 0,
+              "minLength": 4
+            },
+            "userVerificationMethod": "passcode_external"
+          }
+        ],
+        [
+          {
+            "baDesc": {
+              "blockSlowdown": 0,
+              "iAPARThreshold": 0.0,
+              "maxRetries": 0,
+              "maxTemplates": 0,
+              "selfAttestedFAR": 0.0,
+              "selfAttestedFRR": 0.0
+            },
+            "userVerificationMethod": "faceprint_internal"
+          }
+        ],
+        [
+          {
+            "baDesc": {
+              "blockSlowdown": 0,
+              "iAPARThreshold": 0.0,
+              "maxRetries": 0,
+              "maxTemplates": 0,
+              "selfAttestedFAR": 0.0,
+              "selfAttestedFRR": 0.0
+            },
+            "userVerificationMethod": "fingerprint_internal"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "presence_internal"
+          }
+        ]
+      ]
+    },
+    "name": "Allthenticator Android App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers"
+  }
+]

@@ -1,0 +1,220 @@
+[
+  {
+    "description": "Hyper FIDO Pro",
+    "mds_entry": {
+      "aaguid": "9f77e279-a6e2-4d58-b700-31e5943c6a98",
+      "metadataStatement": {
+        "aaguid": "9f77e279-a6e2-4d58-b700-31e5943c6a98",
+        "attachmentHint": [
+          "external"
+        ],
+        "attestationRootCertificates": [
+          "MIIBxzCCAWygAwIBAgICEAswCgYIKoZIzj0EAwIwOjELMAkGA1UEBhMCQ0ExEjAQBgNVBAoMCUhZUEVSU0VDVTEXMBUGA1UEAwwOSFlQRVJGSURPIDAyMDAwIBcNMTgwMTAxMDAwMDAwWhgPMjA0NzEyMzEyMzU5NTlaMDoxCzAJBgNVBAYTAkNBMRIwEAYDVQQKDAlIWVBFUlNFQ1UxFzAVBgNVBAMMDkhZUEVSRklETyAwMjAwMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErKUI1G0S7a6IOLlmHipLlBuxTYjsEESQvzQh3dB7dvxxWWm7kWL91rq6S7ayZG0gZPR+zYqdFzwAYDcG4+aX66NgMF4wHQYDVR0OBBYEFLZYcfMMwkQAGbt3ryzZFPFypmsIMB8GA1UdIwQYMBaAFLZYcfMMwkQAGbt3ryzZFPFypmsIMAwGA1UdEwQFMAMBAf8wDgYDVR0PAQH/BAQDAgEGMAoGCCqGSM49BAMCA0kAMEYCIQCG2/ppMGt7pkcRie5YIohS3uDPIrmiRcTjqDclKVWg0gIhANcPNDZHE2/zZ+uB5ThG9OZus+xSb4knkrbAyXKX2zm/"
+        ],
+        "attestationTypes": [
+          "basic_full"
+        ],
+        "authenticationAlgorithms": [
+          "secp256r1_ecdsa_sha256_raw"
+        ],
+        "authenticatorGetInfo": {
+          "aaguid": "9f77e279a6e24d58b70031e5943c6a98",
+          "algorithms": [
+            {
+              "alg": -7,
+              "type": "public-key"
+            }
+          ],
+          "extensions": [
+            "credProtect",
+            "hmac-secret"
+          ],
+          "maxCredentialCountInList": 10,
+          "maxCredentialIdLength": 96,
+          "maxMsgSize": 2048,
+          "options": {
+            "clientPin": false,
+            "credentialMgmtPreview": true,
+            "plat": false,
+            "rk": true,
+            "up": true
+          },
+          "pinUvAuthProtocols": [
+            1
+          ],
+          "transports": [
+            "usb"
+          ],
+          "versions": [
+            "U2F_V2",
+            "FIDO_2_0",
+            "FIDO_2_1_PRE"
+          ]
+        },
+        "authenticatorVersion": 1,
+        "cryptoStrength": 128,
+        "description": "Hyper FIDO Pro",
+        "icon": "data:image/png;base64,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",
+        "keyProtection": [
+          "hardware",
+          "secure_element"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "on_chip"
+        ],
+        "protocolFamily": "fido2",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "tcDisplay": [],
+        "upv": [
+          {
+            "major": 1,
+            "minor": 0
+          }
+        ],
+        "userVerificationDetails": [
+          [
+            {
+              "userVerificationMethod": "passcode_external"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "presence_internal"
+            },
+            {
+              "userVerificationMethod": "passcode_external"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "none"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "presence_internal"
+            }
+          ]
+        ]
+      },
+      "statusReports": [
+        {
+          "certificateNumber": "FIDO20020190805001",
+          "certificationDescriptor": "Hyper FIDO® Pro",
+          "certificationPolicyVersion": "1.3.6",
+          "certificationRequirementsVersion": "1.0.0",
+          "effectiveDate": "2020-07-17",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "effectiveDate": "2019-08-08",
+          "status": "FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2020-07-17"
+    },
+    "metadataStatement": {
+      "aaguid": "9f77e279-a6e2-4d58-b700-31e5943c6a98",
+      "attachmentHint": [
+        "external"
+      ],
+      "attestationRootCertificates": [
+        "MIIBxzCCAWygAwIBAgICEAswCgYIKoZIzj0EAwIwOjELMAkGA1UEBhMCQ0ExEjAQBgNVBAoMCUhZUEVSU0VDVTEXMBUGA1UEAwwOSFlQRVJGSURPIDAyMDAwIBcNMTgwMTAxMDAwMDAwWhgPMjA0NzEyMzEyMzU5NTlaMDoxCzAJBgNVBAYTAkNBMRIwEAYDVQQKDAlIWVBFUlNFQ1UxFzAVBgNVBAMMDkhZUEVSRklETyAwMjAwMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAErKUI1G0S7a6IOLlmHipLlBuxTYjsEESQvzQh3dB7dvxxWWm7kWL91rq6S7ayZG0gZPR+zYqdFzwAYDcG4+aX66NgMF4wHQYDVR0OBBYEFLZYcfMMwkQAGbt3ryzZFPFypmsIMB8GA1UdIwQYMBaAFLZYcfMMwkQAGbt3ryzZFPFypmsIMAwGA1UdEwQFMAMBAf8wDgYDVR0PAQH/BAQDAgEGMAoGCCqGSM49BAMCA0kAMEYCIQCG2/ppMGt7pkcRie5YIohS3uDPIrmiRcTjqDclKVWg0gIhANcPNDZHE2/zZ+uB5ThG9OZus+xSb4knkrbAyXKX2zm/"
+      ],
+      "attestationTypes": [
+        "basic_full"
+      ],
+      "authenticationAlgorithms": [
+        "secp256r1_ecdsa_sha256_raw"
+      ],
+      "authenticatorGetInfo": {
+        "aaguid": "9f77e279a6e24d58b70031e5943c6a98",
+        "algorithms": [
+          {
+            "alg": -7,
+            "type": "public-key"
+          }
+        ],
+        "extensions": [
+          "credProtect",
+          "hmac-secret"
+        ],
+        "maxCredentialCountInList": 10,
+        "maxCredentialIdLength": 96,
+        "maxMsgSize": 2048,
+        "options": {
+          "clientPin": false,
+          "credentialMgmtPreview": true,
+          "plat": false,
+          "rk": true,
+          "up": true
+        },
+        "pinUvAuthProtocols": [
+          1
+        ],
+        "transports": [
+          "usb"
+        ],
+        "versions": [
+          "U2F_V2",
+          "FIDO_2_0",
+          "FIDO_2_1_PRE"
+        ]
+      },
+      "authenticatorVersion": 1,
+      "cryptoStrength": 128,
+      "description": "Hyper FIDO Pro",
+      "icon": "data:image/png;base64,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",
+      "keyProtection": [
+        "hardware",
+        "secure_element"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "on_chip"
+      ],
+      "protocolFamily": "fido2",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "tcDisplay": [],
+      "upv": [
+        {
+          "major": 1,
+          "minor": 0
+        }
+      ],
+      "userVerificationDetails": [
+        [
+          {
+            "userVerificationMethod": "passcode_external"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "presence_internal"
+          },
+          {
+            "userVerificationMethod": "passcode_external"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "none"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "presence_internal"
+          }
+        ]
+      ]
+    },
+    "name": "Hyper FIDO Pro"
+  }
+]

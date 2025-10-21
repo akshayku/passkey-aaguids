@@ -1,0 +1,188 @@
+[
+  {
+    "description": "Windows Hello Software Authenticator",
+    "mds_entry": {
+      "aaguid": "6028b017-b1d4-4c02-b4b3-afcdafc96bb2",
+      "metadataStatement": {
+        "aaguid": "6028b017-b1d4-4c02-b4b3-afcdafc96bb2",
+        "attachmentHint": [
+          "internal"
+        ],
+        "attestationRootCertificates": [],
+        "attestationTypes": [
+          "basic_surrogate"
+        ],
+        "authenticationAlgorithms": [
+          "rsassa_pkcsv15_sha256_raw"
+        ],
+        "authenticatorGetInfo": {
+          "aaguid": "6028b017b1d44c02b4b3afcdafc96bb2",
+          "algorithms": [
+            {
+              "alg": -257,
+              "type": "public-key"
+            }
+          ],
+          "firmwareVersion": 19042,
+          "maxCredentialCountInList": 100,
+          "maxCredentialIdLength": 32,
+          "minPINLength": 4,
+          "options": {
+            "plat": true,
+            "rk": true,
+            "up": true
+          },
+          "transports": [
+            "internal"
+          ],
+          "versions": [
+            "FIDO_2_0"
+          ]
+        },
+        "authenticatorVersion": 1,
+        "description": "Windows Hello Software Authenticator",
+        "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAACkUlEQVR42uyai3GDMAyGQyegGzACnaCMkBHoBhkhnSAj0A2SDaAT0E6QbEA3cOXW6XEpBtnImMv9utOllxjF/qKHLTdRSm0gdnkAAgACIAACIAACIAACIAgAARAAARAAARAAARBEAFCSJINKkpLuSTtSZbQz76W25zhKkpFWPbtaz6Q75vPuoluuPmqxlZK2yi76s9RznjlpN2K7CrFWaUAHNS0HT0Atw3YpDSjxbdoPuaziG3uk579cvIdeWsbQD7L7NAYoWpKmLy8chueO5reB7KKKrQnQJdDYn9AJZHc5QBT7enINY2hjxrqItsvJWSdxFxKuYlOlWJmE6zPPcsJuN7WFiF7me5DOAws4OyZyG6TOsr/KQziDaJm/mcy2V1V0+T0JeXxqqlrWC9mGGy3O6wwFaI0SdR+EMg9AEAACIAByqViZb+/prgFdN6qb306j3lTWs0BJ76Qjw0ktO+3ad60PQhMrfM9YwqK7lUPe4j+/OR40cDaqJeJ+xo80JsWih1WTBAcb8ysKrb+TfowQKy3v55wbBkk49FJbQusqr4snadL9hEtXC3nO1G1HG6UfxIj5oDnJlHPOVVAerWGmvYQxwc70hiTh7Bidy3/3ZFE6isxf8epNhUCl4n5ftYqWKzMP3IIquaFnquXO0sZ1yn/RWq69SuK6GdPXORfSz4HPnk1bNXO0+UZze5HqKIodNYwnHVVcOUivNcStxj4CGFYhWAWgXgmuF4JzdMhn6wDUm1DpmFyVY7IvQqeTRdod2v2F8lNn/gcpW+rUsOi9mAmFwlSo3Pw9JQ3p+8bhgnAMkPM613BxOBQqc2FEB4SmPQSAAAiAAAiAAAiAAAiAIAAEQAAEQAAEQPco3wIMADOXgFhOTghuAAAAAElFTkSuQmCC",
+        "isKeyRestricted": false,
+        "keyProtection": [
+          "software"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "software"
+        ],
+        "protocolFamily": "fido2",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "tcDisplay": [],
+        "upv": [
+          {
+            "major": 1,
+            "minor": 0
+          }
+        ],
+        "userVerificationDetails": [
+          [
+            {
+              "userVerificationMethod": "passcode_internal"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "eyeprint_internal"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "fingerprint_internal"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "faceprint_internal"
+            }
+          ]
+        ]
+      },
+      "statusReports": [
+        {
+          "certificateNumber": "FIDO20020190418003",
+          "certificationDescriptor": "Windows Hello Software Authenticator",
+          "certificationPolicyVersion": "1.3.6",
+          "certificationRequirementsVersion": "1.1.0",
+          "effectiveDate": "2020-08-05",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "effectiveDate": "2020-08-05",
+          "status": "FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2020-08-05"
+    },
+    "metadataStatement": {
+      "aaguid": "6028b017-b1d4-4c02-b4b3-afcdafc96bb2",
+      "attachmentHint": [
+        "internal"
+      ],
+      "attestationRootCertificates": [],
+      "attestationTypes": [
+        "basic_surrogate"
+      ],
+      "authenticationAlgorithms": [
+        "rsassa_pkcsv15_sha256_raw"
+      ],
+      "authenticatorGetInfo": {
+        "aaguid": "6028b017b1d44c02b4b3afcdafc96bb2",
+        "algorithms": [
+          {
+            "alg": -257,
+            "type": "public-key"
+          }
+        ],
+        "firmwareVersion": 19042,
+        "maxCredentialCountInList": 100,
+        "maxCredentialIdLength": 32,
+        "minPINLength": 4,
+        "options": {
+          "plat": true,
+          "rk": true,
+          "up": true
+        },
+        "transports": [
+          "internal"
+        ],
+        "versions": [
+          "FIDO_2_0"
+        ]
+      },
+      "authenticatorVersion": 1,
+      "description": "Windows Hello Software Authenticator",
+      "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAACkUlEQVR42uyai3GDMAyGQyegGzACnaCMkBHoBhkhnSAj0A2SDaAT0E6QbEA3cOXW6XEpBtnImMv9utOllxjF/qKHLTdRSm0gdnkAAgACIAACIAACIAACIAgAARAAARAAARAAARBEAFCSJINKkpLuSTtSZbQz76W25zhKkpFWPbtaz6Q75vPuoluuPmqxlZK2yi76s9RznjlpN2K7CrFWaUAHNS0HT0Atw3YpDSjxbdoPuaziG3uk579cvIdeWsbQD7L7NAYoWpKmLy8chueO5reB7KKKrQnQJdDYn9AJZHc5QBT7enINY2hjxrqItsvJWSdxFxKuYlOlWJmE6zPPcsJuN7WFiF7me5DOAws4OyZyG6TOsr/KQziDaJm/mcy2V1V0+T0JeXxqqlrWC9mGGy3O6wwFaI0SdR+EMg9AEAACIAByqViZb+/prgFdN6qb306j3lTWs0BJ76Qjw0ktO+3ad60PQhMrfM9YwqK7lUPe4j+/OR40cDaqJeJ+xo80JsWih1WTBAcb8ysKrb+TfowQKy3v55wbBkk49FJbQusqr4snadL9hEtXC3nO1G1HG6UfxIj5oDnJlHPOVVAerWGmvYQxwc70hiTh7Bidy3/3ZFE6isxf8epNhUCl4n5ftYqWKzMP3IIquaFnquXO0sZ1yn/RWq69SuK6GdPXORfSz4HPnk1bNXO0+UZze5HqKIodNYwnHVVcOUivNcStxj4CGFYhWAWgXgmuF4JzdMhn6wDUm1DpmFyVY7IvQqeTRdod2v2F8lNn/gcpW+rUsOi9mAmFwlSo3Pw9JQ3p+8bhgnAMkPM613BxOBQqc2FEB4SmPQSAAAiAAAiAAAiAAAiAIAAEQAAEQAAEQPco3wIMADOXgFhOTghuAAAAAElFTkSuQmCC",
+      "isKeyRestricted": false,
+      "keyProtection": [
+        "software"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "software"
+      ],
+      "protocolFamily": "fido2",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "tcDisplay": [],
+      "upv": [
+        {
+          "major": 1,
+          "minor": 0
+        }
+      ],
+      "userVerificationDetails": [
+        [
+          {
+            "userVerificationMethod": "passcode_internal"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "eyeprint_internal"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "fingerprint_internal"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "faceprint_internal"
+          }
+        ]
+      ]
+    },
+    "name": "Windows Hello Software Authenticator"
+  }
+]
