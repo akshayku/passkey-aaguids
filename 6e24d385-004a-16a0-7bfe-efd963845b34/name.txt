@@ -1,0 +1,1 @@
+Ledger Stax FIDO2 Authenticator

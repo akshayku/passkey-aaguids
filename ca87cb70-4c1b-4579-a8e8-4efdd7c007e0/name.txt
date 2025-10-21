@@ -1,0 +1,1 @@
+FIDO Alliance TruU Sample FIDO2 Authenticator

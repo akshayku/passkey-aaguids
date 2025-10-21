@@ -1,0 +1,1 @@
+KeyXentic FIDO2 Secp256R1 FIDO2 CTAP2 Authenticator

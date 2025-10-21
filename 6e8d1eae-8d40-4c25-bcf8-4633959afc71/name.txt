@@ -1,0 +1,1 @@
+Veridium iOS SDK
