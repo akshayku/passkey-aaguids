@@ -23,6 +23,63 @@ def download_mds():
     return response.text
 
 
+def download_combined_aaguid():
+    """Download the combined AAGUID JSON from the GitHub raw URL."""
+    url = "https://raw.githubusercontent.com/passkeydeveloper/passkey-authenticator-aaguids/refs/heads/main/combined_aaguid.json"
+    print(f"Downloading combined AAGUID JSON from {url}")
+
+    try:
+        resp = requests.get(url, timeout=30)
+        resp.raise_for_status()
+        return resp.text
+    except Exception as e:
+        print(f"Failed to download combined AAGUID JSON: {e}")
+        return None
+
+
+def parse_combined_map(raw_text):
+    """Parse combined JSON text into a mapping keyed by normalized aaguid.
+
+    Normalization: lowercased string. Also add a version without hyphens to
+    improve matching against other AAGUID formats.
+    """
+    if not raw_text:
+        return None
+    try:
+        parsed = json.loads(raw_text)
+    except Exception as e:
+        print(f"Could not parse combined JSON: {e}")
+        return None
+
+    out = {}
+
+    def add_key(k, v):
+        if not k:
+            return
+        k1 = str(k).lower()
+        out[k1] = v
+        k2 = k1.replace('-', '')
+        if k2 != k1:
+            out[k2] = v
+
+    if isinstance(parsed, dict):
+        # assume dict keyed by aaguid
+        for k, v in parsed.items():
+            add_key(k, v)
+    elif isinstance(parsed, list):
+        for e in parsed:
+            if not isinstance(e, dict):
+                continue
+            # try common fields
+            k = e.get('aaguid') or e.get('AAGUID') or e.get('id') or e.get('idHex')
+            if k:
+                add_key(k, e)
+    else:
+        return None
+
+    return out
+
+
 def parse_jwt(jwt_token):
     """Parse JWT token without verification (MDS is publicly available)"""
     try:
@@ -65,7 +122,7 @@ def extract_aaguids(mds_data):
     return aaguid_data
 
 
-def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False):
+def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False, combined_map=None):
     """Create directories and files for each AAGUID under base_path"""
     base_path = Path(base_path)
     base_path.mkdir(parents=True, exist_ok=True)
@@ -86,6 +143,21 @@ def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False):
         first = items[0]
         name_file = aaguid_dir / 'name.txt'
         new_name = first.get('name', 'Unknown')
+
+        # If combined_map provided, allow it to override name/icon fields
+        combined_entry = None
+        if combined_map:
+            # try normalized keys: lowercased and without hyphens
+            cand_keys = {str(aaguid).lower(), str(aaguid).lower().replace('-', '')}
+            for k in cand_keys:
+                if k in combined_map:
+                    combined_entry = combined_map[k]
+                    break
+            # if combined entry has a name, it wins
+            if combined_entry:
+                ce_name = combined_entry.get('name')
+                if ce_name:
+                    new_name = ce_name
         # Write only if changed
         if name_file.exists():
             try:
@@ -194,7 +266,53 @@ def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False):
                 except Exception:
                     pass
 
-        print(f"Processed AAGUID: {aaguid} -> {first.get('name')}")
+        # Write icon_light.txt and icon_dark.txt from combined_entry if present
+        if combined_entry:
+            # icon_light
+            il = combined_entry.get('icon_light')
+            light_file = aaguid_dir / 'icon_light.txt'
+            if il:
+                try:
+                    old = light_file.read_text(encoding='utf-8') if light_file.exists() else None
+                except Exception:
+                    old = None
+                if old != il:
+                    if dry_run:
+                        print(f"[dry-run] Would write {light_file} (length={len(il)})")
+                    else:
+                        with open(light_file, 'w', encoding='utf-8') as f:
+                            f.write(il)
+            else:
+                if light_file.exists() and not dry_run:
+                    try:
+                        light_file.unlink()
+                        print(f"Removed stale {light_file}")
+                    except Exception:
+                        pass
+
+            # icon_dark
+            idk = combined_entry.get('icon_dark')
+            dark_file = aaguid_dir / 'icon_dark.txt'
+            if idk:
+                try:
+                    oldd = dark_file.read_text(encoding='utf-8') if dark_file.exists() else None
+                except Exception:
+                    oldd = None
+                if oldd != idk:
+                    if dry_run:
+                        print(f"[dry-run] Would write {dark_file} (length={len(idk)})")
+                    else:
+                        with open(dark_file, 'w', encoding='utf-8') as f:
+                            f.write(idk)
+            else:
+                if dark_file.exists() and not dry_run:
+                    try:
+                        dark_file.unlink()
+                        print(f"Removed stale {dark_file}")
+                    except Exception:
+                        pass
+
+        print(f"Processed AAGUID: {aaguid} -> {new_name}")
 
     return created_count, updated_count
 
@@ -218,8 +336,61 @@ def main(dry_run=False, output_dir=None, sample_jwt=None):
         aaguid_data = extract_aaguids(mds_data)
         print(f"Found {len(aaguid_data)} AAGUIDs in MDS")
 
+        # Always download the combined AAGUID JSON from the canonical remote
+        combined_map = None
+        raw_combined = download_combined_aaguid()
+        combined_map = parse_combined_map(raw_combined) if raw_combined else None
+        if combined_map is not None:
+            print(f"Loaded remote combined map with {len(combined_map)} entries")
+
+        # Ensure we process the union of AAGUIDs present in MDS and the combined map.
+        # The combined map keys are normalized (lowercase, with and without hyphens).
+        # Normalize MDS aaguid keys the same way and merge-in any combined-only entries
+        # so directories get created even if the AAGUID isn't present in MDS.
+        if combined_map:
+            # Build a set of normalized aaguid keys from MDS data
+            normalized_mds_keys = set()
+            for a in list(aaguid_data.keys()):
+                k = str(a).lower()
+                normalized_mds_keys.add(k)
+                normalized_mds_keys.add(k.replace('-', ''))
+
+            # For any combined_map key not represented in normalized_mds_keys,
+            # create a placeholder entry in aaguid_data so create_aaguid_directories
+            # will create the directory and write combined-supplied files (name/icon_light/icon_dark).
+            for ck in list(combined_map.keys()):
+                # combined_map may contain both hyphenated and non-hyphenated variants
+                if ck in normalized_mds_keys:
+                    continue
+                # Derive a canonical AAGUID string to use as directory name.
+                # Prefer the hyphenated form if present in the combined entry, else use the key.
+                combined_entry = combined_map.get(ck)
+                canonical_aaguid = None
+                if isinstance(combined_entry, dict):
+                    # try common fields for canonical id
+                    canonical_aaguid = combined_entry.get('aaguid') or combined_entry.get('AAGUID') or combined_entry.get('id') or combined_entry.get('idHex')
+                if not canonical_aaguid:
+                    # fallback: use the key itself; if it's the non-hyphenated form, try to insert hyphens
+                    # attempt to format 32-char hex into hyphenated uuid form
+                    s = ck
+                    if len(s) == 32:
+                        canonical_aaguid = f"{s[0:8]}-{s[8:12]}-{s[12:16]}-{s[16:20]}-{s[20:32]}"
+                    else:
+                        canonical_aaguid = ck
+
+                # Only add if not already present exactly (preserve any MDS items)
+                if canonical_aaguid not in aaguid_data:
+                    # create a minimal placeholder item. name will be overridden by combined_map in create_aaguid_directories
+                    placeholder = {
+                        'name': combined_entry.get('name') if isinstance(combined_entry, dict) else str(canonical_aaguid),
+                        'description': combined_entry.get('description') if isinstance(combined_entry, dict) else '',
+                        'metadataStatement': {},
+                        'mds_entry': {},
+                    }
+                    aaguid_data[canonical_aaguid] = [placeholder]
+
         base_path = Path(output_dir) if output_dir else Path('.')
-        created, updated = create_aaguid_directories(aaguid_data, base_path=base_path, dry_run=dry_run)
+        created, updated = create_aaguid_directories(aaguid_data, base_path=base_path, dry_run=dry_run, combined_map=combined_map)
         print(f"Created {created} new AAGUID directories")
         print(f"Updated {updated} existing AAGUID directories")
 
