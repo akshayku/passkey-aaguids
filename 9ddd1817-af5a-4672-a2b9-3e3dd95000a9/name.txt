@@ -1,1 +1,1 @@
-Windows Hello VBS Hardware Authenticator
+Windows Hello
