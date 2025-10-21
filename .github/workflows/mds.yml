@@ -1,0 +1,192 @@
+name: Update FIDO MDS Metadata
+
+on:
+  # Run weekly on Sundays at 2 AM UTC
+  schedule:
+    - cron: '0 2 * * 0'
+  
+  # Allow manual triggering
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-mds:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+    
+    - name: Install dependencies
+      run: |
+        pip install requests PyJWT cryptography
+    
+    - name: Download and parse FIDO MDS
+      run: |
+        python << 'EOF'
+        import requests
+        import jwt
+        import json
+        import os
+        import shutil
+        from pathlib import Path
+        
+        def download_mds():
+            """Download the FIDO MDS JWT blob"""
+            url = "https://mds3.fidoalliance.org/"
+            print(f"Downloading MDS from {url}")
+            
+            response = requests.get(url)
+            response.raise_for_status()
+            
+            return response.text
+        
+        def parse_jwt(jwt_token):
+            """Parse JWT token without verification (MDS is publicly available)"""
+            try:
+                # Decode without verification since this is public metadata
+                decoded = jwt.decode(jwt_token, options={"verify_signature": False})
+                return decoded
+            except Exception as e:
+                print(f"Error decoding JWT: {e}")
+                return None
+        
+        def extract_aaguids(mds_data):
+            """Extract AAGUIDs and their metadata from MDS"""
+            entries = mds_data.get('entries', [])
+            aaguid_data = {}
+            
+            for entry in entries:
+                # Look for AAGUID in metadataStatement
+                metadata_statement = entry.get('metadataStatement', {})
+                aaguid = metadata_statement.get('aaguid')
+                
+                if aaguid:
+                    # Extract name/description information
+                    description = metadata_statement.get('description', 'Unknown')
+                    
+                    # Try to get a more user-friendly name
+                    name = description
+                    if isinstance(description, dict):
+                        # If description is a dict with language keys, try to get English
+                        name = description.get('en', description.get('english', str(description)))
+                    
+                    aaguid_data[aaguid] = {
+                        'name': str(name),
+                        'description': description,
+                        'metadata_statement': metadata_statement
+                    }
+            
+            return aaguid_data
+        
+        def create_aaguid_directories(aaguid_data):
+            """Create directories and files for each AAGUID"""
+            base_path = Path('.')
+            
+            # Clean up existing directories (optional - remove if you want to keep existing data)
+            # for item in base_path.iterdir():
+            #     if item.is_dir() and len(item.name) == 36 and item.name.count('-') == 4:
+            #         shutil.rmtree(item)
+            
+            created_count = 0
+            updated_count = 0
+            
+            for aaguid, data in aaguid_data.items():
+                # Create directory for AAGUID
+                aaguid_dir = base_path / aaguid
+                
+                if aaguid_dir.exists():
+                    updated_count += 1
+                else:
+                    created_count += 1
+                
+                aaguid_dir.mkdir(exist_ok=True)
+                
+                # Create name.txt file
+                name_file = aaguid_dir / 'name.txt'
+                name_file.write_text(data['name'], encoding='utf-8')
+                
+                print(f"Processed AAGUID: {aaguid} -> {data['name']}")
+            
+            return created_count, updated_count
+        
+        def main():
+            try:
+                # Download MDS
+                jwt_blob = download_mds()
+                print("MDS downloaded successfully")
+                
+                # Parse JWT
+                mds_data = parse_jwt(jwt_blob)
+                if not mds_data:
+                    raise Exception("Failed to parse MDS JWT")
+                
+                print("MDS JWT parsed successfully")
+                
+                # Extract AAGUID information
+                aaguid_data = extract_aaguids(mds_data)
+                print(f"Found {len(aaguid_data)} AAGUIDs in MDS")
+                
+                # Create directories and files
+                created, updated = create_aaguid_directories(aaguid_data)
+                print(f"Created {created} new AAGUID directories")
+                print(f"Updated {updated} existing AAGUID directories")
+                
+                # Save summary information
+                summary = {
+                    'total_aaguids': len(aaguid_data),
+                    'created_directories': created,
+                    'updated_directories': updated,
+                    'last_updated': '2025-10-21'
+                }
+                
+                with open('mds_summary.json', 'w') as f:
+                    json.dump(summary, f, indent=2)
+                
+                print("MDS update completed successfully")
+                
+            except Exception as e:
+                print(f"Error: {e}")
+                raise
+        
+        if __name__ == "__main__":
+            main()
+        EOF
+    
+    - name: Check for changes
+      id: git-check
+      run: |
+        git add .
+        if git diff --staged --quiet; then
+          echo "changes=false" >> $GITHUB_OUTPUT
+        else
+          echo "changes=true" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit and push changes
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Update FIDO MDS metadata - $(date '+%Y-%m-%d %H:%M:%S UTC')"
+        git push
+    
+    - name: Create summary comment
+      if: steps.git-check.outputs.changes == 'true'
+      run: |
+        if [ -f mds_summary.json ]; then
+          echo "## MDS Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "Updated on: $(date)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          cat mds_summary.json | python -m json.tool >> $GITHUB_STEP_SUMMARY
+        fi
