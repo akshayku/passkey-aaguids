@@ -333,8 +333,8 @@ def main(dry_run=False, output_dir=None, sample_jwt=None):
 
         print("MDS JWT parsed successfully")
 
-        aaguid_data = extract_aaguids(mds_data)
-        print(f"Found {len(aaguid_data)} AAGUIDs in MDS")
+    aaguid_data = extract_aaguids(mds_data)
+    print(f"Found {len(aaguid_data)} AAGUIDs in MDS")
 
         # Always download the combined AAGUID JSON from the canonical remote
         combined_map = None
@@ -342,6 +342,52 @@ def main(dry_run=False, output_dir=None, sample_jwt=None):
         combined_map = parse_combined_map(raw_combined) if raw_combined else None
         if combined_map is not None:
             print(f"Loaded remote combined map with {len(combined_map)} entries")
+
+        # Ensure we process the union of AAGUIDs present in MDS and the combined map.
+        # The combined map keys are normalized (lowercase, with and without hyphens).
+        # Normalize MDS aaguid keys the same way and merge-in any combined-only entries
+        # so directories get created even if the AAGUID isn't present in MDS.
+        if combined_map:
+            # Build a set of normalized aaguid keys from MDS data
+            normalized_mds_keys = set()
+            for a in list(aaguid_data.keys()):
+                k = str(a).lower()
+                normalized_mds_keys.add(k)
+                normalized_mds_keys.add(k.replace('-', ''))
+
+            # For any combined_map key not represented in normalized_mds_keys,
+            # create a placeholder entry in aaguid_data so create_aaguid_directories
+            # will create the directory and write combined-supplied files (name/icon_light/icon_dark).
+            for ck in list(combined_map.keys()):
+                # combined_map may contain both hyphenated and non-hyphenated variants
+                if ck in normalized_mds_keys:
+                    continue
+                # Derive a canonical AAGUID string to use as directory name.
+                # Prefer the hyphenated form if present in the combined entry, else use the key.
+                combined_entry = combined_map.get(ck)
+                canonical_aaguid = None
+                if isinstance(combined_entry, dict):
+                    # try common fields for canonical id
+                    canonical_aaguid = combined_entry.get('aaguid') or combined_entry.get('AAGUID') or combined_entry.get('id') or combined_entry.get('idHex')
+                if not canonical_aaguid:
+                    # fallback: use the key itself; if it's the non-hyphenated form, try to insert hyphens
+                    # attempt to format 32-char hex into hyphenated uuid form
+                    s = ck
+                    if len(s) == 32:
+                        canonical_aaguid = f"{s[0:8]}-{s[8:12]}-{s[12:16]}-{s[16:20]}-{s[20:32]}"
+                    else:
+                        canonical_aaguid = ck
+
+                # Only add if not already present exactly (preserve any MDS items)
+                if canonical_aaguid not in aaguid_data:
+                    # create a minimal placeholder item. name will be overridden by combined_map in create_aaguid_directories
+                    placeholder = {
+                        'name': combined_entry.get('name') if isinstance(combined_entry, dict) else str(canonical_aaguid),
+                        'description': combined_entry.get('description') if isinstance(combined_entry, dict) else '',
+                        'metadataStatement': {},
+                        'mds_entry': {},
+                    }
+                    aaguid_data[canonical_aaguid] = [placeholder]
 
         base_path = Path(output_dir) if output_dir else Path('.')
         created, updated = create_aaguid_directories(aaguid_data, base_path=base_path, dry_run=dry_run, combined_map=combined_map)
