@@ -137,29 +137,60 @@ def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False):
                     else:
                         icons.append({'source_key': k, 'value': v, 'name': item.get('name')})
 
-        icons_file = aaguid_dir / 'icons.json'
-        if icons:
-            new_icons = json.dumps(icons, ensure_ascii=False, indent=2, sort_keys=True)
-            if icons_file.exists():
-                try:
-                    old_icons = icons_file.read_text(encoding='utf-8')
-                except Exception:
-                    old_icons = None
-            else:
-                old_icons = None
+        # Instead of producing icons.json, write only the first icon value
+        # encountered (if any) to a plain text file `icon.txt`.
+        icon_file = aaguid_dir / 'icon.txt'
+        first_icon_value = None
+        # canonical_icon_keys defined above; iterate again to find the first value
+        for item in items:
+            ms = item.get('metadataStatement', {}) or {}
+            for k, v in ms.items():
+                if str(k).lower() in canonical_icon_keys:
+                    # normalize value: if list -> first element; if dict -> compact JSON
+                    if isinstance(v, list) and v:
+                        val = v[0]
+                    elif isinstance(v, dict):
+                        try:
+                            val = json.dumps(v, ensure_ascii=False, separators=(',', ':'))
+                        except Exception:
+                            val = str(v)
+                    else:
+                        val = v
 
-            if old_icons != new_icons:
-                if dry_run:
-                    print(f"[dry-run] Would write {icons_file} (entries={len(icons)})")
-                else:
-                    with open(icons_file, 'w', encoding='utf-8') as f:
-                        f.write(new_icons)
-        else:
-            # No icons found; don't create a file. If one exists, remove it (to reflect removal)
-            if icons_file.exists() and not dry_run:
+                    # convert non-str values to string
+                    if not isinstance(val, str):
+                        try:
+                            val = json.dumps(val, ensure_ascii=False)
+                        except Exception:
+                            val = str(val)
+
+                    first_icon_value = val
+                    break
+            if first_icon_value is not None:
+                break
+
+        if first_icon_value is not None:
+            # Write only the raw icon value into icon.txt (no JSON wrapper)
+            if icon_file.exists():
                 try:
-                    icons_file.unlink()
-                    print(f"Removed stale {icons_file}")
+                    old_icon = icon_file.read_text(encoding='utf-8')
+                except Exception:
+                    old_icon = None
+            else:
+                old_icon = None
+
+            if old_icon != first_icon_value:
+                if dry_run:
+                    print(f"[dry-run] Would write {icon_file} (length={len(first_icon_value)})")
+                else:
+                    with open(icon_file, 'w', encoding='utf-8') as f:
+                        f.write(first_icon_value)
+        else:
+            # No icon found: remove stale icon.txt if present
+            if icon_file.exists() and not dry_run:
+                try:
+                    icon_file.unlink()
+                    print(f"Removed stale {icon_file}")
                 except Exception:
                     pass
 
