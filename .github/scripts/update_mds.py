@@ -119,6 +119,50 @@ def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False):
                 with open(metadata_file, 'w', encoding='utf-8') as mf:
                     mf.write(new_metadata)
 
+        # Extract icon fields from metadataStatement(s) and write icons.json if any.
+        # Use an explicit canonical key list derived from repository analysis to
+        # avoid false positives. Historically the repo uses the exact key "icon"
+        # in the majority of metadata.json files.
+        icons = []
+        canonical_icon_keys = {"icon"}
+        for item in items:
+            ms = item.get('metadataStatement', {}) or {}
+            for k, v in ms.items():
+                # Case-insensitive match against the canonical key set
+                if str(k).lower() in canonical_icon_keys:
+                    # Normalize supported value shapes: string, list, or dict
+                    if isinstance(v, list):
+                        for elem in v:
+                            icons.append({'source_key': k, 'value': elem, 'name': item.get('name')})
+                    else:
+                        icons.append({'source_key': k, 'value': v, 'name': item.get('name')})
+
+        icons_file = aaguid_dir / 'icons.json'
+        if icons:
+            new_icons = json.dumps(icons, ensure_ascii=False, indent=2, sort_keys=True)
+            if icons_file.exists():
+                try:
+                    old_icons = icons_file.read_text(encoding='utf-8')
+                except Exception:
+                    old_icons = None
+            else:
+                old_icons = None
+
+            if old_icons != new_icons:
+                if dry_run:
+                    print(f"[dry-run] Would write {icons_file} (entries={len(icons)})")
+                else:
+                    with open(icons_file, 'w', encoding='utf-8') as f:
+                        f.write(new_icons)
+        else:
+            # No icons found; don't create a file. If one exists, remove it (to reflect removal)
+            if icons_file.exists() and not dry_run:
+                try:
+                    icons_file.unlink()
+                    print(f"Removed stale {icons_file}")
+                except Exception:
+                    pass
+
         print(f"Processed AAGUID: {aaguid} -> {first.get('name')}")
 
     return created_count, updated_count
