@@ -155,11 +155,21 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2025-10-02",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 329476,
+          "certificateNumber": "FIDO20020251016001",
+          "certificationDescriptor": "YubiKey 5 CCN Series with NFC",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2025-10-16",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 329476,
+          "effectiveDate": "2025-10-16",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2025-10-02"
+      "timeOfLastStatusChange": "2025-10-24"
     },
     "metadataStatement": {
       "aaguid": "3aa78eb1-ddd8-46a8-a821-8f8ec57a7bd5",

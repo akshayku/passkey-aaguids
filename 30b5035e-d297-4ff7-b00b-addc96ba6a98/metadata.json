@@ -129,6 +129,15 @@
       "statusReports": [
         {
           "authenticatorVersion": 1,
+          "certificateNumber": "FIDO20020250306001",
+          "certificationDescriptor": "OneSpan DIGIPASS FX7",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2025-03-06",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 1,
           "certificateNumber": "FIDO20020240802001",
           "certificationDescriptor": "OneSpan DIGIPASS FX7",
           "certificationPolicyVersion": "1.4.0",
@@ -142,7 +151,7 @@
           "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2024-08-03"
+      "timeOfLastStatusChange": "2025-10-21"
     },
     "metadataStatement": {
       "aaguid": "30b5035e-d297-4ff7-b00b-addc96ba6a98",

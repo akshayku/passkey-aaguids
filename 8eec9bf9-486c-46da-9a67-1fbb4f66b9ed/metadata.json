@@ -102,11 +102,21 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2025-09-12",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 262144,
+          "certificateNumber": "FIDO20020250609001",
+          "certificationDescriptor": "HID Crescendo 4000 FIPS",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2025-06-09",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 262144,
+          "effectiveDate": "2025-06-09",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2025-09-12"
+      "timeOfLastStatusChange": "2025-10-24"
     },
     "metadataStatement": {
       "aaguid": "8eec9bf9-486c-46da-9a67-1fbb4f66b9ed",

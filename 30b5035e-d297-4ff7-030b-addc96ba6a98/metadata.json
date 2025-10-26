@@ -128,11 +128,21 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2025-08-27",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 1,
+          "certificateNumber": "FIDO20020250826004",
+          "certificationDescriptor": "OneSpan FX7C",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2025-08-26",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 1,
+          "effectiveDate": "2025-08-26",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2025-08-27"
+      "timeOfLastStatusChange": "2025-10-21"
     },
     "metadataStatement": {
       "aaguid": "30b5035e-d297-4ff7-030b-addc96ba6a98",
