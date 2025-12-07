@@ -41,6 +41,9 @@
         "authenticatorVersion": 2,
         "cryptoStrength": 128,
         "description": "Token Ring FIDO2 Authenticator",
+        "friendlyNames": {
+          "en-US": "Token Ring FIDO2 Authenticator"
+        },
         "keyProtection": [
           "hardware",
           "secure_element"
@@ -132,6 +135,9 @@
       "authenticatorVersion": 2,
       "cryptoStrength": 128,
       "description": "Token Ring FIDO2 Authenticator",
+      "friendlyNames": {
+        "en-US": "Token Ring FIDO2 Authenticator"
+      },
       "keyProtection": [
         "hardware",
         "secure_element"

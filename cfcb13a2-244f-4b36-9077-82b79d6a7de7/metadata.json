@@ -28,6 +28,9 @@
         },
         "authenticatorVersion": 1,
         "description": "USB/NFC Passcode Authenticator",
+        "friendlyNames": {
+          "en-US": "USB/NFC Passcode Authenticator"
+        },
         "keyProtection": [
           "hardware",
           "secure_element"
@@ -103,6 +106,9 @@
       },
       "authenticatorVersion": 1,
       "description": "USB/NFC Passcode Authenticator",
+      "friendlyNames": {
+        "en-US": "USB/NFC Passcode Authenticator"
+      },
       "keyProtection": [
         "hardware",
         "secure_element"
