@@ -155,11 +155,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2022-11-29",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 262145,
+          "certificateNumber": "FIDO20020251027001",
+          "certificationDescriptor": "Idem Key (Consumer Profile)",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2025-10-27",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 262145,
+          "effectiveDate": "2025-10-27",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2022-11-29"
+      "timeOfLastStatusChange": "2025-12-19"
     },
     "metadataStatement": {
       "aaguid": "c611b55c-77b2-4527-8082-590e931b2f08",
