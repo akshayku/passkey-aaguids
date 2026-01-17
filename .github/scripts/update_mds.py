@@ -8,8 +8,41 @@ import requests
 import jwt
 import json
 import shutil
+import re
+import time
 from pathlib import Path
 from datetime import datetime, timezone
+
+
+def _http_get(url, *, timeout=30, headers=None, max_attempts=5):
+    """HTTP GET with small retry/backoff for transient failures (e.g. 429)."""
+    last_exc = None
+    for attempt in range(1, max_attempts + 1):
+        try:
+            resp = requests.get(url, timeout=timeout, headers=headers)
+            if resp.status_code == 429:
+                retry_after = resp.headers.get("Retry-After")
+                try:
+                    wait_s = int(retry_after) if retry_after else 0
+                except Exception:
+                    wait_s = 0
+                # Fallback exponential backoff with a small floor.
+                wait_s = max(wait_s, min(60, 2 ** (attempt - 1)))
+                print(f"Received 429 for {url}; retrying in {wait_s}s (attempt {attempt}/{max_attempts})")
+                time.sleep(wait_s)
+                continue
+
+            resp.raise_for_status()
+            return resp
+        except Exception as e:
+            last_exc = e
+            if attempt >= max_attempts:
+                break
+            wait_s = min(60, 2 ** (attempt - 1))
+            print(f"Request failed for {url}: {e}; retrying in {wait_s}s (attempt {attempt}/{max_attempts})")
+            time.sleep(wait_s)
+
+    raise last_exc
 
 
 def download_mds():
@@ -17,9 +50,7 @@ def download_mds():
     url = "https://mds3.fidoalliance.org/"
     print(f"Downloading MDS from {url}")
 
-    response = requests.get(url)
-    response.raise_for_status()
-
+    response = _http_get(url, timeout=30)
     return response.text
 
 
@@ -29,11 +60,33 @@ def download_combined_aaguid():
     print(f"Downloading combined AAGUID JSON from {url}")
 
     try:
-        resp = requests.get(url, timeout=30)
-        resp.raise_for_status()
+        resp = _http_get(url, timeout=30)
         return resp.text
     except Exception as e:
         print(f"Failed to download combined AAGUID JSON: {e}")
+        return None
+
+
+def download_c_mds():
+    """Download the c-MDS AAGUID JSON blob.
+
+    c-MDS currently serves JSON as application/octet-stream.
+    """
+    url = "https://c-mds.fidoalliance.org/"
+    print(f"Downloading c-MDS from {url}")
+
+    try:
+        resp = _http_get(
+            url,
+            headers={
+                "Accept": "application/json",
+                "User-Agent": "passkey-aaguids-update-script",
+            },
+        )
+        # Content-Type may be application/octet-stream, so decode explicitly.
+        return resp.content.decode('utf-8', errors='replace')
+    except Exception as e:
+        print(f"Failed to download c-MDS JSON: {e}")
         return None
 
 
@@ -80,6 +133,58 @@ def parse_combined_map(raw_text):
     return out
 
 
+def lookup_normalized(mapping, aaguid):
+    """Look up an AAGUID in a mapping with normalized keys.
+
+    Tries lowercased hyphenated and non-hyphenated forms.
+    """
+    if not mapping or not aaguid:
+        return None
+
+    a = str(aaguid).lower()
+    for k in (a, a.replace('-', '')):
+        if k in mapping:
+            return mapping[k]
+    return None
+
+
+def _normalize_single_line(text):
+    if text is None:
+        return None
+    s = str(text)
+    # Collapse all whitespace (including newlines/tabs) into single spaces.
+    s = re.sub(r"\s+", " ", s)
+    return s.strip()
+
+
+def _format_for_log(text, max_len=140):
+    if text is None:
+        return "None"
+    s = _normalize_single_line(text) or ""
+    if len(s) > max_len:
+        return s[: max_len - 3] + "..."
+    return s
+
+
+def _friendly_name_from_entry(entry):
+    if not isinstance(entry, dict):
+        return None
+    fn = entry.get('friendlyNames')
+    if isinstance(fn, dict) and fn:
+        # Prefer common English locales
+        for lang in ('en-US', 'en', 'en-GB'):
+            v = fn.get(lang)
+            if v:
+                return _normalize_single_line(v)
+        # Otherwise pick any value deterministically
+        for _, v in sorted(fn.items(), key=lambda kv: str(kv[0])):
+            if v:
+                return _normalize_single_line(v)
+    # fallbacks
+    v = entry.get('friendlyName') or entry.get('name')
+    return _normalize_single_line(v) if v else None
+
+
 def parse_jwt(jwt_token):
     """Parse JWT token without verification (MDS is publicly available)"""
     try:
@@ -122,7 +227,7 @@ def extract_aaguids(mds_data):
     return aaguid_data
 
 
-def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False, combined_map=None):
+def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False, combined_map=None, c_mds_map=None):
     """Create directories and files for each AAGUID under base_path"""
     base_path = Path(base_path)
     base_path.mkdir(parents=True, exist_ok=True)
@@ -144,20 +249,22 @@ def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False, c
         name_file = aaguid_dir / 'name.txt'
         new_name = first.get('name', 'Unknown')
 
-        # If combined_map provided, allow it to override name/icon fields
-        combined_entry = None
-        if combined_map:
-            # try normalized keys: lowercased and without hyphens
-            cand_keys = {str(aaguid).lower(), str(aaguid).lower().replace('-', '')}
-            for k in cand_keys:
-                if k in combined_map:
-                    combined_entry = combined_map[k]
-                    break
-            # if combined entry has a name, it wins
-            if combined_entry:
+        # If extra sources provided, allow them to override/fill name/icon fields
+        combined_entry = lookup_normalized(combined_map, aaguid) if combined_map else None
+        c_mds_entry = lookup_normalized(c_mds_map, aaguid) if c_mds_map else None
+
+        # Name precedence: c-MDS primary, combined fallback, then MDS.
+        c_name = _friendly_name_from_entry(c_mds_entry)
+        if c_name:
+            new_name = c_name
+        else:
+            if isinstance(combined_entry, dict):
                 ce_name = combined_entry.get('name')
                 if ce_name:
                     new_name = ce_name
+
+        # Final normalization
+        new_name = _normalize_single_line(new_name) if new_name is not None else 'Unknown'
         # Write only if changed
         if name_file.exists():
             try:
@@ -169,7 +276,12 @@ def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False, c
 
         if old_name != new_name:
             if dry_run:
-                print(f"[dry-run] Would update {name_file}: '{old_name}' -> '{new_name}'")
+                old_preview = _format_for_log(old_name)
+                new_preview = _format_for_log(new_name)
+                print(
+                    f"[dry-run] Would update {name_file} (len_old={len(old_name) if old_name else 0}, len_new={len(new_name)}): "
+                    f"{old_preview!r} -> {new_preview!r}"
+                )
             else:
                 name_file.write_text(new_name, encoding='utf-8')
 
@@ -212,34 +324,41 @@ def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False, c
         # Instead of producing icons.json, write only the first icon value
         # encountered (if any) to a plain text file `icon.txt`.
         icon_file = aaguid_dir / 'icon.txt'
+        # Icon precedence: c-MDS primary, then MDS metadataStatement icon.
         first_icon_value = None
-        # canonical_icon_keys defined above; iterate again to find the first value
-        for item in items:
-            ms = item.get('metadataStatement', {}) or {}
-            for k, v in ms.items():
-                if str(k).lower() in canonical_icon_keys:
-                    # normalize value: if list -> first element; if dict -> compact JSON
-                    if isinstance(v, list) and v:
-                        val = v[0]
-                    elif isinstance(v, dict):
-                        try:
-                            val = json.dumps(v, ensure_ascii=False, separators=(',', ':'))
-                        except Exception:
-                            val = str(v)
-                    else:
-                        val = v
+        if isinstance(c_mds_entry, dict):
+            ci = c_mds_entry.get('icon')
+            if ci:
+                first_icon_value = str(ci)
 
-                    # convert non-str values to string
-                    if not isinstance(val, str):
-                        try:
-                            val = json.dumps(val, ensure_ascii=False)
-                        except Exception:
-                            val = str(val)
+        if first_icon_value is None:
+            # canonical_icon_keys defined above; iterate again to find the first value
+            for item in items:
+                ms = item.get('metadataStatement', {}) or {}
+                for k, v in ms.items():
+                    if str(k).lower() in canonical_icon_keys:
+                        # normalize value: if list -> first element; if dict -> compact JSON
+                        if isinstance(v, list) and v:
+                            val = v[0]
+                        elif isinstance(v, dict):
+                            try:
+                                val = json.dumps(v, ensure_ascii=False, separators=(',', ':'))
+                            except Exception:
+                                val = str(v)
+                        else:
+                            val = v
 
-                    first_icon_value = val
+                        # convert non-str values to string
+                        if not isinstance(val, str):
+                            try:
+                                val = json.dumps(val, ensure_ascii=False)
+                            except Exception:
+                                val = str(val)
+
+                        first_icon_value = val
+                        break
+                if first_icon_value is not None:
                     break
-            if first_icon_value is not None:
-                break
 
         if first_icon_value is not None:
             # Write only the raw icon value into icon.txt (no JSON wrapper)
@@ -263,6 +382,32 @@ def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False, c
                 try:
                     icon_file.unlink()
                     print(f"Removed stale {icon_file}")
+                except Exception:
+                    pass
+
+        # Write c_mds.json for this AAGUID when present
+        c_mds_file = aaguid_dir / 'c_mds.json'
+        if isinstance(c_mds_entry, dict) and c_mds_entry:
+            new_c_mds = json.dumps(c_mds_entry, ensure_ascii=False, indent=2, sort_keys=True)
+            if c_mds_file.exists():
+                try:
+                    old_c_mds = c_mds_file.read_text(encoding='utf-8')
+                except Exception:
+                    old_c_mds = None
+            else:
+                old_c_mds = None
+
+            if old_c_mds != new_c_mds:
+                if dry_run:
+                    print(f"[dry-run] Would write {c_mds_file} (size {len(new_c_mds)} bytes)")
+                else:
+                    c_mds_file.write_text(new_c_mds, encoding='utf-8')
+        else:
+            # No c-MDS entry: remove stale file
+            if c_mds_file.exists() and not dry_run:
+                try:
+                    c_mds_file.unlink()
+                    print(f"Removed stale {c_mds_file}")
                 except Exception:
                     pass
 
@@ -312,7 +457,7 @@ def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False, c
                     except Exception:
                         pass
 
-        print(f"Processed AAGUID: {aaguid} -> {new_name}")
+    print(f"Processed AAGUID: {aaguid} -> {_format_for_log(new_name)}")
 
     return created_count, updated_count
 
@@ -343,11 +488,18 @@ def main(dry_run=False, output_dir=None, sample_jwt=None):
         if combined_map is not None:
             print(f"Loaded remote combined map with {len(combined_map)} entries")
 
+        # Download c-MDS map (3rd source)
+        c_mds_map = None
+        raw_c_mds = download_c_mds()
+        c_mds_map = parse_combined_map(raw_c_mds) if raw_c_mds else None
+        if c_mds_map is not None:
+            print(f"Loaded c-MDS map with {len(c_mds_map)} entries")
+
         # Ensure we process the union of AAGUIDs present in MDS and the combined map.
         # The combined map keys are normalized (lowercase, with and without hyphens).
         # Normalize MDS aaguid keys the same way and merge-in any combined-only entries
         # so directories get created even if the AAGUID isn't present in MDS.
-        if combined_map:
+        if combined_map or c_mds_map:
             # Build a set of normalized aaguid keys from MDS data
             normalized_mds_keys = set()
             for a in list(aaguid_data.keys()):
@@ -355,42 +507,44 @@ def main(dry_run=False, output_dir=None, sample_jwt=None):
                 normalized_mds_keys.add(k)
                 normalized_mds_keys.add(k.replace('-', ''))
 
-            # For any combined_map key not represented in normalized_mds_keys,
-            # create a placeholder entry in aaguid_data so create_aaguid_directories
-            # will create the directory and write combined-supplied files (name/icon_light/icon_dark).
-            for ck in list(combined_map.keys()):
-                # combined_map may contain both hyphenated and non-hyphenated variants
-                if ck in normalized_mds_keys:
-                    continue
-                # Derive a canonical AAGUID string to use as directory name.
-                # Prefer the hyphenated form if present in the combined entry, else use the key.
-                combined_entry = combined_map.get(ck)
-                canonical_aaguid = None
-                if isinstance(combined_entry, dict):
-                    # try common fields for canonical id
-                    canonical_aaguid = combined_entry.get('aaguid') or combined_entry.get('AAGUID') or combined_entry.get('id') or combined_entry.get('idHex')
-                if not canonical_aaguid:
-                    # fallback: use the key itself; if it's the non-hyphenated form, try to insert hyphens
-                    # attempt to format 32-char hex into hyphenated uuid form
-                    s = ck
-                    if len(s) == 32:
-                        canonical_aaguid = f"{s[0:8]}-{s[8:12]}-{s[12:16]}-{s[16:20]}-{s[20:32]}"
-                    else:
-                        canonical_aaguid = ck
+            def ensure_placeholders(external_map, name_fn):
+                if not external_map:
+                    return
+                for ck in list(external_map.keys()):
+                    if ck in normalized_mds_keys:
+                        continue
+                    entry = external_map.get(ck)
+                    canonical_aaguid = None
+                    if isinstance(entry, dict):
+                        canonical_aaguid = entry.get('aaguid') or entry.get('AAGUID') or entry.get('id') or entry.get('idHex')
+                    if not canonical_aaguid:
+                        s = ck
+                        if len(s) == 32:
+                            canonical_aaguid = f"{s[0:8]}-{s[8:12]}-{s[12:16]}-{s[16:20]}-{s[20:32]}"
+                        else:
+                            canonical_aaguid = ck
 
-                # Only add if not already present exactly (preserve any MDS items)
-                if canonical_aaguid not in aaguid_data:
-                    # create a minimal placeholder item. name will be overridden by combined_map in create_aaguid_directories
-                    placeholder = {
-                        'name': combined_entry.get('name') if isinstance(combined_entry, dict) else str(canonical_aaguid),
-                        'description': combined_entry.get('description') if isinstance(combined_entry, dict) else '',
-                        'metadataStatement': {},
-                        'mds_entry': {},
-                    }
-                    aaguid_data[canonical_aaguid] = [placeholder]
+                    if canonical_aaguid not in aaguid_data:
+                        placeholder = {
+                            'name': _normalize_single_line(name_fn(entry)) or str(canonical_aaguid),
+                            'description': entry.get('description') if isinstance(entry, dict) else '',
+                            'metadataStatement': {},
+                            'mds_entry': {},
+                        }
+                        aaguid_data[canonical_aaguid] = [placeholder]
+
+            # Ensure we create directories for entries that exist only in the external sources.
+            ensure_placeholders(combined_map, lambda e: e.get('name') if isinstance(e, dict) else None)
+            ensure_placeholders(c_mds_map, _friendly_name_from_entry)
 
         base_path = Path(output_dir) if output_dir else Path('.')
-        created, updated = create_aaguid_directories(aaguid_data, base_path=base_path, dry_run=dry_run, combined_map=combined_map)
+        created, updated = create_aaguid_directories(
+            aaguid_data,
+            base_path=base_path,
+            dry_run=dry_run,
+            combined_map=combined_map,
+            c_mds_map=c_mds_map,
+        )
         print(f"Created {created} new AAGUID directories")
         print(f"Updated {updated} existing AAGUID directories")
 
