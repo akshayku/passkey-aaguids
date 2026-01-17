@@ -1,1 +1,1 @@
-Windows Hello
+Windows Hello Software Authenticator

@@ -1,1 +1,1 @@
-YubiKey Bio Series - FIDO Edition (Enterprise Profile)
+YubiKey Bio Series (Enterprise Profile)

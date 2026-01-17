@@ -1,1 +1,1 @@
-Allthenticator iOS App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers
+Allthenticator iOS App: roaming BLE FIDO2 Allthenticator

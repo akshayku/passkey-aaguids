@@ -1,1 +1,1 @@
-YubiKey 5 FIPS Series with NFC (RC Preview)
+YubiKey 5 FIPS Series with NFC
