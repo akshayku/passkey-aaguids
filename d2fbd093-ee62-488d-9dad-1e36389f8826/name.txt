@@ -1,1 +1,1 @@
-YubiKey 5 FIPS Series
+YubiKey 5 FIPS Series (RC Preview)

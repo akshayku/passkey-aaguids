@@ -1,1 +1,1 @@
-YubiKey Bio Series
+YubiKey Bio Series - FIDO Edition

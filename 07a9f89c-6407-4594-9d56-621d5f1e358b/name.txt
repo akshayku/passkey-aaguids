@@ -1,1 +1,1 @@
-NXP Semiconductros FIDO2 Conformance Testing CTAP2 Authenticato
+NXP Semiconductros FIDO2 Conformance Testing CTAP2 Authenticator

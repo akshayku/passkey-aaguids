@@ -1,1 +1,1 @@
-Verocard FIDO2 Authenticator
+VeroCard FIDO2 Authenticator

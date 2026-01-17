@@ -1,1 +1,1 @@
-eToken Fusion S2 NFC PIV
+eToken Fusion NFC PIV Enterprise
