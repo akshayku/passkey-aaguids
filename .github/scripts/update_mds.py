@@ -133,6 +133,14 @@ def parse_combined_map(raw_text):
     return out
 
 
+def parse_c_mds_map(raw_text):
+    """Parse c-MDS JSON text into a normalized mapping.
+
+    The c-MDS JSON shape is compatible with the combined map parser.
+    """
+    return parse_combined_map(raw_text)
+
+
 def lookup_normalized(mapping, aaguid):
     """Look up an AAGUID in a mapping with normalized keys.
 
@@ -227,6 +235,31 @@ def extract_aaguids(mds_data):
     return aaguid_data
 
 
+def _choose_name_for_aaguid(aaguid, items, combined_map=None, c_mds_map=None):
+    """Choose the display name for an AAGUID using the current precedence rules."""
+    first = items[0] if items else {}
+    new_name = first.get('name', 'Unknown')
+
+    combined_entry = lookup_normalized(combined_map, aaguid) if combined_map else None
+    c_mds_entry = lookup_normalized(c_mds_map, aaguid) if c_mds_map else None
+
+    # Name precedence: combined primary, c-MDS fallback, then MDS.
+    if isinstance(combined_entry, dict):
+        ce_name = combined_entry.get('name')
+        if ce_name:
+            new_name = ce_name
+        else:
+            c_name = _friendly_name_from_entry(c_mds_entry)
+            if c_name:
+                new_name = c_name
+    else:
+        c_name = _friendly_name_from_entry(c_mds_entry)
+        if c_name:
+            new_name = c_name
+
+    return _normalize_single_line(new_name) if new_name is not None else 'Unknown'
+
+
 def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False, combined_map=None, c_mds_map=None):
     """Create directories and files for each AAGUID under base_path"""
     base_path = Path(base_path)
@@ -244,31 +277,12 @@ def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False, c
 
         aaguid_dir.mkdir(exist_ok=True)
 
-        # Use the first item's name for name.txt
-        first = items[0]
         name_file = aaguid_dir / 'name.txt'
-        new_name = first.get('name', 'Unknown')
+        new_name = _choose_name_for_aaguid(aaguid, items, combined_map=combined_map, c_mds_map=c_mds_map)
 
-        # If extra sources provided, allow them to override/fill name/icon fields
+        # If extra sources provided, allow them to override/fill icon fields
         combined_entry = lookup_normalized(combined_map, aaguid) if combined_map else None
         c_mds_entry = lookup_normalized(c_mds_map, aaguid) if c_mds_map else None
-
-        # Name precedence: combined primary, c-MDS fallback, then MDS.
-        if isinstance(combined_entry, dict):
-            ce_name = combined_entry.get('name')
-            if ce_name:
-                new_name = ce_name
-            else:
-                c_name = _friendly_name_from_entry(c_mds_entry)
-                if c_name:
-                    new_name = c_name
-        else:
-            c_name = _friendly_name_from_entry(c_mds_entry)
-            if c_name:
-                new_name = c_name
-
-        # Final normalization
-        new_name = _normalize_single_line(new_name) if new_name is not None else 'Unknown'
         # Write only if changed
         if name_file.exists():
             try:
@@ -495,7 +509,7 @@ def main(dry_run=False, output_dir=None, sample_jwt=None):
         # Download c-MDS map (3rd source)
         c_mds_map = None
         raw_c_mds = download_c_mds()
-        c_mds_map = parse_combined_map(raw_c_mds) if raw_c_mds else None
+        c_mds_map = parse_c_mds_map(raw_c_mds) if raw_c_mds else None
         if c_mds_map is not None:
             print(f"Loaded c-MDS map with {len(c_mds_map)} entries")
 
@@ -577,6 +591,32 @@ def main(dry_run=False, output_dir=None, sample_jwt=None):
                 summary_file.parent.mkdir(parents=True, exist_ok=True)
                 with open(summary_file, 'w', encoding='utf-8') as f:
                     f.write(new_summary)
+
+        # Write a compact combined file containing only aaguid and name.
+        # Uses the same name precedence rules as name.txt.
+        names_file = base_path / 'aaguids.json'
+        names_list = [
+            {
+                'aaguid': aaguid,
+                'name': _choose_name_for_aaguid(aaguid, items, combined_map=combined_map, c_mds_map=c_mds_map),
+            }
+            for aaguid, items in sorted(aaguid_data.items(), key=lambda kv: str(kv[0]).lower())
+        ]
+        new_names = json.dumps(names_list, ensure_ascii=False, indent=2)
+        if names_file.exists():
+            try:
+                old_names = names_file.read_text(encoding='utf-8')
+            except Exception:
+                old_names = None
+        else:
+            old_names = None
+
+        if old_names != new_names:
+            if dry_run:
+                print(f"[dry-run] Would update {names_file} (total_aaguids={len(names_list)})")
+            else:
+                names_file.parent.mkdir(parents=True, exist_ok=True)
+                names_file.write_text(new_names, encoding='utf-8')
 
         print("MDS update completed successfully")
 
