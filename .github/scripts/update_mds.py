@@ -253,15 +253,19 @@ def create_aaguid_directories(aaguid_data, base_path=Path('.'), dry_run=False, c
         combined_entry = lookup_normalized(combined_map, aaguid) if combined_map else None
         c_mds_entry = lookup_normalized(c_mds_map, aaguid) if c_mds_map else None
 
-        # Name precedence: c-MDS primary, combined fallback, then MDS.
-        c_name = _friendly_name_from_entry(c_mds_entry)
-        if c_name:
-            new_name = c_name
+        # Name precedence: combined primary, c-MDS fallback, then MDS.
+        if isinstance(combined_entry, dict):
+            ce_name = combined_entry.get('name')
+            if ce_name:
+                new_name = ce_name
+            else:
+                c_name = _friendly_name_from_entry(c_mds_entry)
+                if c_name:
+                    new_name = c_name
         else:
-            if isinstance(combined_entry, dict):
-                ce_name = combined_entry.get('name')
-                if ce_name:
-                    new_name = ce_name
+            c_name = _friendly_name_from_entry(c_mds_entry)
+            if c_name:
+                new_name = c_name
 
         # Final normalization
         new_name = _normalize_single_line(new_name) if new_name is not None else 'Unknown'
