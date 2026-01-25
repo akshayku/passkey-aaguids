@@ -64,6 +64,10 @@
     "name": "Keeper"
   },
   {
+    "aaguid": "0f00cc22-4640-41e7-9585-384ec73ffe9b",
+    "name": "Taglio CTAP2.1 BIO"
+  },
+  {
     "aaguid": "0f517e0b-799f-4344-af76-4d3858938054",
     "name": "HS-KShield FIDO2 Authenticator"
   },
@@ -258,6 +262,10 @@
   {
     "aaguid": "31c3f7ff-bf15-4327-83ec-9336abcbcd34",
     "name": "WinMagic FIDO Eazy - Software"
+  },
+  {
+    "aaguid": "33d6d7d0-279f-4ef3-96b3-2d3282f4bde6",
+    "name": "Thales eToken Fusion BIO Enterprise"
   },
   {
     "aaguid": "341e4da9-3c2e-8103-5a9f-aad887135200",
@@ -916,6 +924,10 @@
     "name": "Coretech FIDO2 Biometric Authenticator"
   },
   {
+    "aaguid": "a6c5f5d8-2ad0-48b6-8257-e502c8970931",
+    "name": "eToken FIDO NFC Enterprise"
+  },
+  {
     "aaguid": "a7fc3f84-86a3-4da4-a3d7-eb6485a066d8",
     "name": "NEOWAVE Badgeo FIDO2 (CTAP 2.1)"
   },
@@ -946,6 +958,10 @@
   {
     "aaguid": "aeb6569c-f8fb-4950-ac60-24ca2bbe2e52",
     "name": "HID Crescendo C2300"
+  },
+  {
+    "aaguid": "b113a455-cfb6-4c17-8cba-cd952feb7d48",
+    "name": "eToken FIDO NFC"
   },
   {
     "aaguid": "b12eac35-586c-4809-a4b1-d81af6c305cf",
