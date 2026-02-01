@@ -1,12 +1,12 @@
 [
   {
-    "description": "Idem Key (Consumer profile)",
+    "description": "GoTrust Idem Key (Consumer profile)",
     "mds_entry": {
       "aaguid": "c611b55c-77b2-4527-8082-590e931b2f08",
       "metadataStatement": {
         "aaguid": "c611b55c-77b2-4527-8082-590e931b2f08",
         "alternativeDescriptions": {
-          "en-US": "Idem Key (Consumer profile)"
+          "en-US": "GoTrust Idem Key (Consumer profile)"
         },
         "attachmentHint": [
           "external",
@@ -86,7 +86,7 @@
         },
         "authenticatorVersion": 262145,
         "cryptoStrength": 128,
-        "description": "Idem Key (Consumer profile)",
+        "description": "GoTrust Idem Key (Consumer profile)",
         "friendlyNames": {
           "en-US": "Idem Key (Consumer profile)"
         },
@@ -177,7 +177,7 @@
     "metadataStatement": {
       "aaguid": "c611b55c-77b2-4527-8082-590e931b2f08",
       "alternativeDescriptions": {
-        "en-US": "Idem Key (Consumer profile)"
+        "en-US": "GoTrust Idem Key (Consumer profile)"
       },
       "attachmentHint": [
         "external",
@@ -257,7 +257,7 @@
       },
       "authenticatorVersion": 262145,
       "cryptoStrength": 128,
-      "description": "Idem Key (Consumer profile)",
+      "description": "GoTrust Idem Key (Consumer profile)",
       "friendlyNames": {
         "en-US": "Idem Key (Consumer profile)"
       },
@@ -324,6 +324,6 @@
         ]
       ]
     },
-    "name": "Idem Key (Consumer profile)"
+    "name": "GoTrust Idem Key (Consumer profile)"
   }
 ]

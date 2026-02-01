@@ -129,11 +129,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-01-22",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 2507,
+          "certificateNumber": "FIDO20020260116001",
+          "certificationDescriptor": "Taglio CTAP2.1 BIO",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-01-16",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 2507,
+          "effectiveDate": "2026-01-16",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-01-22"
+      "timeOfLastStatusChange": "2026-01-26"
     },
     "metadataStatement": {
       "aaguid": "0f00cc22-4640-41e7-9585-384ec73ffe9b",

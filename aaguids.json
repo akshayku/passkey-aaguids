@@ -20,6 +20,10 @@
     "name": "ATLKey Authenticator"
   },
   {
+    "aaguid": "04a8fcf2-19c1-457b-911e-69219f17583f",
+    "name": "Thales PAY GFCX13 authenticator"
+  },
+  {
     "aaguid": "050dd0bc-ff20-4265-8d5d-305c4b215192",
     "name": "eToken Fusion FIPS"
   },
