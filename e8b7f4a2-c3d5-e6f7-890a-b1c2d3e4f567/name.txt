@@ -1,1 +1,1 @@
-Sherlocked Passkey Provider (iOS)
+Sherlocked

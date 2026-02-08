@@ -377,7 +377,7 @@
   },
   {
     "aaguid": "49a15c1c-3f63-3f51-23a7-b9e00096edd1",
-    "name": "IDEX CTAP2.1 Biometric, No pin"
+    "name": "IDEX CTAP2.1 Biometrics"
   },
   {
     "aaguid": "4b3f8944-d4f2-4d21-bb19-764a986ec160",
@@ -1097,7 +1097,7 @@
   },
   {
     "aaguid": "c611b55c-77b2-4527-8082-590e931b2f08",
-    "name": "Idem Key (Consumer profile)"
+    "name": "GoTrust Idem Key (Consumer profile)"
   },
   {
     "aaguid": "c62100de-759b-4bf8-b22b-63b3e3a80401",
@@ -1273,7 +1273,7 @@
   },
   {
     "aaguid": "e8b7f4a2-c3d5-e6f7-890a-b1c2d3e4f567",
-    "name": "Sherlocked Passkey Provider (iOS)"
+    "name": "Sherlocked"
   },
   {
     "aaguid": "ea9b8d66-4d01-1d21-3ce4-b6b48cb575d4",

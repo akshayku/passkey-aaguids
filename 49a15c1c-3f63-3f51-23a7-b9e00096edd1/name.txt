@@ -1,1 +1,1 @@
-IDEX CTAP2.1 Biometric, No pin
+IDEX CTAP2.1 Biometrics
