@@ -154,11 +154,24 @@
       },
       "statusReports": [
         {
+          "authenticatorVersion": 262145,
+          "certificateNumber": "FIDO20020251027004",
+          "certificationDescriptor": "Kensington VeriMark NFC+ USB-C Security Key",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
           "effectiveDate": "2025-10-27",
-          "status": "NOT_FIDO_CERTIFIED"
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 262145,
+          "effectiveDate": "2025-10-27",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2025-10-27"
+      "timeOfLastStatusChange": "2026-02-11"
     },
     "metadataStatement": {
       "aaguid": "ee7fa1e0-9539-432f-bd43-9c2fc6d4f311",

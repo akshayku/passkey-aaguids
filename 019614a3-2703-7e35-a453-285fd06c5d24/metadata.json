@@ -121,11 +121,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2025-09-10",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 1,
+          "certificateNumber": "FIDO20020250828001",
+          "certificationDescriptor": "ATLKey",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2025-08-28",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 1,
+          "effectiveDate": "2025-08-28",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2025-09-10"
+      "timeOfLastStatusChange": "2026-02-11"
     },
     "metadataStatement": {
       "aaguid": "019614a3-2703-7e35-a453-285fd06c5d24",

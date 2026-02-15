@@ -52,6 +52,10 @@
     "name": "Nymi FIDO2 Authenticator"
   },
   {
+    "aaguid": "0b8b05a4-ebd4-4b0b-8f5f-33d7b6e606ab",
+    "name": "HID Crescendo 4000"
+  },
+  {
     "aaguid": "0bb43545-fd2c-4185-87dd-feb0b2916ace",
     "name": "Security Key NFC by Yubico - Enterprise Edition"
   },
@@ -722,6 +726,10 @@
   {
     "aaguid": "8681a073-5f50-4d52-bce4-e21658d207b3",
     "name": "RSA Authenticator 4 for iOS"
+  },
+  {
+    "aaguid": "87c13177-85d6-40ac-8c61-fe7ab3de9dfb",
+    "name": "HID Crescendo Key V3"
   },
   {
     "aaguid": "87dbc5a1-4c94-4dc8-8a47-97d800fd1f3c",

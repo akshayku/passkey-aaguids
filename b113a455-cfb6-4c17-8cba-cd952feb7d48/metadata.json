@@ -143,11 +143,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-01-15",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 6,
+          "certificateNumber": "FIDO20020250728002",
+          "certificationDescriptor": "eToken FIDO NFC",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2025-07-28",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 6,
+          "effectiveDate": "2025-07-28",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-01-15"
+      "timeOfLastStatusChange": "2026-02-11"
     },
     "metadataStatement": {
       "aaguid": "b113a455-cfb6-4c17-8cba-cd952feb7d48",

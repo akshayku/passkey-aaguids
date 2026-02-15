@@ -120,11 +120,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2025-09-01",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 1,
+          "certificateNumber": "FIDO20020250812004",
+          "certificationDescriptor": "Mettlesemi Vishwaas Hawk Authenticator",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2025-08-12",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 1,
+          "effectiveDate": "2025-08-12",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2025-09-01"
+      "timeOfLastStatusChange": "2026-02-11"
     },
     "metadataStatement": {
       "aaguid": "bb66c294-de08-47e4-b7aa-d12c2cd3fb20",
