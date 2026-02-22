@@ -1,1 +1,1 @@
-IDmelon iOS Authenticator
+IDmelon Authenticator
