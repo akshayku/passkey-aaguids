@@ -1216,6 +1216,10 @@
     "name": "VeriMark Guard Fingerprint Key"
   },
   {
+    "aaguid": "d9be9d39-e6a6-4c28-a581-32b044d986e4",
+    "name": "Sticky Password Manager"
+  },
+  {
     "aaguid": "da1fa263-8b25-42b6-a820-c0036f21ba7f",
     "name": "ATKey.Card NFC"
   },
