@@ -1,7 +1,7 @@
 [
   {
     "aaguid": "005b20e1-f146-4b87-8f3a-36848ff60ea6",
-    "name": "SECORA ID V2 Pay Edition M"
+    "name": "SECORA ID V2 by Infineon Pay Edition M"
   },
   {
     "aaguid": "0076631b-d4a0-427f-5773-0ec71c9e0279",
@@ -118,6 +118,10 @@
   {
     "aaguid": "175cd298-83d2-4a26-b637-313c07a6434e",
     "name": "Chunghwa Telecom FIDO2 Smart Card Authenticator"
+  },
+  {
+    "aaguid": "18852056-063b-4042-9814-7d0d383081f9",
+    "name": "SECORA ID Key S USB Enterprise Edition"
   },
   {
     "aaguid": "19083c3d-8383-4b18-bc03-8f1c9ab2fd1b",
@@ -329,7 +333,7 @@
   },
   {
     "aaguid": "3e9db280-256a-4e17-b08e-19d79e9be166",
-    "name": "SECORA ID V2 Pay Edition"
+    "name": "SECORA ID V2 by Infineon Pay Edition"
   },
   {
     "aaguid": "3f59672f-20aa-4afe-b6f4-7e5e916b6d98",
@@ -458,6 +462,10 @@
   {
     "aaguid": "54d9fee8-e621-4291-8b18-7157b99c5bec",
     "name": "HID Crescendo Enabled"
+  },
+  {
+    "aaguid": "55fd881f-40ba-4eaf-8435-42c5fed08b76",
+    "name": "SECORA ID V2 Consumer Edition"
   },
   {
     "aaguid": "560a780c-b6ae-4f03-b110-082f856425b4",
@@ -612,6 +620,10 @@
     "name": "YubiKey Bio Series - Multi-protocol Edition (Enterprise Profile)"
   },
   {
+    "aaguid": "70617373-7761-6c6c-6669-646f32303236",
+    "name": "Passwall"
+  },
+  {
     "aaguid": "70e7c36f-f2f6-9e0d-07a6-bcc243262e6b",
     "name": "OneKey FIDO2 Bluetooth Authenticator"
   },
@@ -694,6 +706,10 @@
   {
     "aaguid": "7e3f3d30-3557-4442-bdae-139312178b39",
     "name": "RSA DS100"
+  },
+  {
+    "aaguid": "8108bdcd-8483-46b3-b3ce-359f8190325e",
+    "name": "SECORA ID V2 Enterprise Edition"
   },
   {
     "aaguid": "817cdab8-0d51-4de1-a821-e25b88519cf3",
@@ -857,7 +873,7 @@
   },
   {
     "aaguid": "9a272558-5cfa-4424-be37-65509677b77d",
-    "name": "SECORA ID Key S USB Consumer Edition"
+    "name": "SECORA ID Key S USB by Infineon Consumer Edition"
   },
   {
     "aaguid": "9c835346-796b-4c27-8898-d6032f515cc5",
@@ -922,6 +938,10 @@
   {
     "aaguid": "a3975549-b191-fd67-b8fb-017e2917fdb3",
     "name": "Excelsecu eSecu FIDO2 NFC Security Key"
+  },
+  {
+    "aaguid": "a3ee1074-c69c-4286-8b6b-93764136a919",
+    "name": "Thales MultiApp FIDO Authenticator V2.1b"
   },
   {
     "aaguid": "a4e9fc6d-4cbe-4758-b8ba-37598bb5bbaa",
