@@ -139,6 +139,18 @@
       "statusReports": [
         {
           "authenticatorVersion": 1,
+          "certificateNumber": "FIDO20020260320002",
+          "certificationDescriptor": "Swissbit iShield Key 2 FIPS Enterprise",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "enterprise"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-03-20",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 1,
           "certificateNumber": "FIDO20020250227002",
           "certificationDescriptor": "Swissbit iShield Key 2 FIPS Enterprise",
           "certificationPolicyVersion": "1.4.0",
@@ -152,7 +164,7 @@
           "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2025-03-25"
+      "timeOfLastStatusChange": "2026-03-20"
     },
     "metadataStatement": {
       "aaguid": "5eaff75a-dd43-451f-af9f-87c9eeae293e",

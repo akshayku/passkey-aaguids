@@ -1152,6 +1152,10 @@
     "name": "FIDO Alliance TruU Sample FIDO2 Authenticator"
   },
   {
+    "aaguid": "cb4f796c-a20a-af9e-d639-213c1ec247f3",
+    "name": "ACS PocketKey+ Bio"
+  },
+  {
     "aaguid": "cb69481e-8ff7-4039-93ec-0a2729a154a8",
     "name": "YubiKey 5 Series"
   },

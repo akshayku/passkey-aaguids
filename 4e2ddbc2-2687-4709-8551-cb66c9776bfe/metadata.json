@@ -117,11 +117,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2025-01-27",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 1,
+          "certificateNumber": "FIDO20020241227003",
+          "certificationDescriptor": "SECORA™ ID V2 FIDO2.1 L1",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2024-12-27",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 1,
+          "effectiveDate": "2024-12-27",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2025-01-27"
+      "timeOfLastStatusChange": "2026-03-20"
     },
     "metadataStatement": {
       "aaguid": "4e2ddbc2-2687-4709-8551-cb66c9776bfe",

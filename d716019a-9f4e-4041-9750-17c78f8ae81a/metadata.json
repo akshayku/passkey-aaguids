@@ -152,6 +152,18 @@
       "statusReports": [
         {
           "authenticatorVersion": 2,
+          "certificateNumber": "FIDO20020260120002",
+          "certificationDescriptor": "eToken Fusion Bio 2",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-01-20",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 2,
           "certificateNumber": "FIDO20020250801001",
           "certificationDescriptor": "eToken Fusion BIO",
           "certificationPolicyVersion": "1.4.0",
@@ -168,7 +180,7 @@
           "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-02-11"
+      "timeOfLastStatusChange": "2026-03-20"
     },
     "metadataStatement": {
       "aaguid": "d716019a-9f4e-4041-9750-17c78f8ae81a",
