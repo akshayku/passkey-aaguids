@@ -108,6 +108,10 @@
     "name": "eToken Fusion NFC PIV"
   },
   {
+    "aaguid": "147c9e41-9591-4df4-afa0-9224545de2fb",
+    "name": "YubiKey 5 Series with NFC (Enterprise Profile) Preview"
+  },
+  {
     "aaguid": "149a2021-8ef6-4133-96b8-81f8d5b7f1f5",
     "name": "Security Key by Yubico with NFC"
   },
@@ -550,6 +554,10 @@
   {
     "aaguid": "62e54e98-c209-4df3-b692-de71bb6a8528",
     "name": "YubiKey 5 FIPS Series with NFC Preview"
+  },
+  {
+    "aaguid": "65e8220e-45df-400a-a9d3-110de0983c0a",
+    "name": "YubiKey Bio Fido Edition (Enterprise Profile) Preview"
   },
   {
     "aaguid": "662ef48a-95e2-4aaa-a6c1-5b9c40375824",
@@ -1142,6 +1150,10 @@
   {
     "aaguid": "c89e6a38-6c00-5426-5aa5-c9cbf48f0382",
     "name": "ACS FIDO Authenticator NFC"
+  },
+  {
+    "aaguid": "c9cadfc9-89a9-489e-a25a-c7e86a4d5f15",
+    "name": "Burp Suite Navigation Recorder"
   },
   {
     "aaguid": "ca4cff1b-5a81-4404-8194-59aabcf1660b",
