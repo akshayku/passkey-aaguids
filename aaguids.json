@@ -296,6 +296,10 @@
     "name": "YubiKey 5 Series with NFC Preview"
   },
   {
+    "aaguid": "357f2718-434f-4124-8a58-7e28c5e4a2fc",
+    "name": "Deepnet SafeKey/Classic (NFC)"
+  },
+  {
     "aaguid": "361a3082-0278-4583-a16f-72a527f973e4",
     "name": "eWBM eFA500 FIDO2 Authenticator"
   },
@@ -1110,6 +1114,10 @@
   {
     "aaguid": "bfc748bb-3429-4faa-b9f9-7cfa9f3b76d0",
     "name": "iPasswords"
+  },
+  {
+    "aaguid": "c1288a5c-d66b-495c-a68f-4e81f9ec5b53",
+    "name": "Deepnet SafeKey/Classic (FP) XF"
   },
   {
     "aaguid": "c1f9a0bc-1dd2-404a-b27f-8e29047a43fd",
