@@ -152,6 +152,10 @@
     "name": "VeridiumID Passkey iOS SDK"
   },
   {
+    "aaguid": "1f8e43df-71ff-e11d-bea3-c4ee7003b232",
+    "name": "Thetis Pro FIDO2 Key"
+  },
+  {
     "aaguid": "20ac7a17-c814-4833-93fe-539f0d5e3389",
     "name": "YubiKey 5 Series (Enterprise Profile)"
   },
@@ -350,6 +354,10 @@
   {
     "aaguid": "3fd410dc-8ab7-4b86-a1cb-c7174620b2dc",
     "name": "IDEMIA SOLVO Fly 80 R1 FIDO Card Draft"
+  },
+  {
+    "aaguid": "41e39911-c669-4811-b860-c6ad0b411b96",
+    "name": "YubiKey 5 Series with NFC (Enterprise Profile)"
   },
   {
     "aaguid": "42b4fb4a-2866-43b2-9bf7-6c6669c2e5d3",
@@ -558,6 +566,10 @@
   {
     "aaguid": "62e54e98-c209-4df3-b692-de71bb6a8528",
     "name": "YubiKey 5 FIPS Series with NFC Preview"
+  },
+  {
+    "aaguid": "636f7265-7061-7373-6964-656e74697479",
+    "name": "CorePass"
   },
   {
     "aaguid": "65e8220e-45df-400a-a9d3-110de0983c0a",
@@ -1382,6 +1394,10 @@
   {
     "aaguid": "f4c63eff-d26c-4248-801c-3736c7eaa93a",
     "name": "FIDO KeyPass S3"
+  },
+  {
+    "aaguid": "f4ce5fc0-57d3-46f5-a736-efb7d5bc63b5",
+    "name": "YubiKey 5 Series with NFC (Consumer Profile)"
   },
   {
     "aaguid": "f56f58b3-d711-4afc-ba7d-6ac05f88cb19",
