@@ -20,6 +20,10 @@
     "name": "ATLKey Authenticator"
   },
   {
+    "aaguid": "03012cb7-4fb2-42e7-9e8d-a81f10e2a5e9",
+    "name": "YubiKey 5 Series with Lightning (Consumer Profile)"
+  },
+  {
     "aaguid": "04a8fcf2-19c1-457b-911e-69219f17583f",
     "name": "Thales PAY GFCX13 authenticator"
   },
@@ -48,6 +52,10 @@
     "name": "VeriMark(TM) Guard 2.1 Fingerprint Security Key"
   },
   {
+    "aaguid": "0a357157-9b18-4c8a-920e-d156e972b2f8",
+    "name": "YubiKey 5 Series (Consumer Profile)"
+  },
+  {
     "aaguid": "0acf3011-bc60-f375-fb53-6f05f43154e0",
     "name": "Nymi FIDO2 Authenticator"
   },
@@ -72,8 +80,16 @@
     "name": "Keeper"
   },
   {
+    "aaguid": "0ebd9f2c-f685-441c-8c3e-a02a234a840a",
+    "name": "YubiKey 5 Series with NFC Enhanced PIN (Consumer Profile)"
+  },
+  {
     "aaguid": "0f00cc22-4640-41e7-9585-384ec73ffe9b",
     "name": "Taglio CTAP2.1 BIO"
+  },
+  {
+    "aaguid": "0f083f18-4105-43a8-ad69-24e812e38141",
+    "name": "Security Key Series with NFC (Consumer Profile)"
   },
   {
     "aaguid": "0f517e0b-799f-4344-af76-4d3858938054",
@@ -106,10 +122,6 @@
   {
     "aaguid": "146e77ef-11eb-4423-b847-ce77864e9411",
     "name": "eToken Fusion NFC PIV"
-  },
-  {
-    "aaguid": "147c9e41-9591-4df4-afa0-9224545de2fb",
-    "name": "YubiKey 5 Series with NFC (Enterprise Profile) Preview"
   },
   {
     "aaguid": "149a2021-8ef6-4133-96b8-81f8d5b7f1f5",
@@ -190,6 +202,10 @@
   {
     "aaguid": "23786452-f02d-4344-87ed-aaf703726881",
     "name": "SafeNet eToken Fusion CC"
+  },
+  {
+    "aaguid": "24083bcb-3034-4867-99de-a3b52e1d426a",
+    "name": "Enterprise Security Key Series with NFC (Consumer Profile)"
   },
   {
     "aaguid": "24673149-6c86-42e7-98d9-433fb5b73296",
@@ -348,6 +364,10 @@
     "name": "SECORA ID V2 by Infineon Pay Edition"
   },
   {
+    "aaguid": "3ec9c8d3-a5a7-415b-a7b5-f1d606368d3f",
+    "name": "YubiKey 5 CCN Series with NFC (Enterprise Profile)"
+  },
+  {
     "aaguid": "3f59672f-20aa-4afe-b6f4-7e5e916b6d98",
     "name": "Arculus FIDO 2.1 Key Card [P71]"
   },
@@ -460,6 +480,10 @@
     "name": "Precision InnaIT Key FIDO 2 Level 2 certified"
   },
   {
+    "aaguid": "524de2de-982f-49b4-a769-2b5e3b73ad79",
+    "name": "YubiKey 5 Series (Enterprise Profile)"
+  },
+  {
     "aaguid": "531126d6-e717-415c-9320-3d9aa6981239",
     "name": "Dashlane"
   },
@@ -570,10 +594,6 @@
   {
     "aaguid": "636f7265-7061-7373-6964-656e74697479",
     "name": "CorePass"
-  },
-  {
-    "aaguid": "65e8220e-45df-400a-a9d3-110de0983c0a",
-    "name": "YubiKey Bio Fido Edition (Enterprise Profile) Preview"
   },
   {
     "aaguid": "662ef48a-95e2-4aaa-a6c1-5b9c40375824",
@@ -884,6 +904,10 @@
     "name": "Somu Secp256R1 FIDO2 CTAP2 Authenticator"
   },
   {
+    "aaguid": "9955a1cd-564c-d388-ad68-9878a27be9f1",
+    "name": "StarSign Chase FIDO Card"
+  },
+  {
     "aaguid": "998f358b-2dd2-4cbe-a43a-e8107438dfb3",
     "name": "OnlyKey Secp256R1 FIDO2 CTAP2 Authenticator"
   },
@@ -900,12 +924,20 @@
     "name": "SECORA ID Key S USB by Infineon Consumer Edition"
   },
   {
+    "aaguid": "9a3f2abd-a73d-439c-9ee7-1b53a857eaa7",
+    "name": "YubiKey 5 Series with NFC Enhanced PIN (Enterprise Profile)"
+  },
+  {
     "aaguid": "9c835346-796b-4c27-8898-d6032f515cc5",
     "name": "Cryptnox FIDO2"
   },
   {
     "aaguid": "9d3df6ba-282f-11ed-a261-0242ac120002",
     "name": "Arculus FIDO2/U2F Key Card"
+  },
+  {
+    "aaguid": "9dd8d593-2213-438a-97f8-d6b813d51c27",
+    "name": "Security Key Series with NFC (Consumer Profile)"
   },
   {
     "aaguid": "9ddd1817-af5a-4672-a2b9-3e3dd95000a9",
@@ -1000,6 +1032,10 @@
     "name": "TOKEN2 FIDO2 Security Key"
   },
   {
+    "aaguid": "ab7d1767-3fa0-4388-b6c4-feef7a844809",
+    "name": "Enterprise Security Key Series with NFC (Enterprise Profile)"
+  },
+  {
     "aaguid": "aca75bc1-1138-4afa-810c-7c202cea6cef",
     "name": "FIDO Alliance FIDO2 Authenticator"
   },
@@ -1010,6 +1046,10 @@
   {
     "aaguid": "adce0002-35bc-c60a-648b-0b25f1f05503",
     "name": "Chrome on Mac"
+  },
+  {
+    "aaguid": "add92433-0d69-4026-8166-29b25bce64e9",
+    "name": "Security Key Series with NFC (Enterprise Profile)"
   },
   {
     "aaguid": "aeb6569c-f8fb-4950-ac60-24ca2bbe2e52",
@@ -1088,6 +1128,10 @@
     "name": "Deepnet SafeKey/Classic (USB)"
   },
   {
+    "aaguid": "ba0a9266-40d8-4048-9786-d710b5474752",
+    "name": "YubiKey Bio Multi-protocol Edition (Consumer Profile)"
+  },
+  {
     "aaguid": "ba76a271-6eb6-4171-874d-b6428dbe3437",
     "name": "ATKey.ProS"
   },
@@ -1134,6 +1178,10 @@
   {
     "aaguid": "c1f9a0bc-1dd2-404a-b27f-8e29047a43fd",
     "name": "YubiKey 5 FIPS Series with NFC"
+  },
+  {
+    "aaguid": "c3479970-e58a-4f70-836f-853bf42fb063",
+    "name": "YubiKey 5 Series with Lightning (Enterprise Profile)"
   },
   {
     "aaguid": "c3f47802-de73-4dfc-ba22-671fe3304f90",
@@ -1284,6 +1332,10 @@
     "name": "SOFTLOCK FIDO2 Bio version"
   },
   {
+    "aaguid": "dc5e949d-f939-43b3-9877-a85c7186b753",
+    "name": "YubiKey Bio Multi-protocol Edition (Enterprise Profile)"
+  },
+  {
     "aaguid": "dca09ba7-4992-4be8-9283-ee98cd6fb529",
     "name": "Wultra Authenticator WAU1.1"
   },
@@ -1358,6 +1410,10 @@
   {
     "aaguid": "eb3b131e-59dc-536a-d176-cb7306da10f5",
     "name": "ellipticSecure MIRkey USB Authenticator"
+  },
+  {
+    "aaguid": "eb7ef748-cbe0-4b40-b8f6-07bd2d592d35",
+    "name": "YubiKey 5 CCN Series with NFC (Consumer Profile)"
   },
   {
     "aaguid": "ec31b4cc-2acc-4b8e-9c01-bade00ccbe26",
