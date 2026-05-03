@@ -185,11 +185,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-04-13",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 329728,
+          "certificateNumber": "FIDO20020260425011",
+          "certificationDescriptor": "YubiKey 5 Series with Lightning (Consumer Profile)",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-04-25",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 329728,
+          "effectiveDate": "2026-04-25",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-04-13"
+      "timeOfLastStatusChange": "2026-05-01"
     },
     "metadataStatement": {
       "aaguid": "03012cb7-4fb2-42e7-9e8d-a81f10e2a5e9",

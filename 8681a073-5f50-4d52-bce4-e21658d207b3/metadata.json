@@ -71,9 +71,6 @@
               "userVerificationMethod": "presence_internal"
             },
             {
-              "userVerificationMethod": "eyeprint_internal"
-            },
-            {
               "userVerificationMethod": "passcode_internal"
             },
             {
@@ -81,6 +78,9 @@
             },
             {
               "userVerificationMethod": "faceprint_internal"
+            },
+            {
+              "userVerificationMethod": "eyeprint_internal"
             },
             {
               "userVerificationMethod": "location_internal"
@@ -174,9 +174,6 @@
             "userVerificationMethod": "presence_internal"
           },
           {
-            "userVerificationMethod": "eyeprint_internal"
-          },
-          {
             "userVerificationMethod": "passcode_internal"
           },
           {
@@ -184,6 +181,9 @@
           },
           {
             "userVerificationMethod": "faceprint_internal"
+          },
+          {
+            "userVerificationMethod": "eyeprint_internal"
           },
           {
             "userVerificationMethod": "location_internal"

@@ -68,11 +68,11 @@
         "supportedExtensions": [
           {
             "fail_if_unknown": false,
-            "id": "hmac-secret"
+            "id": "credProtect"
           },
           {
             "fail_if_unknown": false,
-            "id": "credProtect"
+            "id": "hmac-secret"
           }
         ],
         "tcDisplay": [],
@@ -88,10 +88,10 @@
               "userVerificationMethod": "none"
             },
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "fingerprint_internal"
             },
             {
-              "userVerificationMethod": "fingerprint_internal"
+              "userVerificationMethod": "presence_internal"
             },
             {
               "userVerificationMethod": "passcode_internal"
@@ -182,11 +182,11 @@
       "supportedExtensions": [
         {
           "fail_if_unknown": false,
-          "id": "hmac-secret"
+          "id": "credProtect"
         },
         {
           "fail_if_unknown": false,
-          "id": "credProtect"
+          "id": "hmac-secret"
         }
       ],
       "tcDisplay": [],
@@ -202,10 +202,10 @@
             "userVerificationMethod": "none"
           },
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "fingerprint_internal"
           },
           {
-            "userVerificationMethod": "fingerprint_internal"
+            "userVerificationMethod": "presence_internal"
           },
           {
             "userVerificationMethod": "passcode_internal"

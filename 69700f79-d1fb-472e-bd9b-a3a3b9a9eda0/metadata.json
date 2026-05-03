@@ -103,10 +103,10 @@
         "userVerificationDetails": [
           [
             {
-              "userVerificationMethod": "passcode_external"
+              "userVerificationMethod": "fingerprint_internal"
             },
             {
-              "userVerificationMethod": "fingerprint_internal"
+              "userVerificationMethod": "passcode_external"
             },
             {
               "userVerificationMethod": "presence_internal"
@@ -233,10 +233,10 @@
       "userVerificationDetails": [
         [
           {
-            "userVerificationMethod": "passcode_external"
+            "userVerificationMethod": "fingerprint_internal"
           },
           {
-            "userVerificationMethod": "fingerprint_internal"
+            "userVerificationMethod": "passcode_external"
           },
           {
             "userVerificationMethod": "presence_internal"

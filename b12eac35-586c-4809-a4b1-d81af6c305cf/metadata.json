@@ -12,6 +12,7 @@
           "external"
         ],
         "attestationRootCertificates": [
+          "MIICnTCCAkSgAwIBAgIIXgfFRQ9WqyEwCgYIKoZIzj0EAwIwgaoxKjAoBgkqhkiG9w0BCQEWG3N1cHBvcnRAZGVlcG5ldHNlY3VyaXR5LmNvbTENMAsGA1UECwwERklETzEZMBcGA1UECgwQRGVlcG5ldCBTZWN1cml0eTEQMA4GA1UEBwwHRW5nbGlzaDEQMA4GA1UECAwHRW5nbGFuZDEhMB8GA1UEAwwYZmlkby5kZWVwbmV0c2VjdXJpdHkuY29tMQswCQYDVQQGEwJHQjAgFw0yNjAzMjUxMjI3MzJaGA8yMDc2MDMyNTEyMjczMlowgaoxKjAoBgkqhkiG9w0BCQEWG3N1cHBvcnRAZGVlcG5ldHNlY3VyaXR5LmNvbTENMAsGA1UECwwERklETzEZMBcGA1UECgwQRGVlcG5ldCBTZWN1cml0eTEQMA4GA1UEBwwHRW5nbGlzaDEQMA4GA1UECAwHRW5nbGFuZDEhMB8GA1UEAwwYZmlkby5kZWVwbmV0c2VjdXJpdHkuY29tMQswCQYDVQQGEwJHQjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABAJKGmzEnyi/baght1/I3rAvUc9erhQF7SrGROlGOcHKXKok8ncQvqlMk0vy0njzajsRh+eDLvHyepkxSqyRUT2jUDBOMB0GA1UdDgQWBBT66JbbcrOzi5Fpc++GigazpbY1DDAfBgNVHSMEGDAWgBT66JbbcrOzi5Fpc++GigazpbY1DDAMBgNVHRMEBTADAQH/MAoGCCqGSM49BAMCA0cAMEQCID0FpZ8FxEb0t+4aJOUJLbxTloS2sJN+EqU2WTWVnifrAiAEd+1k83TMcAzp8hNUaGOsI3g54Wo/WvRSL/AvvIk15g==",
           "MIICnTCCAkSgAwIBAgIIcaDauTR6AI4wCgYIKoZIzj0EAwIwgaoxKjAoBgkqhkiG9w0BCQEWG3N1cHBvcnRAZGVlcG5ldHNlY3VyaXR5LmNvbTENMAsGA1UECwwERklETzEZMBcGA1UECgwQRGVlcG5ldCBTZWN1cml0eTEQMA4GA1UEBwwHRW5nbGlzaDEQMA4GA1UECAwHRW5nbGFuZDEhMB8GA1UEAwwYZmlkby5kZWVwbmV0c2VjdXJpdHkuY29tMQswCQYDVQQGEwJVSzAgFw0yNDAyMjcxMjE1NTVaGA8yMDc0MDIyNzEyMTU1NVowgaoxKjAoBgkqhkiG9w0BCQEWG3N1cHBvcnRAZGVlcG5ldHNlY3VyaXR5LmNvbTENMAsGA1UECwwERklETzEZMBcGA1UECgwQRGVlcG5ldCBTZWN1cml0eTEQMA4GA1UEBwwHRW5nbGlzaDEQMA4GA1UECAwHRW5nbGFuZDEhMB8GA1UEAwwYZmlkby5kZWVwbmV0c2VjdXJpdHkuY29tMQswCQYDVQQGEwJVSzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKjXbN2q0MkVslo6SzI8g79dw20/3++QRlrQhM3huppZ5i5ElSFiywzWhpig81Aq0SIu2KmlTYpt86mLL+dAZ5GjUDBOMB0GA1UdDgQWBBS0GCwNMi6vWaJlBry+gOnhYsrtoDAfBgNVHSMEGDAWgBS0GCwNMi6vWaJlBry+gOnhYsrtoDAMBgNVHRMEBTADAQH/MAoGCCqGSM49BAMCA0cAMEQCIGZcmqmChXi1hL9dZ2Xr6NKO3hyfNBl75Z2Mixs9XTq/AiB77595vGu0Qq9H9AC7bUXp4Pm3SLHuk+kBY5nvwMTnyA=="
         ],
         "attestationTypes": [
@@ -85,6 +86,11 @@
         "userVerificationDetails": [
           [
             {
+              "userVerificationMethod": "passcode_external"
+            }
+          ],
+          [
+            {
               "userVerificationMethod": "presence_internal"
             }
           ],
@@ -94,11 +100,6 @@
             },
             {
               "userVerificationMethod": "presence_internal"
-            }
-          ],
-          [
-            {
-              "userVerificationMethod": "passcode_external"
             }
           ],
           [
@@ -135,6 +136,7 @@
         "external"
       ],
       "attestationRootCertificates": [
+        "MIICnTCCAkSgAwIBAgIIXgfFRQ9WqyEwCgYIKoZIzj0EAwIwgaoxKjAoBgkqhkiG9w0BCQEWG3N1cHBvcnRAZGVlcG5ldHNlY3VyaXR5LmNvbTENMAsGA1UECwwERklETzEZMBcGA1UECgwQRGVlcG5ldCBTZWN1cml0eTEQMA4GA1UEBwwHRW5nbGlzaDEQMA4GA1UECAwHRW5nbGFuZDEhMB8GA1UEAwwYZmlkby5kZWVwbmV0c2VjdXJpdHkuY29tMQswCQYDVQQGEwJHQjAgFw0yNjAzMjUxMjI3MzJaGA8yMDc2MDMyNTEyMjczMlowgaoxKjAoBgkqhkiG9w0BCQEWG3N1cHBvcnRAZGVlcG5ldHNlY3VyaXR5LmNvbTENMAsGA1UECwwERklETzEZMBcGA1UECgwQRGVlcG5ldCBTZWN1cml0eTEQMA4GA1UEBwwHRW5nbGlzaDEQMA4GA1UECAwHRW5nbGFuZDEhMB8GA1UEAwwYZmlkby5kZWVwbmV0c2VjdXJpdHkuY29tMQswCQYDVQQGEwJHQjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABAJKGmzEnyi/baght1/I3rAvUc9erhQF7SrGROlGOcHKXKok8ncQvqlMk0vy0njzajsRh+eDLvHyepkxSqyRUT2jUDBOMB0GA1UdDgQWBBT66JbbcrOzi5Fpc++GigazpbY1DDAfBgNVHSMEGDAWgBT66JbbcrOzi5Fpc++GigazpbY1DDAMBgNVHRMEBTADAQH/MAoGCCqGSM49BAMCA0cAMEQCID0FpZ8FxEb0t+4aJOUJLbxTloS2sJN+EqU2WTWVnifrAiAEd+1k83TMcAzp8hNUaGOsI3g54Wo/WvRSL/AvvIk15g==",
         "MIICnTCCAkSgAwIBAgIIcaDauTR6AI4wCgYIKoZIzj0EAwIwgaoxKjAoBgkqhkiG9w0BCQEWG3N1cHBvcnRAZGVlcG5ldHNlY3VyaXR5LmNvbTENMAsGA1UECwwERklETzEZMBcGA1UECgwQRGVlcG5ldCBTZWN1cml0eTEQMA4GA1UEBwwHRW5nbGlzaDEQMA4GA1UECAwHRW5nbGFuZDEhMB8GA1UEAwwYZmlkby5kZWVwbmV0c2VjdXJpdHkuY29tMQswCQYDVQQGEwJVSzAgFw0yNDAyMjcxMjE1NTVaGA8yMDc0MDIyNzEyMTU1NVowgaoxKjAoBgkqhkiG9w0BCQEWG3N1cHBvcnRAZGVlcG5ldHNlY3VyaXR5LmNvbTENMAsGA1UECwwERklETzEZMBcGA1UECgwQRGVlcG5ldCBTZWN1cml0eTEQMA4GA1UEBwwHRW5nbGlzaDEQMA4GA1UECAwHRW5nbGFuZDEhMB8GA1UEAwwYZmlkby5kZWVwbmV0c2VjdXJpdHkuY29tMQswCQYDVQQGEwJVSzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABKjXbN2q0MkVslo6SzI8g79dw20/3++QRlrQhM3huppZ5i5ElSFiywzWhpig81Aq0SIu2KmlTYpt86mLL+dAZ5GjUDBOMB0GA1UdDgQWBBS0GCwNMi6vWaJlBry+gOnhYsrtoDAfBgNVHSMEGDAWgBS0GCwNMi6vWaJlBry+gOnhYsrtoDAMBgNVHRMEBTADAQH/MAoGCCqGSM49BAMCA0cAMEQCIGZcmqmChXi1hL9dZ2Xr6NKO3hyfNBl75Z2Mixs9XTq/AiB77595vGu0Qq9H9AC7bUXp4Pm3SLHuk+kBY5nvwMTnyA=="
       ],
       "attestationTypes": [
@@ -208,6 +210,11 @@
       "userVerificationDetails": [
         [
           {
+            "userVerificationMethod": "passcode_external"
+          }
+        ],
+        [
+          {
             "userVerificationMethod": "presence_internal"
           }
         ],
@@ -217,11 +224,6 @@
           },
           {
             "userVerificationMethod": "presence_internal"
-          }
-        ],
-        [
-          {
-            "userVerificationMethod": "passcode_external"
           }
         ],
         [

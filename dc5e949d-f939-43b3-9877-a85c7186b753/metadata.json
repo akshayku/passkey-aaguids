@@ -160,6 +160,9 @@
           ],
           [
             {
+              "userVerificationMethod": "presence_internal"
+            },
+            {
               "baDesc": {
                 "blockSlowdown": 0,
                 "iAPARThreshold": 0.0,
@@ -169,9 +172,6 @@
                 "selfAttestedFRR": 0.0
               },
               "userVerificationMethod": "fingerprint_internal"
-            },
-            {
-              "userVerificationMethod": "presence_internal"
             }
           ],
           [
@@ -194,6 +194,9 @@
           ],
           [
             {
+              "userVerificationMethod": "presence_internal"
+            },
+            {
               "caDesc": {
                 "base": 64,
                 "blockSlowdown": 0,
@@ -201,9 +204,6 @@
                 "minLength": 4
               },
               "userVerificationMethod": "passcode_external"
-            },
-            {
-              "userVerificationMethod": "presence_internal"
             }
           ],
           [
@@ -221,11 +221,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-04-13",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 329728,
+          "certificateNumber": "FIDO20020260425008",
+          "certificationDescriptor": "YubiKey Bio Multi-protocol Edition (Enterprise Profile)",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "enterprise"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-04-25",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 329728,
+          "effectiveDate": "2026-04-25",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-04-13"
+      "timeOfLastStatusChange": "2026-05-01"
     },
     "metadataStatement": {
       "aaguid": "dc5e949d-f939-43b3-9877-a85c7186b753",
@@ -384,6 +397,9 @@
         ],
         [
           {
+            "userVerificationMethod": "presence_internal"
+          },
+          {
             "baDesc": {
               "blockSlowdown": 0,
               "iAPARThreshold": 0.0,
@@ -393,9 +409,6 @@
               "selfAttestedFRR": 0.0
             },
             "userVerificationMethod": "fingerprint_internal"
-          },
-          {
-            "userVerificationMethod": "presence_internal"
           }
         ],
         [
@@ -418,6 +431,9 @@
         ],
         [
           {
+            "userVerificationMethod": "presence_internal"
+          },
+          {
             "caDesc": {
               "base": 64,
               "blockSlowdown": 0,
@@ -425,9 +441,6 @@
               "minLength": 4
             },
             "userVerificationMethod": "passcode_external"
-          },
-          {
-            "userVerificationMethod": "presence_internal"
           }
         ],
         [

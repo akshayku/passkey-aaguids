@@ -1,1 +1,1 @@
-Security Key Series with NFC (Consumer Profile)
+YubiKey Bio Fido Edition (Consumer Profile)

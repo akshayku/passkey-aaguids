@@ -46,11 +46,11 @@
         "supportedExtensions": [
           {
             "fail_if_unknown": true,
-            "id": "txAuthSimple"
+            "id": "credProtect"
           },
           {
             "fail_if_unknown": true,
-            "id": "credProtect"
+            "id": "txAuthSimple"
           },
           {
             "fail_if_unknown": true,
@@ -145,11 +145,11 @@
       "supportedExtensions": [
         {
           "fail_if_unknown": true,
-          "id": "txAuthSimple"
+          "id": "credProtect"
         },
         {
           "fail_if_unknown": true,
-          "id": "credProtect"
+          "id": "txAuthSimple"
         },
         {
           "fail_if_unknown": true,

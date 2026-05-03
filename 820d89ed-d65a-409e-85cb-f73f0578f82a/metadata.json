@@ -63,19 +63,22 @@
         "userVerificationDetails": [
           [
             {
-              "userVerificationMethod": "fingerprint_internal"
+              "userVerificationMethod": "location_internal"
+            },
+            {
+              "userVerificationMethod": "passcode_internal"
+            },
+            {
+              "userVerificationMethod": "presence_internal"
             },
             {
               "userVerificationMethod": "voiceprint_internal"
             },
             {
-              "userVerificationMethod": "location_internal"
+              "userVerificationMethod": "fingerprint_internal"
             },
             {
               "userVerificationMethod": "faceprint_internal"
-            },
-            {
-              "userVerificationMethod": "eyeprint_internal"
             },
             {
               "userVerificationMethod": "handprint_internal"
@@ -84,10 +87,7 @@
               "userVerificationMethod": "pattern_internal"
             },
             {
-              "userVerificationMethod": "presence_internal"
-            },
-            {
-              "userVerificationMethod": "passcode_internal"
+              "userVerificationMethod": "eyeprint_internal"
             }
           ]
         ]
@@ -168,19 +168,22 @@
       "userVerificationDetails": [
         [
           {
-            "userVerificationMethod": "fingerprint_internal"
+            "userVerificationMethod": "location_internal"
+          },
+          {
+            "userVerificationMethod": "passcode_internal"
+          },
+          {
+            "userVerificationMethod": "presence_internal"
           },
           {
             "userVerificationMethod": "voiceprint_internal"
           },
           {
-            "userVerificationMethod": "location_internal"
+            "userVerificationMethod": "fingerprint_internal"
           },
           {
             "userVerificationMethod": "faceprint_internal"
-          },
-          {
-            "userVerificationMethod": "eyeprint_internal"
           },
           {
             "userVerificationMethod": "handprint_internal"
@@ -189,10 +192,7 @@
             "userVerificationMethod": "pattern_internal"
           },
           {
-            "userVerificationMethod": "presence_internal"
-          },
-          {
-            "userVerificationMethod": "passcode_internal"
+            "userVerificationMethod": "eyeprint_internal"
           }
         ]
       ]

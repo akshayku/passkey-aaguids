@@ -94,10 +94,10 @@
               "userVerificationMethod": "passcode_internal"
             },
             {
-              "userVerificationMethod": "none"
+              "userVerificationMethod": "presence_internal"
             },
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "none"
             },
             {
               "userVerificationMethod": "passcode_external"
@@ -214,10 +214,10 @@
             "userVerificationMethod": "passcode_internal"
           },
           {
-            "userVerificationMethod": "none"
+            "userVerificationMethod": "presence_internal"
           },
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "none"
           },
           {
             "userVerificationMethod": "passcode_external"

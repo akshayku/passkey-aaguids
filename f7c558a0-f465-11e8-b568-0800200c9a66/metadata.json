@@ -57,6 +57,9 @@
         "userVerificationDetails": [
           [
             {
+              "userVerificationMethod": "passcode_internal"
+            },
+            {
               "baDesc": {
                 "blockSlowdown": 30,
                 "iAPARThreshold": 0.0,
@@ -66,9 +69,6 @@
                 "selfAttestedFRR": 0.0
               },
               "userVerificationMethod": "fingerprint_internal"
-            },
-            {
-              "userVerificationMethod": "passcode_internal"
             },
             {
               "userVerificationMethod": "presence_internal"
@@ -146,6 +146,9 @@
       "userVerificationDetails": [
         [
           {
+            "userVerificationMethod": "passcode_internal"
+          },
+          {
             "baDesc": {
               "blockSlowdown": 30,
               "iAPARThreshold": 0.0,
@@ -155,9 +158,6 @@
               "selfAttestedFRR": 0.0
             },
             "userVerificationMethod": "fingerprint_internal"
-          },
-          {
-            "userVerificationMethod": "passcode_internal"
           },
           {
             "userVerificationMethod": "presence_internal"

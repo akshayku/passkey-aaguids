@@ -111,9 +111,6 @@
         "userVerificationDetails": [
           [
             {
-              "userVerificationMethod": "all"
-            },
-            {
               "userVerificationMethod": "presence_internal"
             },
             {
@@ -124,6 +121,9 @@
                 "minLength": 4
               },
               "userVerificationMethod": "passcode_external"
+            },
+            {
+              "userVerificationMethod": "all"
             }
           ],
           [
@@ -270,9 +270,6 @@
       "userVerificationDetails": [
         [
           {
-            "userVerificationMethod": "all"
-          },
-          {
             "userVerificationMethod": "presence_internal"
           },
           {
@@ -283,6 +280,9 @@
               "minLength": 4
             },
             "userVerificationMethod": "passcode_external"
+          },
+          {
+            "userVerificationMethod": "all"
           }
         ],
         [

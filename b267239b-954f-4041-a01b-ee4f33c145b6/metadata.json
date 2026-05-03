@@ -93,9 +93,6 @@
               "userVerificationMethod": "presence_internal"
             },
             {
-              "userVerificationMethod": "none"
-            },
-            {
               "caDesc": {
                 "base": 10,
                 "blockSlowdown": 0,
@@ -103,6 +100,9 @@
                 "minLength": 4
               },
               "userVerificationMethod": "passcode_external"
+            },
+            {
+              "userVerificationMethod": "none"
             }
           ]
         ]
@@ -215,9 +215,6 @@
             "userVerificationMethod": "presence_internal"
           },
           {
-            "userVerificationMethod": "none"
-          },
-          {
             "caDesc": {
               "base": 10,
               "blockSlowdown": 0,
@@ -225,6 +222,9 @@
               "minLength": 4
             },
             "userVerificationMethod": "passcode_external"
+          },
+          {
+            "userVerificationMethod": "none"
           }
         ]
       ]

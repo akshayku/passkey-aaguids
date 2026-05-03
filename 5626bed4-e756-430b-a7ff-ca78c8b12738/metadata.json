@@ -89,6 +89,9 @@
         "userVerificationDetails": [
           [
             {
+              "userVerificationMethod": "presence_internal"
+            },
+            {
               "caDesc": {
                 "base": 10,
                 "blockSlowdown": 0,
@@ -107,9 +110,6 @@
                 "selfAttestedFRR": 0.0
               },
               "userVerificationMethod": "fingerprint_internal"
-            },
-            {
-              "userVerificationMethod": "presence_internal"
             }
           ]
         ]
@@ -218,6 +218,9 @@
       "userVerificationDetails": [
         [
           {
+            "userVerificationMethod": "presence_internal"
+          },
+          {
             "caDesc": {
               "base": 10,
               "blockSlowdown": 0,
@@ -236,9 +239,6 @@
               "selfAttestedFRR": 0.0
             },
             "userVerificationMethod": "fingerprint_internal"
-          },
-          {
-            "userVerificationMethod": "presence_internal"
           }
         ]
       ]

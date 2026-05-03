@@ -67,10 +67,10 @@
         "userVerificationDetails": [
           [
             {
-              "userVerificationMethod": "none"
+              "userVerificationMethod": "presence_internal"
             },
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "none"
             }
           ]
         ]
@@ -152,10 +152,10 @@
       "userVerificationDetails": [
         [
           {
-            "userVerificationMethod": "none"
+            "userVerificationMethod": "presence_internal"
           },
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "none"
           }
         ]
       ]
