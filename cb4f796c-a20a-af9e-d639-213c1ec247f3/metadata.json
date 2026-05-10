@@ -159,11 +159,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-03-16",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 10000,
+          "certificateNumber": "FIDO20020260213001",
+          "certificationDescriptor": "PocketKey+ Bio",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-02-13",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 10000,
+          "effectiveDate": "2026-02-13",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-03-16"
+      "timeOfLastStatusChange": "2026-05-06"
     },
     "metadataStatement": {
       "aaguid": "cb4f796c-a20a-af9e-d639-213c1ec247f3",

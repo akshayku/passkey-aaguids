@@ -132,11 +132,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2025-10-06",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 1,
+          "certificateNumber": "FIDO20020241122001",
+          "certificationDescriptor": "VeriMark(TM) Guard 2.1 Fingerprint Security Key",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "enterprise"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2024-11-22",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 1,
+          "effectiveDate": "2024-11-22",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2025-10-06"
+      "timeOfLastStatusChange": "2026-05-06"
     },
     "metadataStatement": {
       "aaguid": "09619fbf-d75e-4a62-be1d-fe4d240864ae",

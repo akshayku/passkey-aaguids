@@ -352,6 +352,10 @@
     "name": "YubiKey 5 Series with Lightning (Enterprise Profile)"
   },
   {
+    "aaguid": "3b3faa7b-2c56-4489-bcd3-53b83ee75768",
+    "name": "SECORA Connect SLS21 D1 FIDO 2.1 v1.0 Enterprise Edition"
+  },
+  {
     "aaguid": "3e078ffd-4c54-4586-8baa-a77da113aec5",
     "name": "Hideez Key 3 FIDO2"
   },
@@ -1374,6 +1378,10 @@
   {
     "aaguid": "de6330a6-202c-402c-877e-a02f6371697e",
     "name": "ID-One Card Go"
+  },
+  {
+    "aaguid": "dee49ee1-11cb-47b6-bed0-8e995e67a0fb",
+    "name": "SECORA Connect SLS21 D1 FIDO 2.1 v1.0 Consumer Edition"
   },
   {
     "aaguid": "def8ab1a-9f91-44f1-a103-088d8dc7d681",
