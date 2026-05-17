@@ -72,22 +72,22 @@
               "userVerificationMethod": "presence_internal"
             },
             {
-              "userVerificationMethod": "pattern_internal"
-            },
-            {
               "userVerificationMethod": "passcode_internal"
             },
             {
               "userVerificationMethod": "fingerprint_internal"
             },
             {
-              "userVerificationMethod": "handprint_internal"
+              "userVerificationMethod": "location_internal"
             },
             {
               "userVerificationMethod": "eyeprint_internal"
             },
             {
-              "userVerificationMethod": "location_internal"
+              "userVerificationMethod": "pattern_internal"
+            },
+            {
+              "userVerificationMethod": "handprint_internal"
             }
           ]
         ]
@@ -177,22 +177,22 @@
             "userVerificationMethod": "presence_internal"
           },
           {
-            "userVerificationMethod": "pattern_internal"
-          },
-          {
             "userVerificationMethod": "passcode_internal"
           },
           {
             "userVerificationMethod": "fingerprint_internal"
           },
           {
-            "userVerificationMethod": "handprint_internal"
+            "userVerificationMethod": "location_internal"
           },
           {
             "userVerificationMethod": "eyeprint_internal"
           },
           {
-            "userVerificationMethod": "location_internal"
+            "userVerificationMethod": "pattern_internal"
+          },
+          {
+            "userVerificationMethod": "handprint_internal"
           }
         ]
       ]
