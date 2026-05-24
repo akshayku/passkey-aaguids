@@ -152,11 +152,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-04-21",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 262145,
+          "certificateNumber": "FIDO20020260410001",
+          "certificationDescriptor": "Idem Key Mini (Consumer Profile)",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-04-10",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 262145,
+          "effectiveDate": "2026-04-10",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-04-21"
+      "timeOfLastStatusChange": "2026-05-20"
     },
     "metadataStatement": {
       "aaguid": "72a2b5b1-95a5-4df9-a881-4192aff4f72e",

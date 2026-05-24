@@ -155,11 +155,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-04-28",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 262145,
+          "certificateNumber": "FIDO20020260421001",
+          "certificationDescriptor": "Cyber Key (Consumer Profile)",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-04-21",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 262145,
+          "effectiveDate": "2026-04-21",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-04-28"
+      "timeOfLastStatusChange": "2026-05-20"
     },
     "metadataStatement": {
       "aaguid": "6d4aa745-dad5-40c4-b9b4-6a252fcee70f",

@@ -53,8 +53,8 @@
         ],
         "protocolFamily": "fido2",
         "publicKeyAlgAndEncodings": [
-          "ecc_x962_raw",
-          "cose"
+          "cose",
+          "ecc_x962_raw"
         ],
         "schema": 3,
         "tcDisplay": [],
@@ -170,8 +170,8 @@
       ],
       "protocolFamily": "fido2",
       "publicKeyAlgAndEncodings": [
-        "ecc_x962_raw",
-        "cose"
+        "cose",
+        "ecc_x962_raw"
       ],
       "schema": 3,
       "tcDisplay": [],

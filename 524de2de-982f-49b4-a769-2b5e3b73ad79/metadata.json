@@ -22,9 +22,9 @@
           "basic_full"
         ],
         "authenticationAlgorithms": [
+          "secp256r1_ecdsa_sha256_raw",
           "secp384r1_ecdsa_sha384_raw",
-          "ed25519_eddsa_sha512_raw",
-          "secp256r1_ecdsa_sha256_raw"
+          "ed25519_eddsa_sha512_raw"
         ],
         "authenticatorGetInfo": {
           "aaguid": "524de2de982f49b4a7692b5e3b73ad79",
@@ -226,9 +226,9 @@
         "basic_full"
       ],
       "authenticationAlgorithms": [
+        "secp256r1_ecdsa_sha256_raw",
         "secp384r1_ecdsa_sha384_raw",
-        "ed25519_eddsa_sha512_raw",
-        "secp256r1_ecdsa_sha256_raw"
+        "ed25519_eddsa_sha512_raw"
       ],
       "authenticatorGetInfo": {
         "aaguid": "524de2de982f49b4a7692b5e3b73ad79",

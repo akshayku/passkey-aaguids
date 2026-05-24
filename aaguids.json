@@ -300,6 +300,10 @@
     "name": "WinMagic FIDO Eazy - Software"
   },
   {
+    "aaguid": "324829d2-1d09-4e7b-942c-5930758f0a21",
+    "name": "Arculus AuthentiKey"
+  },
+  {
     "aaguid": "33d6d7d0-279f-4ef3-96b3-2d3282f4bde6",
     "name": "Thales eToken Fusion BIO Enterprise"
   },
@@ -326,6 +330,10 @@
   {
     "aaguid": "3789da91-f943-46bc-95c3-50ea2012f03a",
     "name": "NEOWAVE Winkeo FIDO2"
+  },
+  {
+    "aaguid": "39502df1-646d-4e31-81a1-2ef68b324678",
+    "name": "GoldKey USB Security Token"
   },
   {
     "aaguid": "39589099-9a75-49fc-afaa-801ca211c62a",
@@ -946,6 +954,10 @@
   {
     "aaguid": "9a3f2abd-a73d-439c-9ee7-1b53a857eaa7",
     "name": "YubiKey 5 Series with NFC Enhanced PIN (Enterprise Profile)"
+  },
+  {
+    "aaguid": "9addb28c-b46f-4402-808f-019651441ff3",
+    "name": "KeePassPasskey"
   },
   {
     "aaguid": "9c835346-796b-4c27-8898-d6032f515cc5",
