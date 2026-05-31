@@ -70,13 +70,13 @@
         "userVerificationDetails": [
           [
             {
+              "userVerificationMethod": "location_internal"
+            },
+            {
               "userVerificationMethod": "passcode_internal"
             },
             {
               "userVerificationMethod": "eyeprint_internal"
-            },
-            {
-              "userVerificationMethod": "location_internal"
             },
             {
               "userVerificationMethod": "handprint_internal"
@@ -174,13 +174,13 @@
       "userVerificationDetails": [
         [
           {
+            "userVerificationMethod": "location_internal"
+          },
+          {
             "userVerificationMethod": "passcode_internal"
           },
           {
             "userVerificationMethod": "eyeprint_internal"
-          },
-          {
-            "userVerificationMethod": "location_internal"
           },
           {
             "userVerificationMethod": "handprint_internal"

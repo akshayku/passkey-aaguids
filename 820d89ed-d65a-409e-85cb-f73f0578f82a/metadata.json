@@ -63,18 +63,6 @@
         "userVerificationDetails": [
           [
             {
-              "userVerificationMethod": "handprint_internal"
-            },
-            {
-              "userVerificationMethod": "fingerprint_internal"
-            },
-            {
-              "userVerificationMethod": "voiceprint_internal"
-            },
-            {
-              "userVerificationMethod": "eyeprint_internal"
-            },
-            {
               "userVerificationMethod": "passcode_internal"
             },
             {
@@ -88,6 +76,18 @@
             },
             {
               "userVerificationMethod": "faceprint_internal"
+            },
+            {
+              "userVerificationMethod": "handprint_internal"
+            },
+            {
+              "userVerificationMethod": "fingerprint_internal"
+            },
+            {
+              "userVerificationMethod": "voiceprint_internal"
+            },
+            {
+              "userVerificationMethod": "eyeprint_internal"
             }
           ]
         ]
@@ -168,18 +168,6 @@
       "userVerificationDetails": [
         [
           {
-            "userVerificationMethod": "handprint_internal"
-          },
-          {
-            "userVerificationMethod": "fingerprint_internal"
-          },
-          {
-            "userVerificationMethod": "voiceprint_internal"
-          },
-          {
-            "userVerificationMethod": "eyeprint_internal"
-          },
-          {
             "userVerificationMethod": "passcode_internal"
           },
           {
@@ -193,6 +181,18 @@
           },
           {
             "userVerificationMethod": "faceprint_internal"
+          },
+          {
+            "userVerificationMethod": "handprint_internal"
+          },
+          {
+            "userVerificationMethod": "fingerprint_internal"
+          },
+          {
+            "userVerificationMethod": "voiceprint_internal"
+          },
+          {
+            "userVerificationMethod": "eyeprint_internal"
           }
         ]
       ]

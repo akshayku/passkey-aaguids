@@ -648,6 +648,10 @@
     "name": "YubiKey 5 Series with NFC (Enterprise Profile)"
   },
   {
+    "aaguid": "6bb49926-160a-4306-a100-4eb39ba6ac45",
+    "name": "AVG Password Manager"
+  },
+  {
     "aaguid": "6d212b28-a2c1-4638-b375-5932070f62e9",
     "name": "initial"
   },
@@ -1030,6 +1034,10 @@
   {
     "aaguid": "a3ee1074-c69c-4286-8b6b-93764136a919",
     "name": "Thales MultiApp FIDO Authenticator V2.1b"
+  },
+  {
+    "aaguid": "a4a2d88e-9796-4356-9164-e2a5a8bd019c",
+    "name": "Avast Password Manager"
   },
   {
     "aaguid": "a4e9fc6d-4cbe-4758-b8ba-37598bb5bbaa",
@@ -1424,6 +1432,10 @@
     "name": "Security Key NFC by Yubico"
   },
   {
+    "aaguid": "e7db2bd3-f2fe-4d71-ad78-7e7aa166cfd1",
+    "name": "Avira Password Manager"
+  },
+  {
     "aaguid": "e86addcd-7711-47e5-b42a-c18257b0bf61",
     "name": "IDCore 3121 Fido"
   },
@@ -1516,6 +1528,10 @@
     "name": "YubiKey 5 Series with NFC"
   },
   {
+    "aaguid": "fa37f553-f9b6-4adb-ac53-8bbb57ebdf0d",
+    "name": "Norton Password Manager"
+  },
+  {
     "aaguid": "fbefdf68-fe86-0106-213e-4d5fa24cbe2e",
     "name": "Excelsecu eSecu FIDO2 NFC Security Key"
   },
@@ -1546,5 +1562,9 @@
   {
     "aaguid": "ff4dac45-ede8-4ec2-aced-cf66103f4335",
     "name": "YubiKey 5 Series"
+  },
+  {
+    "aaguid": "no",
+    "name": "no"
   }
 ]

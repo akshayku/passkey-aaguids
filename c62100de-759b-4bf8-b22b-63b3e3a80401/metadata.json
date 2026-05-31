@@ -93,10 +93,10 @@
         "userVerificationDetails": [
           [
             {
-              "userVerificationMethod": "passcode_external"
+              "userVerificationMethod": "presence_internal"
             },
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "passcode_external"
             },
             {
               "userVerificationMethod": "fingerprint_internal"
@@ -104,10 +104,10 @@
           ],
           [
             {
-              "userVerificationMethod": "fingerprint_internal"
+              "userVerificationMethod": "presence_internal"
             },
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "fingerprint_internal"
             }
           ]
         ]
@@ -220,10 +220,10 @@
       "userVerificationDetails": [
         [
           {
-            "userVerificationMethod": "passcode_external"
+            "userVerificationMethod": "presence_internal"
           },
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "passcode_external"
           },
           {
             "userVerificationMethod": "fingerprint_internal"
@@ -231,10 +231,10 @@
         ],
         [
           {
-            "userVerificationMethod": "fingerprint_internal"
+            "userVerificationMethod": "presence_internal"
           },
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "fingerprint_internal"
           }
         ]
       ]

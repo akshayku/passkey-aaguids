@@ -67,7 +67,7 @@
         "userVerificationDetails": [
           [
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "none"
             },
             {
               "caDesc": {
@@ -79,7 +79,7 @@
               "userVerificationMethod": "passcode_external"
             },
             {
-              "userVerificationMethod": "none"
+              "userVerificationMethod": "presence_internal"
             }
           ]
         ]
@@ -167,7 +167,7 @@
       "userVerificationDetails": [
         [
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "none"
           },
           {
             "caDesc": {
@@ -179,7 +179,7 @@
             "userVerificationMethod": "passcode_external"
           },
           {
-            "userVerificationMethod": "none"
+            "userVerificationMethod": "presence_internal"
           }
         ]
       ]
