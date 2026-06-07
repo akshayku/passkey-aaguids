@@ -152,6 +152,10 @@
     "name": "Atos CardOS FIDO2"
   },
   {
+    "aaguid": "1c501ae2-069c-4e07-b829-f9738e25260b",
+    "name": "BioThenticate"
+  },
+  {
     "aaguid": "1d1b4e33-76a1-47fb-97a0-14b10d0933f1",
     "name": "Cryptnox FIDO2.1"
   },
@@ -361,7 +365,7 @@
   },
   {
     "aaguid": "3b3faa7b-2c56-4489-bcd3-53b83ee75768",
-    "name": "SECORA Connect SLS21 D1 FIDO 2.1 v1.0 Enterprise Edition"
+    "name": "SECORA Connect SLS21 D1 FIDO 2.1 v1.0 by Infineon - Enterprise Edition"
   },
   {
     "aaguid": "3e078ffd-4c54-4586-8baa-a77da113aec5",
@@ -1401,7 +1405,7 @@
   },
   {
     "aaguid": "dee49ee1-11cb-47b6-bed0-8e995e67a0fb",
-    "name": "SECORA Connect SLS21 D1 FIDO 2.1 v1.0 Consumer Edition"
+    "name": "SECORA Connect SLS21 D1 FIDO 2.1 v1.0 by Infineon - Consumer Edition"
   },
   {
     "aaguid": "def8ab1a-9f91-44f1-a103-088d8dc7d681",
