@@ -93,13 +93,13 @@
         "userVerificationDetails": [
           [
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "fingerprint_internal"
             },
             {
               "userVerificationMethod": "passcode_external"
             },
             {
-              "userVerificationMethod": "fingerprint_internal"
+              "userVerificationMethod": "presence_internal"
             }
           ],
           [
@@ -220,13 +220,13 @@
       "userVerificationDetails": [
         [
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "fingerprint_internal"
           },
           {
             "userVerificationMethod": "passcode_external"
           },
           {
-            "userVerificationMethod": "fingerprint_internal"
+            "userVerificationMethod": "presence_internal"
           }
         ],
         [

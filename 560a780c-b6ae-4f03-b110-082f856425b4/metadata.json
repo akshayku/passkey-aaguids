@@ -124,6 +124,15 @@
           ],
           [
             {
+              "caDesc": {
+                "base": 10,
+                "blockSlowdown": 0,
+                "maxRetries": 8,
+                "minLength": 4
+              },
+              "userVerificationMethod": "passcode_external"
+            },
+            {
               "baDesc": {
                 "blockSlowdown": 1,
                 "iAPARThreshold": 0.0,
@@ -133,15 +142,6 @@
                 "selfAttestedFRR": 0.3
               },
               "userVerificationMethod": "fingerprint_internal"
-            },
-            {
-              "caDesc": {
-                "base": 10,
-                "blockSlowdown": 0,
-                "maxRetries": 8,
-                "minLength": 4
-              },
-              "userVerificationMethod": "passcode_external"
             }
           ]
         ]
@@ -275,6 +275,15 @@
         ],
         [
           {
+            "caDesc": {
+              "base": 10,
+              "blockSlowdown": 0,
+              "maxRetries": 8,
+              "minLength": 4
+            },
+            "userVerificationMethod": "passcode_external"
+          },
+          {
             "baDesc": {
               "blockSlowdown": 1,
               "iAPARThreshold": 0.0,
@@ -284,15 +293,6 @@
               "selfAttestedFRR": 0.3
             },
             "userVerificationMethod": "fingerprint_internal"
-          },
-          {
-            "caDesc": {
-              "base": 10,
-              "blockSlowdown": 0,
-              "maxRetries": 8,
-              "minLength": 4
-            },
-            "userVerificationMethod": "passcode_external"
           }
         ]
       ]

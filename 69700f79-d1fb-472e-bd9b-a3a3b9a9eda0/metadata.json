@@ -15,8 +15,8 @@
           "basic_full"
         ],
         "authenticationAlgorithms": [
-          "rsassa_pss_sha256_raw",
-          "secp256r1_ecdsa_sha256_raw"
+          "secp256r1_ecdsa_sha256_raw",
+          "rsassa_pss_sha256_raw"
         ],
         "authenticatorGetInfo": {
           "aaguid": "69700f79d1fb472ebd9ba3a3b9a9eda0",
@@ -103,13 +103,13 @@
         "userVerificationDetails": [
           [
             {
+              "userVerificationMethod": "presence_internal"
+            },
+            {
               "userVerificationMethod": "fingerprint_internal"
             },
             {
               "userVerificationMethod": "passcode_external"
-            },
-            {
-              "userVerificationMethod": "presence_internal"
             }
           ]
         ]
@@ -145,8 +145,8 @@
         "basic_full"
       ],
       "authenticationAlgorithms": [
-        "rsassa_pss_sha256_raw",
-        "secp256r1_ecdsa_sha256_raw"
+        "secp256r1_ecdsa_sha256_raw",
+        "rsassa_pss_sha256_raw"
       ],
       "authenticatorGetInfo": {
         "aaguid": "69700f79d1fb472ebd9ba3a3b9a9eda0",
@@ -233,13 +233,13 @@
       "userVerificationDetails": [
         [
           {
+            "userVerificationMethod": "presence_internal"
+          },
+          {
             "userVerificationMethod": "fingerprint_internal"
           },
           {
             "userVerificationMethod": "passcode_external"
-          },
-          {
-            "userVerificationMethod": "presence_internal"
           }
         ]
       ]

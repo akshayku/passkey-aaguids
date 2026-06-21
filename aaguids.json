@@ -152,8 +152,8 @@
     "name": "Atos CardOS FIDO2"
   },
   {
-    "aaguid": "1c501ae2-069c-4e07-b829-f9738e25260b",
-    "name": "BioThenticate"
+    "aaguid": "1cef53dd-bffa-4f07-97ac-984b37fe8658",
+    "name": "Solo 2"
   },
   {
     "aaguid": "1d1b4e33-76a1-47fb-97a0-14b10d0933f1",
@@ -204,8 +204,16 @@
     "name": "Feitian ePass FIDO2-NFC Series (CTAP2.1, CTAP2.0, U2F)"
   },
   {
+    "aaguid": "2369d4d0-13ce-48cb-9f26-f7ed8c9a6068",
+    "name": "Solo 2"
+  },
+  {
     "aaguid": "23786452-f02d-4344-87ed-aaf703726881",
     "name": "SafeNet eToken Fusion CC"
+  },
+  {
+    "aaguid": "238ab2f5-b57f-4917-b3c6-3d3c6c0c350f",
+    "name": "FEITIAN FT-JCOS BioCard"
   },
   {
     "aaguid": "24083bcb-3034-4867-99de-a3b52e1d426a",
@@ -242,6 +250,10 @@
   {
     "aaguid": "2c2aeed8-8174-4159-814b-486e92a261d0",
     "name": "NEOWAVE WINKEO V2.0"
+  },
+  {
+    "aaguid": "2c501ae2-069c-4e07-b829-f9738e25260b",
+    "name": "BioThenticate Android FIDO2 Authenticator"
   },
   {
     "aaguid": "2cd2f727-f6ca-44da-8f48-5c2e5da000a2",
@@ -337,7 +349,7 @@
   },
   {
     "aaguid": "39502df1-646d-4e31-81a1-2ef68b324678",
-    "name": "GoldKey USB Security Token"
+    "name": "USB GoldKey Security Token"
   },
   {
     "aaguid": "39589099-9a75-49fc-afaa-801ca211c62a",
@@ -492,6 +504,10 @@
     "name": "SmartDisplayer BobeePass FIDO2 Authenticator"
   },
   {
+    "aaguid": "51787637-8ab8-460c-9302-de0b853d4ffb",
+    "name": "SpearID FIDO2 Standard"
+  },
+  {
     "aaguid": "522a3f91-5f5d-480d-be37-6cecfad5a27b",
     "name": "Precision InnaIT Key FIDO 2 Level 2 certified"
   },
@@ -570,6 +586,10 @@
   {
     "aaguid": "5d629218-d3a5-11ed-afa1-0242ac120002",
     "name": "Swissbit iShield Key Pro"
+  },
+  {
+    "aaguid": "5d684cea-941b-4d5c-99fd-61beb53524e0",
+    "name": "Solo 2"
   },
   {
     "aaguid": "5df66f62-5b47-43d3-aa1d-a6e31c8dbeb5",
@@ -686,6 +706,10 @@
   {
     "aaguid": "6ec5cff2-a0f9-4169-945b-f33b563f7b99",
     "name": "YubiKey Bio Series - Multi-protocol Edition (Enterprise Profile)"
+  },
+  {
+    "aaguid": "7017a0b3-fb2f-49fc-8c76-f39cf44bb782",
+    "name": "BioThenticate iOS FIDO2 Authenticator"
   },
   {
     "aaguid": "70617373-7761-6c6c-6669-646f32303236",
@@ -814,6 +838,10 @@
   {
     "aaguid": "8576631b-d4a0-427f-5773-0ec71c9e0279",
     "name": "Access FIDO"
+  },
+  {
+    "aaguid": "8652abe9-fbd8-4810-a840-d6fc442a8c2c",
+    "name": "Solo 2"
   },
   {
     "aaguid": "8681a073-5f50-4d52-bce4-e21658d207b3",
@@ -1214,6 +1242,10 @@
   {
     "aaguid": "bfc748bb-3429-4faa-b9f9-7cfa9f3b76d0",
     "name": "iPasswords"
+  },
+  {
+    "aaguid": "c09b3399-4a3d-306c-7bdc-967fef47241f",
+    "name": "Giesecke+Devrient StarSign FIDO Card 2.1"
   },
   {
     "aaguid": "c1288a5c-d66b-495c-a68f-4e81f9ec5b53",
