@@ -68,9 +68,6 @@
         "userVerificationDetails": [
           [
             {
-              "userVerificationMethod": "presence_internal"
-            },
-            {
               "userVerificationMethod": "eyeprint_internal"
             },
             {
@@ -84,6 +81,9 @@
             },
             {
               "userVerificationMethod": "faceprint_internal"
+            },
+            {
+              "userVerificationMethod": "presence_internal"
             }
           ]
         ]
@@ -171,9 +171,6 @@
       "userVerificationDetails": [
         [
           {
-            "userVerificationMethod": "presence_internal"
-          },
-          {
             "userVerificationMethod": "eyeprint_internal"
           },
           {
@@ -187,6 +184,9 @@
           },
           {
             "userVerificationMethod": "faceprint_internal"
+          },
+          {
+            "userVerificationMethod": "presence_internal"
           }
         ]
       ]

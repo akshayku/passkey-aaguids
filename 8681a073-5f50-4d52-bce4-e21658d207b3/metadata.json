@@ -77,13 +77,13 @@
               "userVerificationMethod": "fingerprint_internal"
             },
             {
+              "userVerificationMethod": "presence_internal"
+            },
+            {
               "userVerificationMethod": "faceprint_internal"
             },
             {
               "userVerificationMethod": "location_internal"
-            },
-            {
-              "userVerificationMethod": "presence_internal"
             }
           ]
         ]
@@ -180,13 +180,13 @@
             "userVerificationMethod": "fingerprint_internal"
           },
           {
+            "userVerificationMethod": "presence_internal"
+          },
+          {
             "userVerificationMethod": "faceprint_internal"
           },
           {
             "userVerificationMethod": "location_internal"
-          },
-          {
-            "userVerificationMethod": "presence_internal"
           }
         ]
       ]
