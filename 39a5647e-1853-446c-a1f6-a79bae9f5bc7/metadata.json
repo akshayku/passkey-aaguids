@@ -75,10 +75,10 @@
               "userVerificationMethod": "passcode_internal"
             },
             {
-              "userVerificationMethod": "fingerprint_internal"
+              "userVerificationMethod": "location_internal"
             },
             {
-              "userVerificationMethod": "location_internal"
+              "userVerificationMethod": "fingerprint_internal"
             },
             {
               "userVerificationMethod": "handprint_internal"
@@ -180,10 +180,10 @@
             "userVerificationMethod": "passcode_internal"
           },
           {
-            "userVerificationMethod": "fingerprint_internal"
+            "userVerificationMethod": "location_internal"
           },
           {
-            "userVerificationMethod": "location_internal"
+            "userVerificationMethod": "fingerprint_internal"
           },
           {
             "userVerificationMethod": "handprint_internal"

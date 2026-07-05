@@ -115,6 +115,18 @@
       "statusReports": [
         {
           "authenticatorVersion": 33619976,
+          "certificateNumber": "FIDO20020260523001",
+          "certificationDescriptor": "NEOWAVE Badgeo",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-05-23",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 33619976,
           "certificateNumber": "FIDO20020251104001",
           "certificationDescriptor": "Neowave Badgeo FIDO2 (CTAP2.1)",
           "certificationPolicyVersion": "1.4.0",
@@ -128,7 +140,7 @@
           "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2025-11-21"
+      "timeOfLastStatusChange": "2026-07-02"
     },
     "metadataStatement": {
       "aaguid": "a7fc3f84-86a3-4da4-a3d7-eb6485a066d8",

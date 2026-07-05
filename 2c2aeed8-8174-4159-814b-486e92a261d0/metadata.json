@@ -116,6 +116,18 @@
       "statusReports": [
         {
           "authenticatorVersion": 33619976,
+          "certificateNumber": "FIDO20020260523002",
+          "certificationDescriptor": "NEOWAVE Winkeo2J FIDO2",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-05-23",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 33619976,
           "certificateNumber": "FIDO20020251104002",
           "certificationDescriptor": "NEOWAVE WINKEO V2.0",
           "certificationPolicyVersion": "1.4.0",
@@ -137,7 +149,7 @@
           "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2025-12-05"
+      "timeOfLastStatusChange": "2026-07-02"
     },
     "metadataStatement": {
       "aaguid": "2c2aeed8-8174-4159-814b-486e92a261d0",

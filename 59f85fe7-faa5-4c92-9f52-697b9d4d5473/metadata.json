@@ -80,10 +80,10 @@
               "userVerificationMethod": "fingerprint_internal"
             },
             {
-              "userVerificationMethod": "faceprint_internal"
+              "userVerificationMethod": "presence_internal"
             },
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "faceprint_internal"
             }
           ]
         ]
@@ -183,10 +183,10 @@
             "userVerificationMethod": "fingerprint_internal"
           },
           {
-            "userVerificationMethod": "faceprint_internal"
+            "userVerificationMethod": "presence_internal"
           },
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "faceprint_internal"
           }
         ]
       ]

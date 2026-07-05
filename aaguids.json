@@ -137,7 +137,7 @@
   },
   {
     "aaguid": "18852056-063b-4042-9814-7d0d383081f9",
-    "name": "SECORA ID Key S USB Enterprise Edition"
+    "name": "SECORA ID Key S USB by Infineon Enterprise Edition"
   },
   {
     "aaguid": "19083c3d-8383-4b18-bc03-8f1c9ab2fd1b",
@@ -537,7 +537,7 @@
   },
   {
     "aaguid": "55fd881f-40ba-4eaf-8435-42c5fed08b76",
-    "name": "SECORA ID V2 Consumer Edition"
+    "name": "SECORA ID V2 by Infineon Consumer Edition"
   },
   {
     "aaguid": "560a780c-b6ae-4f03-b110-082f856425b4",
@@ -809,7 +809,7 @@
   },
   {
     "aaguid": "8108bdcd-8483-46b3-b3ce-359f8190325e",
-    "name": "SECORA ID V2 Enterprise Edition"
+    "name": "SECORA ID V2 by Infineon Enterprise Edition"
   },
   {
     "aaguid": "817cdab8-0d51-4de1-a821-e25b88519cf3",
@@ -882,6 +882,10 @@
   {
     "aaguid": "89b19028-256b-4025-8872-255358d950e4",
     "name": "Sentry Enterprises CTAP2 Authenticator"
+  },
+  {
+    "aaguid": "89fb94b7-06c9-3673-9b7e-30526d968145",
+    "name": "Pico Keys"
   },
   {
     "aaguid": "8be8e097-52eb-4b80-bbe3-35747da2f0db",

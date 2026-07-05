@@ -101,10 +101,10 @@
           ],
           [
             {
-              "userVerificationMethod": "passcode_internal"
+              "userVerificationMethod": "presence_internal"
             },
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "passcode_internal"
             }
           ]
         ]
@@ -233,10 +233,10 @@
         ],
         [
           {
-            "userVerificationMethod": "passcode_internal"
+            "userVerificationMethod": "presence_internal"
           },
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "passcode_internal"
           }
         ]
       ]
