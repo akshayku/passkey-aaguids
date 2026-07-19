@@ -200,6 +200,10 @@
     "name": "Clife Key 2 NFC"
   },
   {
+    "aaguid": "23485084-2d0d-49e1-9b7d-b1a63cd8c891",
+    "name": "IDEMIA Cosmo FIDO R2 USB-C FIPS E"
+  },
+  {
     "aaguid": "234cd403-35a2-4cc2-8015-77ea280c77f5",
     "name": "Feitian ePass FIDO2-NFC Series (CTAP2.1, CTAP2.0, U2F)"
   },
@@ -622,6 +626,10 @@
   {
     "aaguid": "61250591-b2bc-4456-b719-0b17be90bb30",
     "name": "eWBM eFPA FIDO2 Authenticator"
+  },
+  {
+    "aaguid": "6169eb16-f87a-42d8-978d-e1ac0c3f319f",
+    "name": "GoTrust Idem Card NFC"
   },
   {
     "aaguid": "62e54e98-c209-4df3-b692-de71bb6a8528",
@@ -1172,6 +1180,10 @@
     "name": "Chromium Browser"
   },
   {
+    "aaguid": "b68c4b8d-65cb-42ae-b4f6-8606dfba3c22",
+    "name": "IDEMIA SOLVO Fly 80 R3 FIDO Card for j"
+  },
+  {
     "aaguid": "b6ede29c-3772-412c-8a78-539c1f4c62d2",
     "name": "Feitian BioPass FIDO2 Plus Authenticator"
   },
@@ -1340,6 +1352,10 @@
     "name": "USB/NFC Passcode Authenticator"
   },
   {
+    "aaguid": "d2717a32-9851-48a8-9961-b264c97a411a",
+    "name": "Fenko Vault"
+  },
+  {
     "aaguid": "d2fbd093-ee62-488d-9dad-1e36389f8826",
     "name": "YubiKey 5 FIPS Series (RC Preview)"
   },
@@ -1406,6 +1422,10 @@
   {
     "aaguid": "da1fa263-8b25-42b6-a820-c0036f21ba7f",
     "name": "ATKey.Card NFC"
+  },
+  {
+    "aaguid": "da583154-ce16-4cdf-9fe6-1dba788c0998",
+    "name": "Hey Be Safe"
   },
   {
     "aaguid": "db8b1c59-5fa1-4896-bbf6-3f5fcba46060",

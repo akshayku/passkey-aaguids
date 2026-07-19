@@ -1,0 +1,270 @@
+[
+  {
+    "description": "IDEMIA SOLVO Fly 80 R3 FIDO Card for j",
+    "mds_entry": {
+      "aaguid": "b68c4b8d-65cb-42ae-b4f6-8606dfba3c22",
+      "metadataStatement": {
+        "aaguid": "b68c4b8d-65cb-42ae-b4f6-8606dfba3c22",
+        "attachmentHint": [
+          "nfc"
+        ],
+        "attestationRootCertificates": [
+          "MIIC5TCCAkagAwIBAgIGAOrQAAABMAoGCCqGSM49BAMEMIGEMQswCQYDVQQGEwJGUjEMMAoGA1UECAwDSURGMRMwEQYDVQQHDApDb3VyYmV2b2llMSMwIQYDVQQKDBpJREVNSUEgU2VjdXJlIFRyYW5zYWN0aW9uczEtMCsGA1UEAwwkSURFTUlBIFNlY3VyZSBUcmFuc2FjdGlvbnMgLSBSb290IENBMCAXDTI2MDMxOTIzMDAwMFoYDzIwNjYwMzIwMjI1OTU5WjCBhDELMAkGA1UEBhMCRlIxDDAKBgNVBAgMA0lERjETMBEGA1UEBwwKQ291cmJldm9pZTEjMCEGA1UECgwaSURFTUlBIFNlY3VyZSBUcmFuc2FjdGlvbnMxLTArBgNVBAMMJElERU1JQSBTZWN1cmUgVHJhbnNhY3Rpb25zIC0gUm9vdCBDQTCBmzAQBgcqhkjOPQIBBgUrgQQAIwOBhgAEAXTEXk+b5j7Jt5wkuB0ZiBuP5DVExS+UhMgM3UmarqQD/IISofgXDK4a7ddUi8f8N1dOHywhzxgQpB3az+gF2Xd2Ae81eX+Bd/mQoxyOlQTSq+EdDSO3u6qa0EIXgIWTn6sRlYE7P/JehjtqzkXtFW9SXjJj6eUrRTGOkpUbR9oy9EAno10wWzAfBgNVHSMEGDAWgBSKJrLiL0EKVdMNlbCHM5gZESduYDAdBgNVHQ4EFgQUiiay4i9BClXTDZWwhzOYGREnbmAwCwYDVR0PBAQDAgD/MAwGA1UdEwQFMAMBAf8wCgYIKoZIzj0EAwQDgYwAMIGIAkIA4AijgJobLN3EW4S1I7biOPGx8jQVoIOY1Ha9yVSCXArMIH/pfAmGTZi4DoHHGxjwqIuVUQUQkx8vMYPPA0LH5Y4CQgGqhFpjnEdflmYp6dgOrK/kUh0pnaKzxZgPuIgacdV/Zs3sXAX63cCkDYeOqGqdt8iQobUnwjHx95X8/BMFj0JwFA=="
+        ],
+        "attestationTypes": [
+          "basic_full"
+        ],
+        "authenticationAlgorithms": [
+          "secp256r1_ecdsa_sha256_raw"
+        ],
+        "authenticatorGetInfo": {
+          "aaguid": "b68c4b8d65cb42aeb4f68606dfba3c22",
+          "algorithms": [
+            {
+              "alg": -7,
+              "type": "public-key"
+            }
+          ],
+          "certifications": {
+            "FIDO": 1
+          },
+          "extensions": [
+            "credProtect",
+            "hmac-secret"
+          ],
+          "firmwareVersion": 1107448831,
+          "maxCredentialCountInList": 16,
+          "maxCredentialIdLength": 208,
+          "maxMsgSize": 1550,
+          "minPINLength": 4,
+          "options": {
+            "alwaysUv": true,
+            "authnrCfg": true,
+            "clientPin": true,
+            "credMgmt": true,
+            "pinUvAuthToken": true,
+            "plat": false,
+            "rk": true,
+            "up": true
+          },
+          "pinUvAuthProtocols": [
+            2,
+            1
+          ],
+          "remainingDiscoverableCredentials": 59,
+          "transports": [
+            "nfc"
+          ],
+          "versions": [
+            "U2F_V2",
+            "FIDO_2_0",
+            "FIDO_2_1"
+          ]
+        },
+        "authenticatorVersion": 1107448831,
+        "cryptoStrength": 128,
+        "description": "IDEMIA SOLVO Fly 80 R3 FIDO Card for j",
+        "friendlyNames": {
+          "en-US": "IDEMIA SOLVO Fly 80 R3 FIDO Card for j"
+        },
+        "icon": "data:image/png;base64,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",
+        "keyProtection": [
+          "hardware",
+          "secure_element"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "on_chip"
+        ],
+        "protocolFamily": "fido2",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "tcDisplay": [],
+        "upv": [
+          {
+            "major": 1,
+            "minor": 0
+          },
+          {
+            "major": 1,
+            "minor": 1
+          }
+        ],
+        "userVerificationDetails": [
+          [
+            {
+              "userVerificationMethod": "none"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "presence_internal"
+            }
+          ],
+          [
+            {
+              "caDesc": {
+                "base": 64,
+                "blockSlowdown": 0,
+                "maxRetries": 8,
+                "minLength": 4
+              },
+              "userVerificationMethod": "passcode_external"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "presence_internal"
+            },
+            {
+              "caDesc": {
+                "base": 64,
+                "blockSlowdown": 0,
+                "maxRetries": 8,
+                "minLength": 4
+              },
+              "userVerificationMethod": "passcode_external"
+            }
+          ]
+        ]
+      },
+      "statusReports": [
+        {
+          "effectiveDate": "2026-07-14",
+          "status": "NOT_FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2026-07-14"
+    },
+    "metadataStatement": {
+      "aaguid": "b68c4b8d-65cb-42ae-b4f6-8606dfba3c22",
+      "attachmentHint": [
+        "nfc"
+      ],
+      "attestationRootCertificates": [
+        "MIIC5TCCAkagAwIBAgIGAOrQAAABMAoGCCqGSM49BAMEMIGEMQswCQYDVQQGEwJGUjEMMAoGA1UECAwDSURGMRMwEQYDVQQHDApDb3VyYmV2b2llMSMwIQYDVQQKDBpJREVNSUEgU2VjdXJlIFRyYW5zYWN0aW9uczEtMCsGA1UEAwwkSURFTUlBIFNlY3VyZSBUcmFuc2FjdGlvbnMgLSBSb290IENBMCAXDTI2MDMxOTIzMDAwMFoYDzIwNjYwMzIwMjI1OTU5WjCBhDELMAkGA1UEBhMCRlIxDDAKBgNVBAgMA0lERjETMBEGA1UEBwwKQ291cmJldm9pZTEjMCEGA1UECgwaSURFTUlBIFNlY3VyZSBUcmFuc2FjdGlvbnMxLTArBgNVBAMMJElERU1JQSBTZWN1cmUgVHJhbnNhY3Rpb25zIC0gUm9vdCBDQTCBmzAQBgcqhkjOPQIBBgUrgQQAIwOBhgAEAXTEXk+b5j7Jt5wkuB0ZiBuP5DVExS+UhMgM3UmarqQD/IISofgXDK4a7ddUi8f8N1dOHywhzxgQpB3az+gF2Xd2Ae81eX+Bd/mQoxyOlQTSq+EdDSO3u6qa0EIXgIWTn6sRlYE7P/JehjtqzkXtFW9SXjJj6eUrRTGOkpUbR9oy9EAno10wWzAfBgNVHSMEGDAWgBSKJrLiL0EKVdMNlbCHM5gZESduYDAdBgNVHQ4EFgQUiiay4i9BClXTDZWwhzOYGREnbmAwCwYDVR0PBAQDAgD/MAwGA1UdEwQFMAMBAf8wCgYIKoZIzj0EAwQDgYwAMIGIAkIA4AijgJobLN3EW4S1I7biOPGx8jQVoIOY1Ha9yVSCXArMIH/pfAmGTZi4DoHHGxjwqIuVUQUQkx8vMYPPA0LH5Y4CQgGqhFpjnEdflmYp6dgOrK/kUh0pnaKzxZgPuIgacdV/Zs3sXAX63cCkDYeOqGqdt8iQobUnwjHx95X8/BMFj0JwFA=="
+      ],
+      "attestationTypes": [
+        "basic_full"
+      ],
+      "authenticationAlgorithms": [
+        "secp256r1_ecdsa_sha256_raw"
+      ],
+      "authenticatorGetInfo": {
+        "aaguid": "b68c4b8d65cb42aeb4f68606dfba3c22",
+        "algorithms": [
+          {
+            "alg": -7,
+            "type": "public-key"
+          }
+        ],
+        "certifications": {
+          "FIDO": 1
+        },
+        "extensions": [
+          "credProtect",
+          "hmac-secret"
+        ],
+        "firmwareVersion": 1107448831,
+        "maxCredentialCountInList": 16,
+        "maxCredentialIdLength": 208,
+        "maxMsgSize": 1550,
+        "minPINLength": 4,
+        "options": {
+          "alwaysUv": true,
+          "authnrCfg": true,
+          "clientPin": true,
+          "credMgmt": true,
+          "pinUvAuthToken": true,
+          "plat": false,
+          "rk": true,
+          "up": true
+        },
+        "pinUvAuthProtocols": [
+          2,
+          1
+        ],
+        "remainingDiscoverableCredentials": 59,
+        "transports": [
+          "nfc"
+        ],
+        "versions": [
+          "U2F_V2",
+          "FIDO_2_0",
+          "FIDO_2_1"
+        ]
+      },
+      "authenticatorVersion": 1107448831,
+      "cryptoStrength": 128,
+      "description": "IDEMIA SOLVO Fly 80 R3 FIDO Card for j",
+      "friendlyNames": {
+        "en-US": "IDEMIA SOLVO Fly 80 R3 FIDO Card for j"
+      },
+      "icon": "data:image/png;base64,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",
+      "keyProtection": [
+        "hardware",
+        "secure_element"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "on_chip"
+      ],
+      "protocolFamily": "fido2",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "tcDisplay": [],
+      "upv": [
+        {
+          "major": 1,
+          "minor": 0
+        },
+        {
+          "major": 1,
+          "minor": 1
+        }
+      ],
+      "userVerificationDetails": [
+        [
+          {
+            "userVerificationMethod": "none"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "presence_internal"
+          }
+        ],
+        [
+          {
+            "caDesc": {
+              "base": 64,
+              "blockSlowdown": 0,
+              "maxRetries": 8,
+              "minLength": 4
+            },
+            "userVerificationMethod": "passcode_external"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "presence_internal"
+          },
+          {
+            "caDesc": {
+              "base": 64,
+              "blockSlowdown": 0,
+              "maxRetries": 8,
+              "minLength": 4
+            },
+            "userVerificationMethod": "passcode_external"
+          }
+        ]
+      ]
+    },
+    "name": "IDEMIA SOLVO Fly 80 R3 FIDO Card for j"
+  }
+]

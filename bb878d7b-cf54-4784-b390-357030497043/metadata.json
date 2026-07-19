@@ -77,10 +77,10 @@
         "userVerificationDetails": [
           [
             {
-              "userVerificationMethod": "passcode_external"
+              "userVerificationMethod": "presence_internal"
             },
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "passcode_external"
             }
           ],
           [
@@ -102,11 +102,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2025-08-26",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 1,
+          "certificateNumber": "FIDO20020260325001",
+          "certificationDescriptor": "TruU Windows Authenticator",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-03-25",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 1,
+          "effectiveDate": "2026-03-25",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2025-08-26"
+      "timeOfLastStatusChange": "2026-07-15"
     },
     "metadataStatement": {
       "aaguid": "bb878d7b-cf54-4784-b390-357030497043",
@@ -182,10 +195,10 @@
       "userVerificationDetails": [
         [
           {
-            "userVerificationMethod": "passcode_external"
+            "userVerificationMethod": "presence_internal"
           },
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "passcode_external"
           }
         ],
         [
