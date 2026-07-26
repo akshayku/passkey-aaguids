@@ -144,6 +144,10 @@
     "name": "YubiKey 5 Series"
   },
   {
+    "aaguid": "19bca99b-7c09-44fe-a969-8cba45764542",
+    "name": "HID Crescendo Key V3 FIPS"
+  },
+  {
     "aaguid": "1ac71f64-468d-4fe0-bef1-0e5f2f551f18",
     "name": "YubiKey 5 Series with NFC (Enterprise Profile)"
   },
@@ -629,7 +633,7 @@
   },
   {
     "aaguid": "6169eb16-f87a-42d8-978d-e1ac0c3f319f",
-    "name": "GoTrust Idem Card NFC"
+    "name": "GoTrust Idem Card"
   },
   {
     "aaguid": "62e54e98-c209-4df3-b692-de71bb6a8528",

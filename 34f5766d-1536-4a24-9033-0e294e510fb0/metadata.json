@@ -111,6 +111,9 @@
         "userVerificationDetails": [
           [
             {
+              "userVerificationMethod": "all"
+            },
+            {
               "caDesc": {
                 "base": 64,
                 "blockSlowdown": 0,
@@ -121,9 +124,6 @@
             },
             {
               "userVerificationMethod": "presence_internal"
-            },
-            {
-              "userVerificationMethod": "all"
             }
           ],
           [
@@ -270,6 +270,9 @@
       "userVerificationDetails": [
         [
           {
+            "userVerificationMethod": "all"
+          },
+          {
             "caDesc": {
               "base": 64,
               "blockSlowdown": 0,
@@ -280,9 +283,6 @@
           },
           {
             "userVerificationMethod": "presence_internal"
-          },
-          {
-            "userVerificationMethod": "all"
           }
         ],
         [
