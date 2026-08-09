@@ -440,6 +440,10 @@
     "name": "YubiKey 5 Series (Enterprise Profile)"
   },
   {
+    "aaguid": "45e3057e-b2f9-48ed-912f-9b901e153b16",
+    "name": "Uniqkey"
+  },
+  {
     "aaguid": "46544d5d-8f5d-4db4-89ac-ea8977073fff",
     "name": "Foongtone FIDO Authenticator"
   },
@@ -592,6 +596,10 @@
     "name": "Allthenticator Android App: roaming BLE FIDO2 Allthenticator for Windows, Mac, Linux, and Allthenticate door readers"
   },
   {
+    "aaguid": "5ca471bb-a56d-46ad-a496-67e70e9ed9fb",
+    "name": "Parcel"
+  },
+  {
     "aaguid": "5d629218-d3a5-11ed-afa1-0242ac120002",
     "name": "Swissbit iShield Key Pro"
   },
@@ -642,6 +650,10 @@
   {
     "aaguid": "636f7265-7061-7373-6964-656e74697479",
     "name": "CorePass"
+  },
+  {
+    "aaguid": "65c97700-f5ef-4d5c-8a42-f30e45ac94b7",
+    "name": "Royal Vault"
   },
   {
     "aaguid": "662ef48a-95e2-4aaa-a6c1-5b9c40375824",
@@ -866,6 +878,10 @@
   {
     "aaguid": "87dbc5a1-4c94-4dc8-8a47-97d800fd1f3c",
     "name": "eWBM eFA320 FIDO2 Authenticator"
+  },
+  {
+    "aaguid": "87f5ec51-f721-4feb-9fe4-be18c4971894",
+    "name": "PassCard"
   },
   {
     "aaguid": "882adaf5-3aa9-4708-8e7d-3957103775b4",

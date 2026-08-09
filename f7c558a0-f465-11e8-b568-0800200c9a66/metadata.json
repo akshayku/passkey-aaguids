@@ -57,6 +57,9 @@
         "userVerificationDetails": [
           [
             {
+              "userVerificationMethod": "passcode_internal"
+            },
+            {
               "baDesc": {
                 "blockSlowdown": 30,
                 "iAPARThreshold": 0.0,
@@ -69,9 +72,6 @@
             },
             {
               "userVerificationMethod": "presence_internal"
-            },
-            {
-              "userVerificationMethod": "passcode_internal"
             }
           ]
         ]
@@ -146,6 +146,9 @@
       "userVerificationDetails": [
         [
           {
+            "userVerificationMethod": "passcode_internal"
+          },
+          {
             "baDesc": {
               "blockSlowdown": 30,
               "iAPARThreshold": 0.0,
@@ -158,9 +161,6 @@
           },
           {
             "userVerificationMethod": "presence_internal"
-          },
-          {
-            "userVerificationMethod": "passcode_internal"
           }
         ]
       ]
