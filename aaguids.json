@@ -452,6 +452,10 @@
     "name": "Foongtone FIDO Authenticator"
   },
   {
+    "aaguid": "477b05cd-7f78-4fe7-b629-27247f296138",
+    "name": "WALLIX Vault"
+  },
+  {
     "aaguid": "47ab2fb4-66ac-4184-9ae1-86be814012d5",
     "name": "Security Key NFC by Yubico - Enterprise Edition"
   },
@@ -542,6 +546,10 @@
   {
     "aaguid": "5343502d-5343-5343-6172-644649444f32",
     "name": "ESS Smart Card Inc. Authenticator"
+  },
+  {
+    "aaguid": "53e7a7a5-e75f-4d3d-9483-12fc779cdf23",
+    "name": "Password Depot"
   },
   {
     "aaguid": "54d9fee8-e621-4291-8b18-7157b99c5bec",
