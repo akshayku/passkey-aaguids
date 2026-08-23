@@ -91,10 +91,10 @@
               "userVerificationMethod": "faceprint_internal"
             },
             {
-              "userVerificationMethod": "voiceprint_internal"
+              "userVerificationMethod": "fingerprint_internal"
             },
             {
-              "userVerificationMethod": "fingerprint_internal"
+              "userVerificationMethod": "voiceprint_internal"
             }
           ]
         ]
@@ -195,10 +195,10 @@
             "userVerificationMethod": "faceprint_internal"
           },
           {
-            "userVerificationMethod": "voiceprint_internal"
+            "userVerificationMethod": "fingerprint_internal"
           },
           {
-            "userVerificationMethod": "fingerprint_internal"
+            "userVerificationMethod": "voiceprint_internal"
           }
         ]
       ]

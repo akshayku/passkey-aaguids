@@ -172,11 +172,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-06-18",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 1,
+          "certificateNumber": "FIDO20020260626001",
+          "certificationDescriptor": "FEITIAN FT-JCOS BioCard",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.6.0",
+          "effectiveDate": "2026-06-26",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 1,
+          "effectiveDate": "2026-06-26",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-06-18"
+      "timeOfLastStatusChange": "2026-08-19"
     },
     "metadataStatement": {
       "aaguid": "238ab2f5-b57f-4917-b3c6-3d3c6c0c350f",
