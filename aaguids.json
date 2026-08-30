@@ -476,6 +476,10 @@
     "name": "IIST FIDO2 Authenticator"
   },
   {
+    "aaguid": "4b8f3c21-9d6e-4a75-b1f2-8c05e7a94d63",
+    "name": "Idira"
+  },
+  {
     "aaguid": "4c0cf95d-2f40-43b5-ba42-4c83a11c04ba",
     "name": "Feitian BioPass FIDO2 Pro Authenticator"
   },
