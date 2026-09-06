@@ -81,10 +81,10 @@
               "userVerificationMethod": "handprint_internal"
             },
             {
-              "userVerificationMethod": "pattern_internal"
+              "userVerificationMethod": "eyeprint_internal"
             },
             {
-              "userVerificationMethod": "eyeprint_internal"
+              "userVerificationMethod": "pattern_internal"
             },
             {
               "userVerificationMethod": "passcode_internal"
@@ -186,10 +186,10 @@
             "userVerificationMethod": "handprint_internal"
           },
           {
-            "userVerificationMethod": "pattern_internal"
+            "userVerificationMethod": "eyeprint_internal"
           },
           {
-            "userVerificationMethod": "eyeprint_internal"
+            "userVerificationMethod": "pattern_internal"
           },
           {
             "userVerificationMethod": "passcode_internal"

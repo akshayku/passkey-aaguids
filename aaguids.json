@@ -96,6 +96,10 @@
     "name": "HS-KShield FIDO2 Authenticator"
   },
   {
+    "aaguid": "0fbb74b5-f1ac-4f14-a0f1-ec39b5edfdae",
+    "name": "Thales PAY GFCX19 authenticator"
+  },
+  {
     "aaguid": "10c70715-2a9a-4de1-b0aa-3cff6d496d39",
     "name": "eToken Fusion NFC FIPS"
   },
@@ -106,6 +110,10 @@
   {
     "aaguid": "11223344-5566-7788-1122-334455667702",
     "name": "INFINEON SECORA ID V2 C1"
+  },
+  {
+    "aaguid": "11544c3c-3693-40ba-9dbb-3b8d2b977988",
+    "name": "Thales PAY GFCX20.1 authenticator"
   },
   {
     "aaguid": "12755c32-8ad1-46eb-881c-e0b38d848b09",
@@ -885,7 +893,7 @@
   },
   {
     "aaguid": "8791f7dc-418b-4510-bbf5-3baf30715324",
-    "name": "vFIDO2 security key"
+    "name": "Virtual FIDO2 authenticator for Linux-based systems"
   },
   {
     "aaguid": "87c13177-85d6-40ac-8c61-fe7ab3de9dfb",
@@ -942,6 +950,10 @@
   {
     "aaguid": "8c97a730-3f7b-41a6-87d6-1e9b62bda6f0",
     "name": "FT-JCOS FIDO Fingerprint Card"
+  },
+  {
+    "aaguid": "8caf7e7b-6c8b-46a9-b36b-5d04740d7463",
+    "name": "cryptovision ePasslet Suite FIDO Authenticator"
   },
   {
     "aaguid": "8d1b1fcb-3c76-49a9-9129-5515b346aa02",
@@ -1122,10 +1134,6 @@
   {
     "aaguid": "a4e9fc6d-4cbe-4758-b8ba-37598bb5bbaa",
     "name": "Security Key NFC by Yubico"
-  },
-  {
-    "aaguid": "a4fae229-bbd5-4b20-ac59-37550b19be18",
-    "name": "cryptovision ePasslet Suite FIDO Authenticator"
   },
   {
     "aaguid": "a4fb7f5b-7bf6-43c9-bcc2-40c057ac5b6a",

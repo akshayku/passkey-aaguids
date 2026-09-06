@@ -1,0 +1,242 @@
+[
+  {
+    "description": "cryptovision ePasslet Suite FIDO Authenticator",
+    "mds_entry": {
+      "aaguid": "8caf7e7b-6c8b-46a9-b36b-5d04740d7463",
+      "metadataStatement": {
+        "aaguid": "8caf7e7b-6c8b-46a9-b36b-5d04740d7463",
+        "alternativeDescriptions": {
+          "de-DE": "cryptovision ePasslet Suite FIDO Authenticator"
+        },
+        "attachmentHint": [
+          "external",
+          "wired",
+          "wireless",
+          "nfc"
+        ],
+        "attestationRootCertificates": [
+          "MIIB8zCCAZmgAwIBAgIJAPBjDEG9HcjLMAoGCCqGSM49BAMCMH8xCzAJBgNVBAYTAkRFMR0wGwYDVQQKDBRjdiBjcnlwdG92aXNpb24gR21iSDEiMCAGA1UECwwZQXV0aGVudGljYXRvciBBdHRlc3RhdGlvbjEtMCsGA1UEAwwkRklETzIgQXV0aGVudGljYXRvciBBdHRlc3RhdGlvbiBSb290MB4XDTI1MDUyNjE0MTgzMloXDTQwMDUyNjE0MTgzMlowfzELMAkGA1UEBhMCREUxHTAbBgNVBAoMFGN2IGNyeXB0b3Zpc2lvbiBHbWJIMSIwIAYDVQQLDBlBdXRoZW50aWNhdG9yIEF0dGVzdGF0aW9uMS0wKwYDVQQDDCRGSURPMiBBdXRoZW50aWNhdG9yIEF0dGVzdGF0aW9uIFJvb3QwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQV9jN4CkDWWxvvUm3DWU+Ep7+sttDE9qICF9jSPpO/MDMzjydLXkr+LAginMCQxj4b7xetXbm0929ZZZTIE4dgMAoGCCqGSM49BAMCA0gAMEUCIQDHK2o9GC41XcNHbTNoVidr9+RMRgRfT0Ir/tTB0x/UywIgMAssuQRlOkATf+WPuLUEfpBfUh9cYaEH22ku53ZsCE8="
+        ],
+        "attestationTypes": [
+          "basic_full"
+        ],
+        "authenticationAlgorithms": [
+          "secp256r1_ecdsa_sha256_raw"
+        ],
+        "authenticatorGetInfo": {
+          "aaguid": "8caf7e7b6c8b46a9b36b5d04740d7463",
+          "extensions": [
+            "credBlob",
+            "credProtect",
+            "hmac-secret",
+            "minPinLength"
+          ],
+          "forcePINChange": false,
+          "maxCredBlobLength": 32,
+          "maxMsgSize": 1024,
+          "maxRPIDsForSetMinPINLength": 4,
+          "minPINLength": 4,
+          "options": {
+            "alwaysUv": false,
+            "authnrCfg": true,
+            "clientPin": true,
+            "credMgmt": true,
+            "noMcGaPermissionsWithClientPin": false,
+            "pinUvAuthToken": true,
+            "plat": false,
+            "rk": true,
+            "setMinPINLength": true,
+            "uv": false
+          },
+          "pinUvAuthProtocols": [
+            1,
+            2
+          ],
+          "versions": [
+            "FIDO_2_0",
+            "FIDO_2_1"
+          ]
+        },
+        "authenticatorVersion": 1,
+        "cryptoStrength": 128,
+        "description": "cryptovision ePasslet Suite FIDO Authenticator",
+        "friendlyNames": {
+          "de-DE": "cryptovision ePasslet Suite FIDO Authenticator",
+          "en-US": "cryptovision ePasslet Suite FIDO Authenticator"
+        },
+        "icon": "data:image/png;base64,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",
+        "keyProtection": [
+          "hardware",
+          "secure_element"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "on_chip"
+        ],
+        "multiDeviceCredentialSupport": "unsupported",
+        "protocolFamily": "fido2",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "tcDisplay": [],
+        "upv": [
+          {
+            "major": 1,
+            "minor": 0
+          },
+          {
+            "major": 1,
+            "minor": 1
+          }
+        ],
+        "userVerificationDetails": [
+          [
+            {
+              "userVerificationMethod": "presence_internal"
+            },
+            {
+              "userVerificationMethod": "passcode_external"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "presence_internal"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "passcode_external"
+            }
+          ],
+          [
+            {
+              "userVerificationMethod": "none"
+            }
+          ]
+        ]
+      },
+      "statusReports": [
+        {
+          "effectiveDate": "2026-08-28",
+          "status": "NOT_FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2026-08-28"
+    },
+    "metadataStatement": {
+      "aaguid": "8caf7e7b-6c8b-46a9-b36b-5d04740d7463",
+      "alternativeDescriptions": {
+        "de-DE": "cryptovision ePasslet Suite FIDO Authenticator"
+      },
+      "attachmentHint": [
+        "external",
+        "wired",
+        "wireless",
+        "nfc"
+      ],
+      "attestationRootCertificates": [
+        "MIIB8zCCAZmgAwIBAgIJAPBjDEG9HcjLMAoGCCqGSM49BAMCMH8xCzAJBgNVBAYTAkRFMR0wGwYDVQQKDBRjdiBjcnlwdG92aXNpb24gR21iSDEiMCAGA1UECwwZQXV0aGVudGljYXRvciBBdHRlc3RhdGlvbjEtMCsGA1UEAwwkRklETzIgQXV0aGVudGljYXRvciBBdHRlc3RhdGlvbiBSb290MB4XDTI1MDUyNjE0MTgzMloXDTQwMDUyNjE0MTgzMlowfzELMAkGA1UEBhMCREUxHTAbBgNVBAoMFGN2IGNyeXB0b3Zpc2lvbiBHbWJIMSIwIAYDVQQLDBlBdXRoZW50aWNhdG9yIEF0dGVzdGF0aW9uMS0wKwYDVQQDDCRGSURPMiBBdXRoZW50aWNhdG9yIEF0dGVzdGF0aW9uIFJvb3QwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQV9jN4CkDWWxvvUm3DWU+Ep7+sttDE9qICF9jSPpO/MDMzjydLXkr+LAginMCQxj4b7xetXbm0929ZZZTIE4dgMAoGCCqGSM49BAMCA0gAMEUCIQDHK2o9GC41XcNHbTNoVidr9+RMRgRfT0Ir/tTB0x/UywIgMAssuQRlOkATf+WPuLUEfpBfUh9cYaEH22ku53ZsCE8="
+      ],
+      "attestationTypes": [
+        "basic_full"
+      ],
+      "authenticationAlgorithms": [
+        "secp256r1_ecdsa_sha256_raw"
+      ],
+      "authenticatorGetInfo": {
+        "aaguid": "8caf7e7b6c8b46a9b36b5d04740d7463",
+        "extensions": [
+          "credBlob",
+          "credProtect",
+          "hmac-secret",
+          "minPinLength"
+        ],
+        "forcePINChange": false,
+        "maxCredBlobLength": 32,
+        "maxMsgSize": 1024,
+        "maxRPIDsForSetMinPINLength": 4,
+        "minPINLength": 4,
+        "options": {
+          "alwaysUv": false,
+          "authnrCfg": true,
+          "clientPin": true,
+          "credMgmt": true,
+          "noMcGaPermissionsWithClientPin": false,
+          "pinUvAuthToken": true,
+          "plat": false,
+          "rk": true,
+          "setMinPINLength": true,
+          "uv": false
+        },
+        "pinUvAuthProtocols": [
+          1,
+          2
+        ],
+        "versions": [
+          "FIDO_2_0",
+          "FIDO_2_1"
+        ]
+      },
+      "authenticatorVersion": 1,
+      "cryptoStrength": 128,
+      "description": "cryptovision ePasslet Suite FIDO Authenticator",
+      "friendlyNames": {
+        "de-DE": "cryptovision ePasslet Suite FIDO Authenticator",
+        "en-US": "cryptovision ePasslet Suite FIDO Authenticator"
+      },
+      "icon": "data:image/png;base64,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",
+      "keyProtection": [
+        "hardware",
+        "secure_element"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "on_chip"
+      ],
+      "multiDeviceCredentialSupport": "unsupported",
+      "protocolFamily": "fido2",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "tcDisplay": [],
+      "upv": [
+        {
+          "major": 1,
+          "minor": 0
+        },
+        {
+          "major": 1,
+          "minor": 1
+        }
+      ],
+      "userVerificationDetails": [
+        [
+          {
+            "userVerificationMethod": "presence_internal"
+          },
+          {
+            "userVerificationMethod": "passcode_external"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "presence_internal"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "passcode_external"
+          }
+        ],
+        [
+          {
+            "userVerificationMethod": "none"
+          }
+        ]
+      ]
+    },
+    "name": "cryptovision ePasslet Suite FIDO Authenticator"
+  }
+]
