@@ -1092,6 +1092,10 @@
     "name": "Hyper FIDO Pro"
   },
   {
+    "aaguid": "9f8a3b2c-1d4e-4f6a-8b0c-2e1d3c4b5a69",
+    "name": "U2 Secured"
+  },
+  {
     "aaguid": "9ff4cc65-6154-4fff-ba09-9e2af7882ad2",
     "name": "Security Key NFC by Yubico - Enterprise Edition (Enterprise Profile)"
   },
@@ -1190,6 +1194,10 @@
   {
     "aaguid": "b12eac35-586c-4809-a4b1-d81af6c305cf",
     "name": "Deepnet SafeKey/Classic (NFC)"
+  },
+  {
+    "aaguid": "b2647539-a130-4aee-8c34-9e4b52339123",
+    "name": "ZTPass SmartAuth"
   },
   {
     "aaguid": "b267239b-954f-4041-a01b-ee4f33c145b6",
@@ -1310,6 +1318,10 @@
   {
     "aaguid": "c1288a5c-d66b-495c-a68f-4e81f9ec5b53",
     "name": "Deepnet SafeKey/Classic (FP) XF"
+  },
+  {
+    "aaguid": "c1bee13f-f347-4f53-9cd4-e8a2f98ee008",
+    "name": "ZTPass SmartAuth FIPS"
   },
   {
     "aaguid": "c1f9a0bc-1dd2-404a-b27f-8e29047a43fd",
