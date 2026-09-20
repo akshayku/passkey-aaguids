@@ -140,11 +140,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-08-25",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 1,
+          "certificateNumber": "FIDO20020260720001",
+          "certificationDescriptor": "Thales PAY GFCX19 Authenticator",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-09-14",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 1,
+          "effectiveDate": "2026-09-14",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-08-25"
+      "timeOfLastStatusChange": "2026-09-14"
     },
     "metadataStatement": {
       "aaguid": "0fbb74b5-f1ac-4f14-a0f1-ec39b5edfdae",

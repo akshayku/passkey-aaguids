@@ -85,6 +85,9 @@
         "userVerificationDetails": [
           [
             {
+              "userVerificationMethod": "passcode_external"
+            },
+            {
               "caDesc": {
                 "base": 64,
                 "blockSlowdown": 0,
@@ -98,9 +101,6 @@
             },
             {
               "userVerificationMethod": "none"
-            },
-            {
-              "userVerificationMethod": "passcode_external"
             }
           ]
         ]
@@ -205,6 +205,9 @@
       "userVerificationDetails": [
         [
           {
+            "userVerificationMethod": "passcode_external"
+          },
+          {
             "caDesc": {
               "base": 64,
               "blockSlowdown": 0,
@@ -218,9 +221,6 @@
           },
           {
             "userVerificationMethod": "none"
-          },
-          {
-            "userVerificationMethod": "passcode_external"
           }
         ]
       ]

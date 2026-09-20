@@ -104,11 +104,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-07-21",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 262144,
+          "certificateNumber": "FIDO20020260715001",
+          "certificationDescriptor": "HID Crescendo Key V3 FIPS",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.6.0",
+          "effectiveDate": "2026-07-15",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 262144,
+          "effectiveDate": "2026-07-15",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-07-21"
+      "timeOfLastStatusChange": "2026-09-15"
     },
     "metadataStatement": {
       "aaguid": "19bca99b-7c09-44fe-a969-8cba45764542",

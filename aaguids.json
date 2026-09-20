@@ -752,6 +752,10 @@
     "name": "YubiKey Bio Series - Multi-protocol Edition (Enterprise Profile)"
   },
   {
+    "aaguid": "6f706c75-7366-6964-6f2d-70732d303031",
+    "name": "OPPO FIDO2 Authenticator"
+  },
+  {
     "aaguid": "7017a0b3-fb2f-49fc-8c76-f39cf44bb782",
     "name": "BioThenticate iOS FIDO2 Authenticator"
   },

@@ -75,6 +75,9 @@
           ],
           [
             {
+              "userVerificationMethod": "passcode_external"
+            },
+            {
               "caDesc": {
                 "base": 64,
                 "blockSlowdown": 0,
@@ -82,9 +85,6 @@
                 "minLength": 4
               },
               "userVerificationMethod": "presence_internal"
-            },
-            {
-              "userVerificationMethod": "passcode_external"
             }
           ],
           [
@@ -196,6 +196,9 @@
         ],
         [
           {
+            "userVerificationMethod": "passcode_external"
+          },
+          {
             "caDesc": {
               "base": 64,
               "blockSlowdown": 0,
@@ -203,9 +206,6 @@
               "minLength": 4
             },
             "userVerificationMethod": "presence_internal"
-          },
-          {
-            "userVerificationMethod": "passcode_external"
           }
         ],
         [

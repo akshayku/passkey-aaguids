@@ -91,6 +91,9 @@
           ],
           [
             {
+              "userVerificationMethod": "presence_internal"
+            },
+            {
               "caDesc": {
                 "base": 10,
                 "blockSlowdown": 0,
@@ -98,20 +101,30 @@
                 "minLength": 4
               },
               "userVerificationMethod": "passcode_external"
-            },
-            {
-              "userVerificationMethod": "presence_internal"
             }
           ]
         ]
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-05-13",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 12,
+          "certificateNumber": "FA001202600015",
+          "certificationDescriptor": "USB GoldKey Security Token",
+          "certificationPolicyVersion": "1.4.1",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-08-10",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 12,
+          "effectiveDate": "2026-08-10",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-05-13"
+      "timeOfLastStatusChange": "2026-09-14"
     },
     "metadataStatement": {
       "aaguid": "39502df1-646d-4e31-81a1-2ef68b324678",
@@ -201,6 +214,9 @@
         ],
         [
           {
+            "userVerificationMethod": "presence_internal"
+          },
+          {
             "caDesc": {
               "base": 10,
               "blockSlowdown": 0,
@@ -208,9 +224,6 @@
               "minLength": 4
             },
             "userVerificationMethod": "passcode_external"
-          },
-          {
-            "userVerificationMethod": "presence_internal"
           }
         ]
       ]
