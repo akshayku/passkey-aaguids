@@ -99,11 +99,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-09-11",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 214,
+          "certificateNumber": "FA001202600018",
+          "certificationDescriptor": "OPPO FIDO2 Authenticator",
+          "certificationPolicyVersion": "1.4.1",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-08-18",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 214,
+          "effectiveDate": "2026-08-18",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-09-11"
+      "timeOfLastStatusChange": "2026-09-22"
     },
     "metadataStatement": {
       "aaguid": "6f706c75-7366-6964-6f2d-70732d303031",

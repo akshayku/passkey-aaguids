@@ -236,6 +236,10 @@
     "name": "Enterprise Security Key Series with NFC (Consumer Profile)"
   },
   {
+    "aaguid": "244eb29e-e090-4e49-81fe-1f20f8d3b8f4",
+    "name": "CanoKey Canary"
+  },
+  {
     "aaguid": "24673149-6c86-42e7-98d9-433fb5b73296",
     "name": "YubiKey 5 Series with Lightning"
   },
@@ -704,6 +708,10 @@
     "name": "Pone Biometrics OFFPAD Authenticator"
   },
   {
+    "aaguid": "69840def-9dcf-4632-bf87-6ac2e451b4f5",
+    "name": "Keyholm"
+  },
+  {
     "aaguid": "6999180d-630c-442d-b8f7-424b90a43fae",
     "name": "Hyper FIDO Pro (CTAP2.1, CTAP2.0, U2F)"
   },
@@ -1058,6 +1066,10 @@
   {
     "aaguid": "9addb28c-b46f-4402-808f-019651441ff3",
     "name": "KeePassPasskey"
+  },
+  {
+    "aaguid": "9c1f2b6e-4d3a-4f7c-8b21-5e6a7d8c9f01",
+    "name": "Idira"
   },
   {
     "aaguid": "9c835346-796b-4c27-8898-d6032f515cc5",

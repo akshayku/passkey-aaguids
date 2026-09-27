@@ -123,9 +123,6 @@
           ],
           [
             {
-              "userVerificationMethod": "presence_internal"
-            },
-            {
               "caDesc": {
                 "base": 10,
                 "blockSlowdown": 0,
@@ -133,6 +130,9 @@
                 "minLength": 4
               },
               "userVerificationMethod": "passcode_external"
+            },
+            {
+              "userVerificationMethod": "presence_internal"
             }
           ]
         ]
@@ -275,9 +275,6 @@
         ],
         [
           {
-            "userVerificationMethod": "presence_internal"
-          },
-          {
             "caDesc": {
               "base": 10,
               "blockSlowdown": 0,
@@ -285,6 +282,9 @@
               "minLength": 4
             },
             "userVerificationMethod": "passcode_external"
+          },
+          {
+            "userVerificationMethod": "presence_internal"
           }
         ]
       ]

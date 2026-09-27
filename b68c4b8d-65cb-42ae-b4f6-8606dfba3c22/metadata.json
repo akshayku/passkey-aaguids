@@ -116,9 +116,6 @@
           ],
           [
             {
-              "userVerificationMethod": "presence_internal"
-            },
-            {
               "caDesc": {
                 "base": 64,
                 "blockSlowdown": 0,
@@ -126,17 +123,33 @@
                 "minLength": 4
               },
               "userVerificationMethod": "passcode_external"
+            },
+            {
+              "userVerificationMethod": "presence_internal"
             }
           ]
         ]
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-07-14",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 1107448831,
+          "certificateNumber": "FIDO20020260717001",
+          "certificationDescriptor": "IDEMIA SOLVO Fly 80 R3 FIDO Card for j",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-07-17",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 1107448831,
+          "effectiveDate": "2026-07-17",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-07-14"
+      "timeOfLastStatusChange": "2026-09-23"
     },
     "metadataStatement": {
       "aaguid": "b68c4b8d-65cb-42ae-b4f6-8606dfba3c22",
@@ -251,9 +264,6 @@
         ],
         [
           {
-            "userVerificationMethod": "presence_internal"
-          },
-          {
             "caDesc": {
               "base": 64,
               "blockSlowdown": 0,
@@ -261,6 +271,9 @@
               "minLength": 4
             },
             "userVerificationMethod": "passcode_external"
+          },
+          {
+            "userVerificationMethod": "presence_internal"
           }
         ]
       ]

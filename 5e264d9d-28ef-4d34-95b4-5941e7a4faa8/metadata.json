@@ -82,19 +82,19 @@
               "userVerificationMethod": "handprint_internal"
             },
             {
+              "userVerificationMethod": "presence_internal"
+            },
+            {
               "userVerificationMethod": "pattern_internal"
             },
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "faceprint_internal"
             },
             {
               "userVerificationMethod": "voiceprint_internal"
             },
             {
               "userVerificationMethod": "fingerprint_internal"
-            },
-            {
-              "userVerificationMethod": "faceprint_internal"
             }
           ]
         ]
@@ -186,19 +186,19 @@
             "userVerificationMethod": "handprint_internal"
           },
           {
+            "userVerificationMethod": "presence_internal"
+          },
+          {
             "userVerificationMethod": "pattern_internal"
           },
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "faceprint_internal"
           },
           {
             "userVerificationMethod": "voiceprint_internal"
           },
           {
             "userVerificationMethod": "fingerprint_internal"
-          },
-          {
-            "userVerificationMethod": "faceprint_internal"
           }
         ]
       ]
