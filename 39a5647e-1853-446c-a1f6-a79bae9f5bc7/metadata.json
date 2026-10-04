@@ -78,6 +78,9 @@
               "userVerificationMethod": "fingerprint_internal"
             },
             {
+              "userVerificationMethod": "handprint_internal"
+            },
+            {
               "userVerificationMethod": "eyeprint_internal"
             },
             {
@@ -85,9 +88,6 @@
             },
             {
               "userVerificationMethod": "passcode_internal"
-            },
-            {
-              "userVerificationMethod": "handprint_internal"
             }
           ]
         ]
@@ -183,6 +183,9 @@
             "userVerificationMethod": "fingerprint_internal"
           },
           {
+            "userVerificationMethod": "handprint_internal"
+          },
+          {
             "userVerificationMethod": "eyeprint_internal"
           },
           {
@@ -190,9 +193,6 @@
           },
           {
             "userVerificationMethod": "passcode_internal"
-          },
-          {
-            "userVerificationMethod": "handprint_internal"
           }
         ]
       ]

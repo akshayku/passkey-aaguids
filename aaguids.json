@@ -76,6 +76,10 @@
     "name": "GoldKey Security Token"
   },
   {
+    "aaguid": "0df4e8ce-a409-45f1-9704-c4730ec98362",
+    "name": "SecuGen Unity 20 FIDO2"
+  },
+  {
     "aaguid": "0ea242b4-43c4-4a1b-8b17-dd6d0b6baec6",
     "name": "Keeper"
   },
@@ -358,6 +362,10 @@
   {
     "aaguid": "357f2718-434f-4124-8a58-7e28c5e4a2fc",
     "name": "Deepnet SafeKey/Classic (NFC)"
+  },
+  {
+    "aaguid": "35d5ea15-ab24-4416-bdd1-f204c9bce1b6",
+    "name": "CyberFOX Password Manager"
   },
   {
     "aaguid": "361a3082-0278-4583-a16f-72a527f973e4",
@@ -1562,6 +1570,10 @@
   {
     "aaguid": "e41b42a3-60ac-4afb-8757-a98f2d7f6c9f",
     "name": "Deepnet SafeKey/Classic (FP)"
+  },
+  {
+    "aaguid": "e50e32f3-02ec-4afb-bdac-7205d12629df",
+    "name": "IDEMIA FIDO Card"
   },
   {
     "aaguid": "e77e3c64-05e3-428b-8824-0cbeb04b829d",

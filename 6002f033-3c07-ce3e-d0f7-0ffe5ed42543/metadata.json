@@ -136,6 +136,9 @@
           ],
           [
             {
+              "userVerificationMethod": "presence_internal"
+            },
+            {
               "baDesc": {
                 "blockSlowdown": 0,
                 "iAPARThreshold": 0.0,
@@ -145,9 +148,6 @@
                 "selfAttestedFRR": 1e-05
               },
               "userVerificationMethod": "fingerprint_internal"
-            },
-            {
-              "userVerificationMethod": "presence_internal"
             }
           ],
           [
@@ -333,6 +333,9 @@
         ],
         [
           {
+            "userVerificationMethod": "presence_internal"
+          },
+          {
             "baDesc": {
               "blockSlowdown": 0,
               "iAPARThreshold": 0.0,
@@ -342,9 +345,6 @@
               "selfAttestedFRR": 1e-05
             },
             "userVerificationMethod": "fingerprint_internal"
-          },
-          {
-            "userVerificationMethod": "presence_internal"
           }
         ],
         [
