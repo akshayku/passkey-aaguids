@@ -748,6 +748,10 @@
     "name": "GoTrust Cyber Key"
   },
   {
+    "aaguid": "6d6f6e69-6361-4d33-a001-706173736b79",
+    "name": "Monica Pass"
+  },
+  {
     "aaguid": "6dae43be-af9c-417b-8b9f-1b611168ec60",
     "name": "Dapple Authenticator from Dapple Security Inc."
   },
@@ -1364,6 +1368,10 @@
     "name": "HID Crescendo Fusion"
   },
   {
+    "aaguid": "c4ed941c-86d3-4532-a6a9-bc42b80d5c38",
+    "name": "Authn8"
+  },
+  {
     "aaguid": "c5703116-972b-4851-a3e7-ae1259843399",
     "name": "NEOWAVE Badgeo FIDO2"
   },
@@ -1634,6 +1642,10 @@
   {
     "aaguid": "efb96b10-a9ee-4b6c-a4a9-d32125ccd4a4",
     "name": "Safenet eToken FIDO"
+  },
+  {
+    "aaguid": "f1d0badc-0def-4f1d-8bad-c0def1d0badc",
+    "name": "fidont"
   },
   {
     "aaguid": "f2145e86-211e-4931-b874-e22bba7d01cc",

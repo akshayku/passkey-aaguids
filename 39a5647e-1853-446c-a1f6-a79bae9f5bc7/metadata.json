@@ -9,7 +9,8 @@
           "external"
         ],
         "attestationRootCertificates": [
-          "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"
+          "MIIByzCCAXGgAwIBAgIJANmMNK6jVpuuMAoGCCqGSM49BAMCMEExJDAiBgNVBAoMG1ZhbmNvc3lzIERhdGEgU2VjdXJpdHkgSW5jLjEZMBcGA1UEAwwQVmFuY29zeXMgUm9vdCBDQTAgFw0yMjEyMTQxODQxMDlaGA8yMDcyMTIwMTE4NDEwOVowQTEkMCIGA1UECgwbVmFuY29zeXMgRGF0YSBTZWN1cml0eSBJbmMuMRkwFwYDVQQDDBBWYW5jb3N5cyBSb290IENBMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEalYgEopnKScAm+d9f1XpGB3zbkZCD3hZEKuxTclpBYlj4ypNRg0gMSa7geBgd6nck50YaVhdy75uIc2wbWX8t6NQME4wHQYDVR0OBBYEFOxyf0cDs8Yl+VnWSZ1uYJAKkFeVMB8GA1UdIwQYMBaAFOxyf0cDs8Yl+VnWSZ1uYJAKkFeVMAwGA1UdEwQFMAMBAf8wCgYIKoZIzj0EAwIDSAAwRQIhAO2XuiRDXxy/UkWhsuZQYNUXeOj08AeTWADAqXvcA30hAiBi2cdGd61PNwHDTYjXPenPcD8S0rFTDncNWfs3E/WDXA==",
+          "MIICIDCCAaagAwIBAgIRAN/QUI9/od/yxStTA0wzL0swCgYIKoZIzj0EAwMwUDELMAkGA1UEBhMCQ0ExIjAgBgNVBAoMGUlEbWVsb24gVGVjaG5vbG9naWVzIEluYy4xHTAbBgNVBAMMFElEbWVsb24gRklETyBSb290IENBMCAXDTI2MTAwMjIzNTMxOVoYDzIwNTExMDAyMjM1MzE5WjBQMQswCQYDVQQGEwJDQTEiMCAGA1UECgwZSURtZWxvbiBUZWNobm9sb2dpZXMgSW5jLjEdMBsGA1UEAwwUSURtZWxvbiBGSURPIFJvb3QgQ0EwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAASZGohxefzmWPbo4zJzv+NSYggo+QiSjgLwQWV85+5LFYVkpwWakH2JOAtXFoS5VuRJ7q+6lCq54gOaVFwnlZYZ9uPEv3pB+Sy4UgNrB5DiXqrSw8GtadRClC435i0AzRujQjBAMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgEGMB0GA1UdDgQWBBQTzm5OGVtAZ3K7KGu0pxMgJFDG+zAKBggqhkjOPQQDAwNoADBlAjEA6BrNZ/yY9ImP/jjiSsdy03xiyN9nX7ZSAuT/OaPcrjPLELkAerVksBweoSKgFgd+AjAAnCd+kIZ/q28S1XRg+VxhtutSfyeUH705EvHeK5sK+aXu1veUqIrbP8uKIMthU2A="
         ],
         "attestationTypes": [
           "basic_full"
@@ -78,10 +79,10 @@
               "userVerificationMethod": "fingerprint_internal"
             },
             {
-              "userVerificationMethod": "handprint_internal"
+              "userVerificationMethod": "eyeprint_internal"
             },
             {
-              "userVerificationMethod": "eyeprint_internal"
+              "userVerificationMethod": "handprint_internal"
             },
             {
               "userVerificationMethod": "pattern_internal"
@@ -114,7 +115,8 @@
         "external"
       ],
       "attestationRootCertificates": [
-        "MIIByzCCAXGgAwIBAgIJANmMNK6jVpuuMAoGCCqGSM49BAMCMEExJDAiBgNVBAoMG1ZhbmNvc3lzIERhdGEgU2VjdXJpdHkgSW5jLjEZMBcGA1UEAwwQVmFuY29zeXMgUm9vdCBDQTAgFw0yMjEyMTQxODQxMDlaGA8yMDcyMTIwMTE4NDEwOVowQTEkMCIGA1UECgwbVmFuY29zeXMgRGF0YSBTZWN1cml0eSBJbmMuMRkwFwYDVQQDDBBWYW5jb3N5cyBSb290IENBMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEalYgEopnKScAm+d9f1XpGB3zbkZCD3hZEKuxTclpBYlj4ypNRg0gMSa7geBgd6nck50YaVhdy75uIc2wbWX8t6NQME4wHQYDVR0OBBYEFOxyf0cDs8Yl+VnWSZ1uYJAKkFeVMB8GA1UdIwQYMBaAFOxyf0cDs8Yl+VnWSZ1uYJAKkFeVMAwGA1UdEwQFMAMBAf8wCgYIKoZIzj0EAwIDSAAwRQIhAO2XuiRDXxy/UkWhsuZQYNUXeOj08AeTWADAqXvcA30hAiBi2cdGd61PNwHDTYjXPenPcD8S0rFTDncNWfs3E/WDXA=="
+        "MIIByzCCAXGgAwIBAgIJANmMNK6jVpuuMAoGCCqGSM49BAMCMEExJDAiBgNVBAoMG1ZhbmNvc3lzIERhdGEgU2VjdXJpdHkgSW5jLjEZMBcGA1UEAwwQVmFuY29zeXMgUm9vdCBDQTAgFw0yMjEyMTQxODQxMDlaGA8yMDcyMTIwMTE4NDEwOVowQTEkMCIGA1UECgwbVmFuY29zeXMgRGF0YSBTZWN1cml0eSBJbmMuMRkwFwYDVQQDDBBWYW5jb3N5cyBSb290IENBMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEalYgEopnKScAm+d9f1XpGB3zbkZCD3hZEKuxTclpBYlj4ypNRg0gMSa7geBgd6nck50YaVhdy75uIc2wbWX8t6NQME4wHQYDVR0OBBYEFOxyf0cDs8Yl+VnWSZ1uYJAKkFeVMB8GA1UdIwQYMBaAFOxyf0cDs8Yl+VnWSZ1uYJAKkFeVMAwGA1UdEwQFMAMBAf8wCgYIKoZIzj0EAwIDSAAwRQIhAO2XuiRDXxy/UkWhsuZQYNUXeOj08AeTWADAqXvcA30hAiBi2cdGd61PNwHDTYjXPenPcD8S0rFTDncNWfs3E/WDXA==",
+        "MIICIDCCAaagAwIBAgIRAN/QUI9/od/yxStTA0wzL0swCgYIKoZIzj0EAwMwUDELMAkGA1UEBhMCQ0ExIjAgBgNVBAoMGUlEbWVsb24gVGVjaG5vbG9naWVzIEluYy4xHTAbBgNVBAMMFElEbWVsb24gRklETyBSb290IENBMCAXDTI2MTAwMjIzNTMxOVoYDzIwNTExMDAyMjM1MzE5WjBQMQswCQYDVQQGEwJDQTEiMCAGA1UECgwZSURtZWxvbiBUZWNobm9sb2dpZXMgSW5jLjEdMBsGA1UEAwwUSURtZWxvbiBGSURPIFJvb3QgQ0EwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAASZGohxefzmWPbo4zJzv+NSYggo+QiSjgLwQWV85+5LFYVkpwWakH2JOAtXFoS5VuRJ7q+6lCq54gOaVFwnlZYZ9uPEv3pB+Sy4UgNrB5DiXqrSw8GtadRClC435i0AzRujQjBAMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgEGMB0GA1UdDgQWBBQTzm5OGVtAZ3K7KGu0pxMgJFDG+zAKBggqhkjOPQQDAwNoADBlAjEA6BrNZ/yY9ImP/jjiSsdy03xiyN9nX7ZSAuT/OaPcrjPLELkAerVksBweoSKgFgd+AjAAnCd+kIZ/q28S1XRg+VxhtutSfyeUH705EvHeK5sK+aXu1veUqIrbP8uKIMthU2A="
       ],
       "attestationTypes": [
         "basic_full"
@@ -183,10 +185,10 @@
             "userVerificationMethod": "fingerprint_internal"
           },
           {
-            "userVerificationMethod": "handprint_internal"
+            "userVerificationMethod": "eyeprint_internal"
           },
           {
-            "userVerificationMethod": "eyeprint_internal"
+            "userVerificationMethod": "handprint_internal"
           },
           {
             "userVerificationMethod": "pattern_internal"

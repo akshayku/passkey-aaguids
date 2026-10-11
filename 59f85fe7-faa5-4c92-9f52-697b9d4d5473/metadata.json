@@ -68,6 +68,15 @@
         "userVerificationDetails": [
           [
             {
+              "userVerificationMethod": "passcode_internal"
+            },
+            {
+              "userVerificationMethod": "fingerprint_internal"
+            },
+            {
+              "userVerificationMethod": "faceprint_internal"
+            },
+            {
               "userVerificationMethod": "eyeprint_internal"
             },
             {
@@ -75,15 +84,6 @@
             },
             {
               "userVerificationMethod": "presence_internal"
-            },
-            {
-              "userVerificationMethod": "faceprint_internal"
-            },
-            {
-              "userVerificationMethod": "passcode_internal"
-            },
-            {
-              "userVerificationMethod": "fingerprint_internal"
             }
           ]
         ]
@@ -171,6 +171,15 @@
       "userVerificationDetails": [
         [
           {
+            "userVerificationMethod": "passcode_internal"
+          },
+          {
+            "userVerificationMethod": "fingerprint_internal"
+          },
+          {
+            "userVerificationMethod": "faceprint_internal"
+          },
+          {
             "userVerificationMethod": "eyeprint_internal"
           },
           {
@@ -178,15 +187,6 @@
           },
           {
             "userVerificationMethod": "presence_internal"
-          },
-          {
-            "userVerificationMethod": "faceprint_internal"
-          },
-          {
-            "userVerificationMethod": "passcode_internal"
-          },
-          {
-            "userVerificationMethod": "fingerprint_internal"
           }
         ]
       ]

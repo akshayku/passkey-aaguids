@@ -86,10 +86,10 @@
           ],
           [
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "passcode_external"
             },
             {
-              "userVerificationMethod": "passcode_external"
+              "userVerificationMethod": "presence_internal"
             }
           ],
           [
@@ -203,10 +203,10 @@
         ],
         [
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "passcode_external"
           },
           {
-            "userVerificationMethod": "passcode_external"
+            "userVerificationMethod": "presence_internal"
           }
         ],
         [
