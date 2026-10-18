@@ -240,6 +240,10 @@
     "name": "Enterprise Security Key Series with NFC (Consumer Profile)"
   },
   {
+    "aaguid": "2435157c-49f3-4090-9200-76dba687b03b",
+    "name": "FidoGo"
+  },
+  {
     "aaguid": "244eb29e-e090-4e49-81fe-1f20f8d3b8f4",
     "name": "CanoKey Canary"
   },
@@ -442,6 +446,10 @@
   {
     "aaguid": "42df17de-06ba-4177-a2bb-6701be1380d6",
     "name": "Feitian BioPass FIDO2 Plus Authenticator"
+  },
+  {
+    "aaguid": "441f5bad-a8ec-4572-8094-ee73a1c7cec7",
+    "name": "Fobb Security"
   },
   {
     "aaguid": "444320af-5a96-4ed3-bcbd-8bdc6d713fa6",
@@ -858,6 +866,10 @@
   {
     "aaguid": "7b96457d-e3cd-432b-9ceb-c9fdd7ef7432",
     "name": "YubiKey 5 FIPS Series with Lightning"
+  },
+  {
+    "aaguid": "7c30bcef-f035-4e21-9175-5c985b4b239c",
+    "name": "TeamPass"
   },
   {
     "aaguid": "7d1351a6-e097-4852-b8bf-c9ac5c9ce4a3",

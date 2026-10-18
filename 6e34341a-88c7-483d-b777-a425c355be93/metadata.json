@@ -130,11 +130,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2025-09-05",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 52625409,
+          "certificateNumber": "FIDO20020260218001",
+          "certificationDescriptor": "WebComm OETHenticator",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.5.0",
+          "effectiveDate": "2026-02-18",
+          "status": "FIDO_CERTIFIED_L1"
+        },
+        {
+          "authenticatorVersion": 52625409,
+          "effectiveDate": "2026-02-18",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2025-09-05"
+      "timeOfLastStatusChange": "2026-10-12"
     },
     "metadataStatement": {
       "aaguid": "6e34341a-88c7-483d-b777-a425c355be93",
