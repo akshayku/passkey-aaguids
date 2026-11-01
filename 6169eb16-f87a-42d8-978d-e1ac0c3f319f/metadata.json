@@ -152,11 +152,24 @@
       },
       "statusReports": [
         {
-          "effectiveDate": "2026-07-17",
-          "status": "NOT_FIDO_CERTIFIED"
+          "authenticatorVersion": 262145,
+          "certificateNumber": "FAXXX202600000",
+          "certificationDescriptor": "GoTrust Idem Card",
+          "certificationPolicyVersion": "1.4.0",
+          "certificationProfiles": [
+            "consumer"
+          ],
+          "certificationRequirementsVersion": "1.6.0",
+          "effectiveDate": "2026-10-21",
+          "status": "FIDO_CERTIFIED_L2"
+        },
+        {
+          "authenticatorVersion": 262145,
+          "effectiveDate": "2026-10-21",
+          "status": "FIDO_CERTIFIED"
         }
       ],
-      "timeOfLastStatusChange": "2026-07-17"
+      "timeOfLastStatusChange": "2026-10-30"
     },
     "metadataStatement": {
       "aaguid": "6169eb16-f87a-42d8-978d-e1ac0c3f319f",

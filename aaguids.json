@@ -1032,6 +1032,10 @@
     "name": "SI0X FIDO CL WRIST v1.0"
   },
   {
+    "aaguid": "9152406a-de8e-46dd-8685-3875c067e486",
+    "name": "9152406a-de8e-46dd-8685-3875c067e486"
+  },
+  {
     "aaguid": "91ad6b93-264b-4987-8737-3a690cad6917",
     "name": "Token Ring FIDO2 Authenticator"
   },
@@ -1054,6 +1058,10 @@
   {
     "aaguid": "95e4d58c-056e-4a65-866d-f5a69659e880",
     "name": "TruU Windows Authenticator"
+  },
+  {
+    "aaguid": "965bf694-423d-dc06-13d0-bb6c8402a5ea",
+    "name": "Excelsecu eSecu FIDO2 PRO+ Security Key"
   },
   {
     "aaguid": "970c8d9c-19d2-46af-aa32-3f448db49e35",
@@ -1194,6 +1202,10 @@
   {
     "aaguid": "a4fb7f5b-7bf6-43c9-bcc2-40c057ac5b6a",
     "name": "Coretech FIDO2 Biometric Authenticator"
+  },
+  {
+    "aaguid": "a63ac290-c20f-4048-8e84-f1565222be28",
+    "name": "Codebook Passkey Authenticator"
   },
   {
     "aaguid": "a6c5f5d8-2ad0-48b6-8257-e502c8970931",
@@ -1356,6 +1368,10 @@
     "name": "OCTATCO EzQuant FIDO2 AUTHENTICATOR"
   },
   {
+    "aaguid": "bdf4ac2c-13a2-4a08-bc3b-8a511c99ac96",
+    "name": "bdf4ac2c-13a2-4a08-bc3b-8a511c99ac96"
+  },
+  {
     "aaguid": "be727034-574a-f799-5c76-0929e0430973",
     "name": "Crayonic KeyVault K1 (USB-NFC-BLE FIDO2 Authenticator)"
   },
@@ -1494,6 +1510,10 @@
   {
     "aaguid": "d49b2120-b865-4191-8cea-be84a52b0485",
     "name": "Heimlane Vault"
+  },
+  {
+    "aaguid": "d53e7a41-8c2f-4b6e-9a07-3c51e2946b1f",
+    "name": "DeepVault"
   },
   {
     "aaguid": "d548826e-79b4-db40-a3d8-11116f7e8349",
