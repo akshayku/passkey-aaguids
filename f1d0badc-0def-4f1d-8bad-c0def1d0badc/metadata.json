@@ -1,8 +1,82 @@
 [
   {
-    "description": null,
-    "mds_entry": {},
-    "metadataStatement": {},
-    "name": "fidont"
+    "description": "Android passkey provider and FIDO2 security key",
+    "mds_entry": {
+      "aaguid": "f1d0badc-0def-4f1d-8bad-c0def1d0badc",
+      "metadataStatement": {
+        "aaguid": "f1d0badc-0def-4f1d-8bad-c0def1d0badc",
+        "attestationRootCertificates": [],
+        "attestationTypes": [
+          "basic_surrogate"
+        ],
+        "authenticationAlgorithms": [
+          "secp256r1_ecdsa_sha256_raw"
+        ],
+        "authenticatorVersion": 1,
+        "description": "Android passkey provider and FIDO2 security key",
+        "friendlyNames": {
+          "en-US": "fidont"
+        },
+        "keyProtection": [
+          "hardware",
+          "tee"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "tee"
+        ],
+        "multiDeviceCredentialSupport": "implicit",
+        "protocolFamily": "fido2",
+        "providerLogoDark": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48dGl0bGU+Zmlkb250PC90aXRsZT48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExNiIgZmlsbD0iIzEyMjQxZiIvPjxwYXRoIGZpbGw9IiM3ZmUzYzQiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE1NiAxMzhIMjI0QzI0Mi43OCAxMzggMjU4IDE1My4yMiAyNTggMTcyVjIzNkgzOTJWMzM0SDM1OFYyNzZIMzM2VjMxNEgzMDRWMjc2SDI1OFYzNDBDMjU4IDM1OC43OCAyNDIuNzggMzc0IDIyNCAzNzRIMTU2QzEzNy4yMiAzNzQgMTIyIDM1OC43OCAxMjIgMzQwVjE3MkMxMjIgMTUzLjIyIDEzNy4yMiAxMzggMTU2IDEzOFpNMTYyIDE2NkMxNTUuMzcgMTY2IDE1MCAxNzEuMzcgMTUwIDE3OFYzMzRDMTUwIDM0MC42MyAxNTUuMzcgMzQ2IDE2MiAzNDZIMjE4QzIyNC42MyAzNDYgMjMwIDM0MC42MyAyMzAgMzM0VjE3OEMyMzAgMTcxLjM3IDIyNC42MyAxNjYgMjE4IDE2NloiLz48Y2lyY2xlIGN4PSIxOTAiIGN5PSIxOTIiIHI9IjEwIiBmaWxsPSIjN2ZlM2M0Ii8+PC9zdmc+Cg==",
+        "providerLogoLight": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48dGl0bGU+Zmlkb250PC90aXRsZT48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExNiIgZmlsbD0iIzEyMjQxZiIvPjxwYXRoIGZpbGw9IiM3ZmUzYzQiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE1NiAxMzhIMjI0QzI0Mi43OCAxMzggMjU4IDE1My4yMiAyNTggMTcyVjIzNkgzOTJWMzM0SDM1OFYyNzZIMzM2VjMxNEgzMDRWMjc2SDI1OFYzNDBDMjU4IDM1OC43OCAyNDIuNzggMzc0IDIyNCAzNzRIMTU2QzEzNy4yMiAzNzQgMTIyIDM1OC43OCAxMjIgMzQwVjE3MkMxMjIgMTUzLjIyIDEzNy4yMiAxMzggMTU2IDEzOFpNMTYyIDE2NkMxNTUuMzcgMTY2IDE1MCAxNzEuMzcgMTUwIDE3OFYzMzRDMTUwIDM0MC42MyAxNTUuMzcgMzQ2IDE2MiAzNDZIMjE4QzIyNC42MyAzNDYgMjMwIDM0MC42MyAyMzAgMzM0VjE3OEMyMzAgMTcxLjM3IDIyNC42MyAxNjYgMjE4IDE2NloiLz48Y2lyY2xlIGN4PSIxOTAiIGN5PSIxOTIiIHI9IjEwIiBmaWxsPSIjN2ZlM2M0Ii8+PC9zdmc+Cg==",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "tcDisplay": [],
+        "upv": []
+      },
+      "statusReports": [
+        {
+          "effectiveDate": "2026-11-05",
+          "status": "NOT_FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2026-11-05"
+    },
+    "metadataStatement": {
+      "aaguid": "f1d0badc-0def-4f1d-8bad-c0def1d0badc",
+      "attestationRootCertificates": [],
+      "attestationTypes": [
+        "basic_surrogate"
+      ],
+      "authenticationAlgorithms": [
+        "secp256r1_ecdsa_sha256_raw"
+      ],
+      "authenticatorVersion": 1,
+      "description": "Android passkey provider and FIDO2 security key",
+      "friendlyNames": {
+        "en-US": "fidont"
+      },
+      "keyProtection": [
+        "hardware",
+        "tee"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "tee"
+      ],
+      "multiDeviceCredentialSupport": "implicit",
+      "protocolFamily": "fido2",
+      "providerLogoDark": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48dGl0bGU+Zmlkb250PC90aXRsZT48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExNiIgZmlsbD0iIzEyMjQxZiIvPjxwYXRoIGZpbGw9IiM3ZmUzYzQiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE1NiAxMzhIMjI0QzI0Mi43OCAxMzggMjU4IDE1My4yMiAyNTggMTcyVjIzNkgzOTJWMzM0SDM1OFYyNzZIMzM2VjMxNEgzMDRWMjc2SDI1OFYzNDBDMjU4IDM1OC43OCAyNDIuNzggMzc0IDIyNCAzNzRIMTU2QzEzNy4yMiAzNzQgMTIyIDM1OC43OCAxMjIgMzQwVjE3MkMxMjIgMTUzLjIyIDEzNy4yMiAxMzggMTU2IDEzOFpNMTYyIDE2NkMxNTUuMzcgMTY2IDE1MCAxNzEuMzcgMTUwIDE3OFYzMzRDMTUwIDM0MC42MyAxNTUuMzcgMzQ2IDE2MiAzNDZIMjE4QzIyNC42MyAzNDYgMjMwIDM0MC42MyAyMzAgMzM0VjE3OEMyMzAgMTcxLjM3IDIyNC42MyAxNjYgMjE4IDE2NloiLz48Y2lyY2xlIGN4PSIxOTAiIGN5PSIxOTIiIHI9IjEwIiBmaWxsPSIjN2ZlM2M0Ii8+PC9zdmc+Cg==",
+      "providerLogoLight": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48dGl0bGU+Zmlkb250PC90aXRsZT48cmVjdCB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgcng9IjExNiIgZmlsbD0iIzEyMjQxZiIvPjxwYXRoIGZpbGw9IiM3ZmUzYzQiIGZpbGwtcnVsZT0iZXZlbm9kZCIgZD0iTTE1NiAxMzhIMjI0QzI0Mi43OCAxMzggMjU4IDE1My4yMiAyNTggMTcyVjIzNkgzOTJWMzM0SDM1OFYyNzZIMzM2VjMxNEgzMDRWMjc2SDI1OFYzNDBDMjU4IDM1OC43OCAyNDIuNzggMzc0IDIyNCAzNzRIMTU2QzEzNy4yMiAzNzQgMTIyIDM1OC43OCAxMjIgMzQwVjE3MkMxMjIgMTUzLjIyIDEzNy4yMiAxMzggMTU2IDEzOFpNMTYyIDE2NkMxNTUuMzcgMTY2IDE1MCAxNzEuMzcgMTUwIDE3OFYzMzRDMTUwIDM0MC42MyAxNTUuMzcgMzQ2IDE2MiAzNDZIMjE4QzIyNC42MyAzNDYgMjMwIDM0MC42MyAyMzAgMzM0VjE3OEMyMzAgMTcxLjM3IDIyNC42MyAxNjYgMjE4IDE2NloiLz48Y2lyY2xlIGN4PSIxOTAiIGN5PSIxOTIiIHI9IjEwIiBmaWxsPSIjN2ZlM2M0Ii8+PC9zdmc+Cg==",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "tcDisplay": [],
+      "upv": []
+    },
+    "name": "Android passkey provider and FIDO2 security key"
   }
 ]

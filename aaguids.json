@@ -1033,11 +1033,15 @@
   },
   {
     "aaguid": "9152406a-de8e-46dd-8685-3875c067e486",
-    "name": "9152406a-de8e-46dd-8685-3875c067e486"
+    "name": "SafeNet eToken Fusion NFC 930C FIDO2.1"
   },
   {
     "aaguid": "91ad6b93-264b-4987-8737-3a690cad6917",
     "name": "Token Ring FIDO2 Authenticator"
+  },
+  {
+    "aaguid": "92397114-5441-44bf-86e9-29422e1de32b",
+    "name": "LoginByMe Pro"
   },
   {
     "aaguid": "930b0c03-ef46-4ac4-935c-538dccd1fcdb",
@@ -1205,7 +1209,7 @@
   },
   {
     "aaguid": "a63ac290-c20f-4048-8e84-f1565222be28",
-    "name": "Codebook Passkey Authenticator"
+    "name": "Codebook Password Manager FIDO2 passkey authenticator. https://www.zetetic.net/codebook/ User verification is performed by Codebook; P-256/ES256 WebAuthn operations."
   },
   {
     "aaguid": "a6c5f5d8-2ad0-48b6-8257-e502c8970931",
@@ -1662,6 +1666,10 @@
   {
     "aaguid": "eb7ef748-cbe0-4b40-b8f6-07bd2d592d35",
     "name": "YubiKey 5 CCN Series with NFC (Consumer Profile)"
+  },
+  {
+    "aaguid": "ebdc42b9-f28c-4bd9-965a-972761e6ca2c",
+    "name": "Oci"
   },
   {
     "aaguid": "ec31b4cc-2acc-4b8e-9c01-bade00ccbe26",

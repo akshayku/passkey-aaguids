@@ -1,1 +1,1 @@
-Codebook Passkey Authenticator
+Codebook Password Manager FIDO2 passkey authenticator. https://www.zetetic.net/codebook/ User verification is performed by Codebook; P-256/ES256 WebAuthn operations.

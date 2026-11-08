@@ -1,8 +1,82 @@
 [
   {
-    "description": null,
-    "mds_entry": {},
-    "metadataStatement": {},
-    "name": "Authn8"
+    "description": "Authn8 shares passkeys, 2FA codes and passwords across a team. Passkey private keys are encrypted on the Authn8 servers and used through the Authn8 extension for Chrome and Edge on desktop.",
+    "mds_entry": {
+      "aaguid": "c4ed941c-86d3-4532-a6a9-bc42b80d5c38",
+      "metadataStatement": {
+        "aaguid": "c4ed941c-86d3-4532-a6a9-bc42b80d5c38",
+        "attestationRootCertificates": [],
+        "attestationTypes": [
+          "none"
+        ],
+        "authenticationAlgorithms": [
+          "rsassa_pkcsv15_sha256_raw",
+          "secp256r1_ecdsa_sha256_raw"
+        ],
+        "authenticatorVersion": 1,
+        "description": "Authn8 shares passkeys, 2FA codes and passwords across a team. Passkey private keys are encrypted on the Authn8 servers and used through the Authn8 extension for Chrome and Edge on desktop.",
+        "friendlyNames": {
+          "en-US": "Authn8"
+        },
+        "keyProtection": [
+          "software"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "software"
+        ],
+        "multiDeviceCredentialSupport": "implicit",
+        "protocolFamily": "fido2",
+        "providerLogoDark": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHZpZXdCb3g9IjAgMCAyNDAgMjQwIiB3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCI+PHRpdGxlPkF1dGhuODwvdGl0bGU+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhdXRobjgtYmciIHgxPSIwIiB5MT0iMSIgeDI9IjEiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii4xNDYiIHN0b3AtY29sb3I9IiM1N0NDOTkiLz48c3RvcCBvZmZzZXQ9Ii44NTQiIHN0b3AtY29sb3I9IiMyMjU3N0EiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCIgcng9IjUyLjgiIGZpbGw9InVybCgjYXV0aG44LWJnKSIvPjxnIGZpbGw9IiNmZmYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxIDIxKSBzY2FsZSguODI1KSI+PHJlY3QgeD0iMTI2LjE4IiB5PSIzOC4xMSIgd2lkdGg9IjUwLjc0IiBoZWlnaHQ9IjI5LjU5Ii8+PHJlY3QgeD0iNjMuMDciIHk9IjUwLjc2IiB3aWR0aD0iNTAuNzQiIGhlaWdodD0iNTAuMzciLz48cmVjdCB4PSIxMjYuMTgiIHk9IjgwLjA5IiB3aWR0aD0iODAuMTEiIGhlaWdodD0iNTguOTkiLz48cmVjdCB4PSIzMy43IiB5PSIxMTMuNTkiIHdpZHRoPSI4MC4xMSIgaGVpZ2h0PSI3OS45NCIvPjxyZWN0IHg9IjEyNi4xOCIgeT0iMTUxLjQzIiB3aWR0aD0iNTAuNzQiIGhlaWdodD0iNTAuNTEiLz48L2c+PC9zdmc+",
+        "providerLogoLight": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHZpZXdCb3g9IjAgMCAyNDAgMjQwIiB3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCI+PHRpdGxlPkF1dGhuODwvdGl0bGU+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhdXRobjgtYmciIHgxPSIwIiB5MT0iMSIgeDI9IjEiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii4xNDYiIHN0b3AtY29sb3I9IiM1N0NDOTkiLz48c3RvcCBvZmZzZXQ9Ii44NTQiIHN0b3AtY29sb3I9IiMyMjU3N0EiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCIgcng9IjUyLjgiIGZpbGw9InVybCgjYXV0aG44LWJnKSIvPjxnIGZpbGw9IiNmZmYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxIDIxKSBzY2FsZSguODI1KSI+PHJlY3QgeD0iMTI2LjE4IiB5PSIzOC4xMSIgd2lkdGg9IjUwLjc0IiBoZWlnaHQ9IjI5LjU5Ii8+PHJlY3QgeD0iNjMuMDciIHk9IjUwLjc2IiB3aWR0aD0iNTAuNzQiIGhlaWdodD0iNTAuMzciLz48cmVjdCB4PSIxMjYuMTgiIHk9IjgwLjA5IiB3aWR0aD0iODAuMTEiIGhlaWdodD0iNTguOTkiLz48cmVjdCB4PSIzMy43IiB5PSIxMTMuNTkiIHdpZHRoPSI4MC4xMSIgaGVpZ2h0PSI3OS45NCIvPjxyZWN0IHg9IjEyNi4xOCIgeT0iMTUxLjQzIiB3aWR0aD0iNTAuNzQiIGhlaWdodD0iNTAuNTEiLz48L2c+PC9zdmc+",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "tcDisplay": [],
+        "upv": []
+      },
+      "statusReports": [
+        {
+          "effectiveDate": "2026-11-04",
+          "status": "NOT_FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2026-11-04"
+    },
+    "metadataStatement": {
+      "aaguid": "c4ed941c-86d3-4532-a6a9-bc42b80d5c38",
+      "attestationRootCertificates": [],
+      "attestationTypes": [
+        "none"
+      ],
+      "authenticationAlgorithms": [
+        "rsassa_pkcsv15_sha256_raw",
+        "secp256r1_ecdsa_sha256_raw"
+      ],
+      "authenticatorVersion": 1,
+      "description": "Authn8 shares passkeys, 2FA codes and passwords across a team. Passkey private keys are encrypted on the Authn8 servers and used through the Authn8 extension for Chrome and Edge on desktop.",
+      "friendlyNames": {
+        "en-US": "Authn8"
+      },
+      "keyProtection": [
+        "software"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "software"
+      ],
+      "multiDeviceCredentialSupport": "implicit",
+      "protocolFamily": "fido2",
+      "providerLogoDark": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHZpZXdCb3g9IjAgMCAyNDAgMjQwIiB3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCI+PHRpdGxlPkF1dGhuODwvdGl0bGU+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhdXRobjgtYmciIHgxPSIwIiB5MT0iMSIgeDI9IjEiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii4xNDYiIHN0b3AtY29sb3I9IiM1N0NDOTkiLz48c3RvcCBvZmZzZXQ9Ii44NTQiIHN0b3AtY29sb3I9IiMyMjU3N0EiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCIgcng9IjUyLjgiIGZpbGw9InVybCgjYXV0aG44LWJnKSIvPjxnIGZpbGw9IiNmZmYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxIDIxKSBzY2FsZSguODI1KSI+PHJlY3QgeD0iMTI2LjE4IiB5PSIzOC4xMSIgd2lkdGg9IjUwLjc0IiBoZWlnaHQ9IjI5LjU5Ii8+PHJlY3QgeD0iNjMuMDciIHk9IjUwLjc2IiB3aWR0aD0iNTAuNzQiIGhlaWdodD0iNTAuMzciLz48cmVjdCB4PSIxMjYuMTgiIHk9IjgwLjA5IiB3aWR0aD0iODAuMTEiIGhlaWdodD0iNTguOTkiLz48cmVjdCB4PSIzMy43IiB5PSIxMTMuNTkiIHdpZHRoPSI4MC4xMSIgaGVpZ2h0PSI3OS45NCIvPjxyZWN0IHg9IjEyNi4xOCIgeT0iMTUxLjQzIiB3aWR0aD0iNTAuNzQiIGhlaWdodD0iNTAuNTEiLz48L2c+PC9zdmc+",
+      "providerLogoLight": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHZpZXdCb3g9IjAgMCAyNDAgMjQwIiB3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCI+PHRpdGxlPkF1dGhuODwvdGl0bGU+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJhdXRobjgtYmciIHgxPSIwIiB5MT0iMSIgeDI9IjEiIHkyPSIwIj48c3RvcCBvZmZzZXQ9Ii4xNDYiIHN0b3AtY29sb3I9IiM1N0NDOTkiLz48c3RvcCBvZmZzZXQ9Ii44NTQiIHN0b3AtY29sb3I9IiMyMjU3N0EiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iMjQwIiBoZWlnaHQ9IjI0MCIgcng9IjUyLjgiIGZpbGw9InVybCgjYXV0aG44LWJnKSIvPjxnIGZpbGw9IiNmZmYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDIxIDIxKSBzY2FsZSguODI1KSI+PHJlY3QgeD0iMTI2LjE4IiB5PSIzOC4xMSIgd2lkdGg9IjUwLjc0IiBoZWlnaHQ9IjI5LjU5Ii8+PHJlY3QgeD0iNjMuMDciIHk9IjUwLjc2IiB3aWR0aD0iNTAuNzQiIGhlaWdodD0iNTAuMzciLz48cmVjdCB4PSIxMjYuMTgiIHk9IjgwLjA5IiB3aWR0aD0iODAuMTEiIGhlaWdodD0iNTguOTkiLz48cmVjdCB4PSIzMy43IiB5PSIxMTMuNTkiIHdpZHRoPSI4MC4xMSIgaGVpZ2h0PSI3OS45NCIvPjxyZWN0IHg9IjEyNi4xOCIgeT0iMTUxLjQzIiB3aWR0aD0iNTAuNzQiIGhlaWdodD0iNTAuNTEiLz48L2c+PC9zdmc+",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "tcDisplay": [],
+      "upv": []
+    },
+    "name": "Authn8 shares passkeys, 2FA codes and passwords across a team. Passkey private keys are encrypted on the Authn8 servers and used through the Authn8 extension for Chrome and Edge on desktop."
   }
 ]

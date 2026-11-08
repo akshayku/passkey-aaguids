@@ -111,10 +111,10 @@
         "userVerificationDetails": [
           [
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "all"
             },
             {
-              "userVerificationMethod": "all"
+              "userVerificationMethod": "presence_internal"
             },
             {
               "caDesc": {
@@ -270,10 +270,10 @@
       "userVerificationDetails": [
         [
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "all"
           },
           {
-            "userVerificationMethod": "all"
+            "userVerificationMethod": "presence_internal"
           },
           {
             "caDesc": {
