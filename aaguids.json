@@ -60,6 +60,10 @@
     "name": "Nymi FIDO2 Authenticator"
   },
   {
+    "aaguid": "0b4f3699-4016-4fa5-8e32-9948e0dce59c",
+    "name": "SafeNet IDPrime CL FIDO2.1 - Desfire EV3C Enterprise Extended"
+  },
+  {
     "aaguid": "0b8b05a4-ebd4-4b0b-8f5f-33d7b6e606ab",
     "name": "HID Crescendo 4000"
   },
@@ -784,6 +788,10 @@
     "name": "YubiKey Bio Series - Multi-protocol Edition (Enterprise Profile)"
   },
   {
+    "aaguid": "6f1d4a0e-923b-4c57-a815-3e770cd2916b",
+    "name": "Sixora"
+  },
+  {
     "aaguid": "6f706c75-7366-6964-6f2d-70732d303031",
     "name": "OPPO FIDO2 Authenticator"
   },
@@ -898,6 +906,10 @@
   {
     "aaguid": "8108bdcd-8483-46b3-b3ce-359f8190325e",
     "name": "SECORA ID V2 by Infineon Enterprise Edition"
+  },
+  {
+    "aaguid": "8159a550-8be4-45f7-af80-2e5944f9cb6d",
+    "name": "GoTrust Idem Key mini"
   },
   {
     "aaguid": "817cdab8-0d51-4de1-a821-e25b88519cf3",
@@ -1062,10 +1074,6 @@
   {
     "aaguid": "95e4d58c-056e-4a65-866d-f5a69659e880",
     "name": "TruU Windows Authenticator"
-  },
-  {
-    "aaguid": "965bf694-423d-dc06-13d0-bb6c8402a5ea",
-    "name": "Excelsecu eSecu FIDO2 PRO+ Security Key"
   },
   {
     "aaguid": "970c8d9c-19d2-46af-aa32-3f448db49e35",
@@ -1373,7 +1381,7 @@
   },
   {
     "aaguid": "bdf4ac2c-13a2-4a08-bc3b-8a511c99ac96",
-    "name": "bdf4ac2c-13a2-4a08-bc3b-8a511c99ac96"
+    "name": "SafeNet IDPrime CL FIDO2.1 - Desfire EV3C"
   },
   {
     "aaguid": "be727034-574a-f799-5c76-0929e0430973",
@@ -1430,6 +1438,10 @@
   {
     "aaguid": "c62100de-759b-4bf8-b22b-63b3e3a80401",
     "name": "Token Ring 3 FIDO2 Authenticator"
+  },
+  {
+    "aaguid": "c6d7e8f9-a0b1-4c2d-8e3f-4a5b6c7d8e9f",
+    "name": "GoTrust Idem Card"
   },
   {
     "aaguid": "c80dbd9a-533f-4a17-b941-1a2f1c7cedff",
@@ -1664,6 +1676,10 @@
     "name": "ellipticSecure MIRkey USB Authenticator"
   },
   {
+    "aaguid": "eb47c8d0-bd15-4227-b469-8ff90d433045",
+    "name": "PassHulk"
+  },
+  {
     "aaguid": "eb7ef748-cbe0-4b40-b8f6-07bd2d592d35",
     "name": "YubiKey 5 CCN Series with NFC (Consumer Profile)"
   },
@@ -1690,6 +1706,10 @@
   {
     "aaguid": "ee882879-721c-4913-9775-3dfcce97072a",
     "name": "YubiKey 5 Series"
+  },
+  {
+    "aaguid": "efa165bc-fa36-4b4d-90e8-f8caeb88602c",
+    "name": "PalmFaith Scout FIDO2 Authenticator"
   },
   {
     "aaguid": "efb96b10-a9ee-4b6c-a4a9-d32125ccd4a4",

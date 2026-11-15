@@ -65,9 +65,6 @@
         "userVerificationDetails": [
           [
             {
-              "userVerificationMethod": "presence_internal"
-            },
-            {
               "caDesc": {
                 "base": 256,
                 "blockSlowdown": 0,
@@ -75,6 +72,9 @@
                 "minLength": 4
               },
               "userVerificationMethod": "passcode_internal"
+            },
+            {
+              "userVerificationMethod": "presence_internal"
             }
           ]
         ]
@@ -158,9 +158,6 @@
       "userVerificationDetails": [
         [
           {
-            "userVerificationMethod": "presence_internal"
-          },
-          {
             "caDesc": {
               "base": 256,
               "blockSlowdown": 0,
@@ -168,6 +165,9 @@
               "minLength": 4
             },
             "userVerificationMethod": "passcode_internal"
+          },
+          {
+            "userVerificationMethod": "presence_internal"
           }
         ]
       ]
