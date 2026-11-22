@@ -12,8 +12,8 @@
           "MIIC9TCCApugAwIBAgIUX1QZKPzuXlwqUDPXKImrpb9U+icwCgYIKoZIzj0EAwIwfzELMAkGA1UEBhMCVVMxETAPBgNVBAgMCENvbG9yYWRvMRMwEQYDVQQHDApDZW50ZW5uaWFsMR0wGwYDVQQKDBREYXBwbGUgU2VjdXJpdHkgSW5jLjEQMA4GA1UECwwHUm9vdCBDQTEXMBUGA1UEAwwORGFwcGxlIFJvb3QgQ0EwHhcNMjQwNjI3MjI0MTAyWhcNMzQwNjI1MjI0MTAyWjB/MQswCQYDVQQGEwJVUzERMA8GA1UECAwIQ29sb3JhZG8xEzARBgNVBAcMCkNlbnRlbm5pYWwxHTAbBgNVBAoMFERhcHBsZSBTZWN1cml0eSBJbmMuMRAwDgYDVQQLDAdSb290IENBMRcwFQYDVQQDDA5EYXBwbGUgUm9vdCBDQTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDJb2KIQQEo8dQieNB/DZOOJHM+05j0Vvb1EYxWX7GuWolN2J1Z5aC0hwGbwM+s91vLmRCbsmk+GF5d9kLcxKkSjgfQwgfEwHQYDVR0OBBYEFJ8bRuF6zIXYozyKokAfeRIEtUcTMIG+BgNVHSMEgbYwgbOAFJ8bRuF6zIXYozyKokAfeRIEtUcToYGEpIGBMH8xCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhDb2xvcmFkbzETMBEGA1UEBwwKQ2VudGVubmlhbDEdMBsGA1UECgwURGFwcGxlIFNlY3VyaXR5IEluYy4xEDAOBgNVBAsMB1Jvb3QgQ0ExFzAVBgNVBAMMDkRhcHBsZSBSb290IENBghRfVBko/O5eXCpQM9coiaulv1T6JzAPBgNVHRMBAf8EBTADAQH/MAoGCCqGSM49BAMCA0gAMEUCID7ln9ZgL9uvMp0/lKtK+r2R9ip3OmyAgPfbmPdSrlVGAiEA3yE6Zkg45oYG7N+gRuN599V3vGG3Wz9JVBfmRRKkPUs="
         ],
         "attestationTypes": [
-          "basic_surrogate",
-          "basic_full"
+          "basic_full",
+          "basic_surrogate"
         ],
         "authenticationAlgorithms": [
           "secp256r1_ecdsa_sha256_raw"
@@ -70,11 +70,11 @@
         "upv": [
           {
             "major": 1,
-            "minor": 1
+            "minor": 0
           },
           {
             "major": 1,
-            "minor": 0
+            "minor": 1
           }
         ],
         "userVerificationDetails": [
@@ -107,8 +107,8 @@
         "MIIC9TCCApugAwIBAgIUX1QZKPzuXlwqUDPXKImrpb9U+icwCgYIKoZIzj0EAwIwfzELMAkGA1UEBhMCVVMxETAPBgNVBAgMCENvbG9yYWRvMRMwEQYDVQQHDApDZW50ZW5uaWFsMR0wGwYDVQQKDBREYXBwbGUgU2VjdXJpdHkgSW5jLjEQMA4GA1UECwwHUm9vdCBDQTEXMBUGA1UEAwwORGFwcGxlIFJvb3QgQ0EwHhcNMjQwNjI3MjI0MTAyWhcNMzQwNjI1MjI0MTAyWjB/MQswCQYDVQQGEwJVUzERMA8GA1UECAwIQ29sb3JhZG8xEzARBgNVBAcMCkNlbnRlbm5pYWwxHTAbBgNVBAoMFERhcHBsZSBTZWN1cml0eSBJbmMuMRAwDgYDVQQLDAdSb290IENBMRcwFQYDVQQDDA5EYXBwbGUgUm9vdCBDQTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABDJb2KIQQEo8dQieNB/DZOOJHM+05j0Vvb1EYxWX7GuWolN2J1Z5aC0hwGbwM+s91vLmRCbsmk+GF5d9kLcxKkSjgfQwgfEwHQYDVR0OBBYEFJ8bRuF6zIXYozyKokAfeRIEtUcTMIG+BgNVHSMEgbYwgbOAFJ8bRuF6zIXYozyKokAfeRIEtUcToYGEpIGBMH8xCzAJBgNVBAYTAlVTMREwDwYDVQQIDAhDb2xvcmFkbzETMBEGA1UEBwwKQ2VudGVubmlhbDEdMBsGA1UECgwURGFwcGxlIFNlY3VyaXR5IEluYy4xEDAOBgNVBAsMB1Jvb3QgQ0ExFzAVBgNVBAMMDkRhcHBsZSBSb290IENBghRfVBko/O5eXCpQM9coiaulv1T6JzAPBgNVHRMBAf8EBTADAQH/MAoGCCqGSM49BAMCA0gAMEUCID7ln9ZgL9uvMp0/lKtK+r2R9ip3OmyAgPfbmPdSrlVGAiEA3yE6Zkg45oYG7N+gRuN599V3vGG3Wz9JVBfmRRKkPUs="
       ],
       "attestationTypes": [
-        "basic_surrogate",
-        "basic_full"
+        "basic_full",
+        "basic_surrogate"
       ],
       "authenticationAlgorithms": [
         "secp256r1_ecdsa_sha256_raw"
@@ -165,11 +165,11 @@
       "upv": [
         {
           "major": 1,
-          "minor": 1
+          "minor": 0
         },
         {
           "major": 1,
-          "minor": 0
+          "minor": 1
         }
       ],
       "userVerificationDetails": [

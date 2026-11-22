@@ -15,8 +15,8 @@
           "basic_full"
         ],
         "authenticationAlgorithms": [
-          "ed25519_eddsa_sha512_raw",
-          "secp256r1_ecdsa_sha256_raw"
+          "secp256r1_ecdsa_sha256_raw",
+          "ed25519_eddsa_sha512_raw"
         ],
         "authenticatorGetInfo": {
           "aaguid": "e1a9618350164f24b55be3ae23614cc6",
@@ -107,10 +107,10 @@
           ],
           [
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "passcode_external"
             },
             {
-              "userVerificationMethod": "passcode_external"
+              "userVerificationMethod": "presence_internal"
             }
           ],
           [
@@ -149,8 +149,8 @@
         "basic_full"
       ],
       "authenticationAlgorithms": [
-        "ed25519_eddsa_sha512_raw",
-        "secp256r1_ecdsa_sha256_raw"
+        "secp256r1_ecdsa_sha256_raw",
+        "ed25519_eddsa_sha512_raw"
       ],
       "authenticatorGetInfo": {
         "aaguid": "e1a9618350164f24b55be3ae23614cc6",
@@ -241,10 +241,10 @@
         ],
         [
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "passcode_external"
           },
           {
-            "userVerificationMethod": "passcode_external"
+            "userVerificationMethod": "presence_internal"
           }
         ],
         [

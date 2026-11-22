@@ -1,8 +1,82 @@
 [
   {
-    "description": null,
-    "mds_entry": {},
-    "metadataStatement": {},
-    "name": "Sésame"
+    "description": "Sesame password manager supporting passkeys and passwords on iPhone, iPad, and Mac",
+    "mds_entry": {
+      "aaguid": "891494da-2c90-4d31-a9cd-4eab0aed1309",
+      "metadataStatement": {
+        "aaguid": "891494da-2c90-4d31-a9cd-4eab0aed1309",
+        "attestationRootCertificates": [],
+        "attestationTypes": [
+          "none"
+        ],
+        "authenticationAlgorithms": [
+          "secp256r1_ecdsa_sha256_der"
+        ],
+        "authenticatorVersion": 1,
+        "description": "Sesame password manager supporting passkeys and passwords on iPhone, iPad, and Mac",
+        "friendlyNames": {
+          "en-US": "Sesame",
+          "fr-FR": "Sésame"
+        },
+        "keyProtection": [
+          "software"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "software"
+        ],
+        "multiDeviceCredentialSupport": "implicit",
+        "protocolFamily": "fido2",
+        "providerLogoDark": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjEwMjQiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIHpvb21BbmRQYW49ImRpc2FibGUiIGV4dGVybmFsUmVzb3VyY2VzUmVxdWlyZWQ9ImZhbHNlIj48dGl0bGU+U8Opc2FtZTwvdGl0bGU+PHJlY3Qgd2lkdGg9IjEwMjQiIGhlaWdodD0iMTAyNCIgcng9IjE3NiIgZmlsbD0idXJsKCNiZykiLz48cGF0aCBkPSJNNzY5LjE3NSA0NTIuMTE4TDM3MC41NzkgNDUxLjY3OEMzMzkuNjU4IDQ1MS42ODUgMzEwLjAwNiA0NjMuOTYzIDI4OC4xNDQgNDg1LjgxMkMyNjYuMjgyIDUwNy42NjIgMjU0IDUzNy4yOTQgMjU0IDU2OC4xOVY3OTguNzFDMjU0IDgwNy41MzcgMjU3LjUwOSA4MTYuMDA0IDI2My43NTUgODIyLjI0N0MyNzAuMDAyIDgyOC40OSAyNzguNDc0IDgzMS45OTggMjg3LjMwOCA4MzJINjUyLjk0QzY4My44NjQgODMxLjk5OCA3MTMuNTIgODE5LjcyMiA3MzUuMzg2IDc5Ny44NzJDNzU3LjI1MiA3NzYuMDIyIDc2OS41MzYgNzQ2LjM4OCA3NjkuNTM2IDcxNS40ODhMNzcwIDQ1OS42MzFWNDIzLjg1M0M3NjkuNzg4IDM3Ni41MjMgNzU1LjE0OSAzMzAuMzgyIDcyOC4wMzQgMjkxLjU3NUM3MDAuOTE5IDI1Mi43NjcgNjYyLjYxNCAyMjMuMTM2IDYxOC4yMjIgMjA2LjYyN0M1NzMuODMgMTkwLjExOCA1MjUuNDU4IDE4Ny41MTYgNDc5LjU0OCAxOTkuMTY3QzQzMy42MzkgMjEwLjgxNyAzOTIuMzcyIDIzNi4xNjggMzYxLjI0MyAyNzEuODQyIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMzIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik01MTIuMDAxIDY5MkM1MzkuNjE1IDY5MiA1NjIuMDAxIDY2OS42MTQgNTYyLjAwMSA2NDJDNTYyLjAwMSA2MTQuMzg2IDUzOS42MTUgNTkyIDUxMi4wMDEgNTkyQzQ4NC4zODcgNTkyIDQ2Mi4wMDEgNjE0LjM4NiA0NjIuMDAxIDY0MkM0NjIuMDAxIDY2OS42MTQgNDg0LjM4NyA2OTIgNTEyLjAwMSA2OTJaIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMzIiLz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxMDI0IiB5Mj0iMTAyNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAwNkRFNiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwQTZGRiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPg==",
+        "providerLogoLight": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjEwMjQiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIHpvb21BbmRQYW49ImRpc2FibGUiIGV4dGVybmFsUmVzb3VyY2VzUmVxdWlyZWQ9ImZhbHNlIj48dGl0bGU+U8Opc2FtZTwvdGl0bGU+PHJlY3Qgd2lkdGg9IjEwMjQiIGhlaWdodD0iMTAyNCIgcng9IjE3NiIgZmlsbD0idXJsKCNiZykiLz48cGF0aCBkPSJNNzY5LjE3NSA0NTIuMTE4TDM3MC41NzkgNDUxLjY3OEMzMzkuNjU4IDQ1MS42ODUgMzEwLjAwNiA0NjMuOTYzIDI4OC4xNDQgNDg1LjgxMkMyNjYuMjgyIDUwNy42NjIgMjU0IDUzNy4yOTQgMjU0IDU2OC4xOVY3OTguNzFDMjU0IDgwNy41MzcgMjU3LjUwOSA4MTYuMDA0IDI2My43NTUgODIyLjI0N0MyNzAuMDAyIDgyOC40OSAyNzguNDc0IDgzMS45OTggMjg3LjMwOCA4MzJINjUyLjk0QzY4My44NjQgODMxLjk5OCA3MTMuNTIgODE5LjcyMiA3MzUuMzg2IDc5Ny44NzJDNzU3LjI1MiA3NzYuMDIyIDc2OS41MzYgNzQ2LjM4OCA3NjkuNTM2IDcxNS40ODhMNzcwIDQ1OS42MzFWNDIzLjg1M0M3NjkuNzg4IDM3Ni41MjMgNzU1LjE0OSAzMzAuMzgyIDcyOC4wMzQgMjkxLjU3NUM3MDAuOTE5IDI1Mi43NjcgNjYyLjYxNCAyMjMuMTM2IDYxOC4yMjIgMjA2LjYyN0M1NzMuODMgMTkwLjExOCA1MjUuNDU4IDE4Ny41MTYgNDc5LjU0OCAxOTkuMTY3QzQzMy42MzkgMjEwLjgxNyAzOTIuMzcyIDIzNi4xNjggMzYxLjI0MyAyNzEuODQyIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMzIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik01MTIuMDAxIDY5MkM1MzkuNjE1IDY5MiA1NjIuMDAxIDY2OS42MTQgNTYyLjAwMSA2NDJDNTYyLjAwMSA2MTQuMzg2IDUzOS42MTUgNTkyIDUxMi4wMDEgNTkyQzQ4NC4zODcgNTkyIDQ2Mi4wMDEgNjE0LjM4NiA0NjIuMDAxIDY0MkM0NjIuMDAxIDY2OS42MTQgNDg0LjM4NyA2OTIgNTEyLjAwMSA2OTJaIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMzIiLz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxMDI0IiB5Mj0iMTAyNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAwNkRFNiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwQTZGRiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPg==",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "tcDisplay": [],
+        "upv": []
+      },
+      "statusReports": [
+        {
+          "effectiveDate": "2026-11-12",
+          "status": "NOT_FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2026-11-12"
+    },
+    "metadataStatement": {
+      "aaguid": "891494da-2c90-4d31-a9cd-4eab0aed1309",
+      "attestationRootCertificates": [],
+      "attestationTypes": [
+        "none"
+      ],
+      "authenticationAlgorithms": [
+        "secp256r1_ecdsa_sha256_der"
+      ],
+      "authenticatorVersion": 1,
+      "description": "Sesame password manager supporting passkeys and passwords on iPhone, iPad, and Mac",
+      "friendlyNames": {
+        "en-US": "Sesame",
+        "fr-FR": "Sésame"
+      },
+      "keyProtection": [
+        "software"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "software"
+      ],
+      "multiDeviceCredentialSupport": "implicit",
+      "protocolFamily": "fido2",
+      "providerLogoDark": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjEwMjQiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIHpvb21BbmRQYW49ImRpc2FibGUiIGV4dGVybmFsUmVzb3VyY2VzUmVxdWlyZWQ9ImZhbHNlIj48dGl0bGU+U8Opc2FtZTwvdGl0bGU+PHJlY3Qgd2lkdGg9IjEwMjQiIGhlaWdodD0iMTAyNCIgcng9IjE3NiIgZmlsbD0idXJsKCNiZykiLz48cGF0aCBkPSJNNzY5LjE3NSA0NTIuMTE4TDM3MC41NzkgNDUxLjY3OEMzMzkuNjU4IDQ1MS42ODUgMzEwLjAwNiA0NjMuOTYzIDI4OC4xNDQgNDg1LjgxMkMyNjYuMjgyIDUwNy42NjIgMjU0IDUzNy4yOTQgMjU0IDU2OC4xOVY3OTguNzFDMjU0IDgwNy41MzcgMjU3LjUwOSA4MTYuMDA0IDI2My43NTUgODIyLjI0N0MyNzAuMDAyIDgyOC40OSAyNzguNDc0IDgzMS45OTggMjg3LjMwOCA4MzJINjUyLjk0QzY4My44NjQgODMxLjk5OCA3MTMuNTIgODE5LjcyMiA3MzUuMzg2IDc5Ny44NzJDNzU3LjI1MiA3NzYuMDIyIDc2OS41MzYgNzQ2LjM4OCA3NjkuNTM2IDcxNS40ODhMNzcwIDQ1OS42MzFWNDIzLjg1M0M3NjkuNzg4IDM3Ni41MjMgNzU1LjE0OSAzMzAuMzgyIDcyOC4wMzQgMjkxLjU3NUM3MDAuOTE5IDI1Mi43NjcgNjYyLjYxNCAyMjMuMTM2IDYxOC4yMjIgMjA2LjYyN0M1NzMuODMgMTkwLjExOCA1MjUuNDU4IDE4Ny41MTYgNDc5LjU0OCAxOTkuMTY3QzQzMy42MzkgMjEwLjgxNyAzOTIuMzcyIDIzNi4xNjggMzYxLjI0MyAyNzEuODQyIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMzIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik01MTIuMDAxIDY5MkM1MzkuNjE1IDY5MiA1NjIuMDAxIDY2OS42MTQgNTYyLjAwMSA2NDJDNTYyLjAwMSA2MTQuMzg2IDUzOS42MTUgNTkyIDUxMi4wMDEgNTkyQzQ4NC4zODcgNTkyIDQ2Mi4wMDEgNjE0LjM4NiA0NjIuMDAxIDY0MkM0NjIuMDAxIDY2OS42MTQgNDg0LjM4NyA2OTIgNTEyLjAwMSA2OTJaIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMzIiLz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxMDI0IiB5Mj0iMTAyNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAwNkRFNiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwQTZGRiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPg==",
+      "providerLogoLight": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHdpZHRoPSIxMDI0IiBoZWlnaHQ9IjEwMjQiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIHpvb21BbmRQYW49ImRpc2FibGUiIGV4dGVybmFsUmVzb3VyY2VzUmVxdWlyZWQ9ImZhbHNlIj48dGl0bGU+U8Opc2FtZTwvdGl0bGU+PHJlY3Qgd2lkdGg9IjEwMjQiIGhlaWdodD0iMTAyNCIgcng9IjE3NiIgZmlsbD0idXJsKCNiZykiLz48cGF0aCBkPSJNNzY5LjE3NSA0NTIuMTE4TDM3MC41NzkgNDUxLjY3OEMzMzkuNjU4IDQ1MS42ODUgMzEwLjAwNiA0NjMuOTYzIDI4OC4xNDQgNDg1LjgxMkMyNjYuMjgyIDUwNy42NjIgMjU0IDUzNy4yOTQgMjU0IDU2OC4xOVY3OTguNzFDMjU0IDgwNy41MzcgMjU3LjUwOSA4MTYuMDA0IDI2My43NTUgODIyLjI0N0MyNzAuMDAyIDgyOC40OSAyNzguNDc0IDgzMS45OTggMjg3LjMwOCA4MzJINjUyLjk0QzY4My44NjQgODMxLjk5OCA3MTMuNTIgODE5LjcyMiA3MzUuMzg2IDc5Ny44NzJDNzU3LjI1MiA3NzYuMDIyIDc2OS41MzYgNzQ2LjM4OCA3NjkuNTM2IDcxNS40ODhMNzcwIDQ1OS42MzFWNDIzLjg1M0M3NjkuNzg4IDM3Ni41MjMgNzU1LjE0OSAzMzAuMzgyIDcyOC4wMzQgMjkxLjU3NUM3MDAuOTE5IDI1Mi43NjcgNjYyLjYxNCAyMjMuMTM2IDYxOC4yMjIgMjA2LjYyN0M1NzMuODMgMTkwLjExOCA1MjUuNDU4IDE4Ny41MTYgNDc5LjU0OCAxOTkuMTY3QzQzMy42MzkgMjEwLjgxNyAzOTIuMzcyIDIzNi4xNjggMzYxLjI0MyAyNzEuODQyIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMzIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPjxwYXRoIGQ9Ik01MTIuMDAxIDY5MkM1MzkuNjE1IDY5MiA1NjIuMDAxIDY2OS42MTQgNTYyLjAwMSA2NDJDNTYyLjAwMSA2MTQuMzg2IDUzOS42MTUgNTkyIDUxMi4wMDEgNTkyQzQ4NC4zODcgNTkyIDQ2Mi4wMDEgNjE0LjM4NiA0NjIuMDAxIDY0MkM0NjIuMDAxIDY2OS42MTQgNDg0LjM4NyA2OTIgNTEyLjAwMSA2OTJaIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMzIiLz48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxMDI0IiB5Mj0iMTAyNCIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAwNkRFNiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwQTZGRiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjwvc3ZnPg==",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "tcDisplay": [],
+      "upv": []
+    },
+    "name": "Sesame password manager supporting passkeys and passwords on iPhone, iPad, and Mac"
   }
 ]

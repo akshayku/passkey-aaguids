@@ -1,1 +1,1 @@
-VeroCard FIDO2 Authenticator
+Keyek FIDO2 Authenticator

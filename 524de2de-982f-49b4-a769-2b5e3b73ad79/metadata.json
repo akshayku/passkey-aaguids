@@ -137,15 +137,15 @@
         "upv": [
           {
             "major": 1,
-            "minor": 1
-          },
-          {
-            "major": 1,
             "minor": 3
           },
           {
             "major": 1,
             "minor": 0
+          },
+          {
+            "major": 1,
+            "minor": 1
           }
         ],
         "userVerificationDetails": [
@@ -341,15 +341,15 @@
       "upv": [
         {
           "major": 1,
-          "minor": 1
-        },
-        {
-          "major": 1,
           "minor": 3
         },
         {
           "major": 1,
           "minor": 0
+        },
+        {
+          "major": 1,
+          "minor": 1
         }
       ],
       "userVerificationDetails": [

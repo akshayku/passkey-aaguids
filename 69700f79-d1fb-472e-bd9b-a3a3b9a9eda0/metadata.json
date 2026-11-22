@@ -85,8 +85,8 @@
         ],
         "protocolFamily": "fido2",
         "publicKeyAlgAndEncodings": [
-          "cose",
-          "ecc_x962_raw"
+          "ecc_x962_raw",
+          "cose"
         ],
         "schema": 3,
         "tcDisplay": [],
@@ -103,13 +103,13 @@
         "userVerificationDetails": [
           [
             {
+              "userVerificationMethod": "presence_internal"
+            },
+            {
               "userVerificationMethod": "fingerprint_internal"
             },
             {
               "userVerificationMethod": "passcode_external"
-            },
-            {
-              "userVerificationMethod": "presence_internal"
             }
           ]
         ]
@@ -215,8 +215,8 @@
       ],
       "protocolFamily": "fido2",
       "publicKeyAlgAndEncodings": [
-        "cose",
-        "ecc_x962_raw"
+        "ecc_x962_raw",
+        "cose"
       ],
       "schema": 3,
       "tcDisplay": [],
@@ -233,13 +233,13 @@
       "userVerificationDetails": [
         [
           {
+            "userVerificationMethod": "presence_internal"
+          },
+          {
             "userVerificationMethod": "fingerprint_internal"
           },
           {
             "userVerificationMethod": "passcode_external"
-          },
-          {
-            "userVerificationMethod": "presence_internal"
           }
         ]
       ]

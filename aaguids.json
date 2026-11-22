@@ -144,6 +144,10 @@
     "name": "Security Key by Yubico with NFC"
   },
   {
+    "aaguid": "1539ad9f-de36-4f15-b1e1-f08f378b7947",
+    "name": "IT Glue Extension"
+  },
+  {
     "aaguid": "16a5a15d-7244-4563-856d-a5167d8b9783",
     "name": "Pleasant Password Server"
   },
@@ -689,7 +693,7 @@
   },
   {
     "aaguid": "6169eb16-f87a-42d8-978d-e1ac0c3f319f",
-    "name": "GoTrust Idem Card"
+    "name": "IDEMIA Access FIDO Smart Card"
   },
   {
     "aaguid": "62e54e98-c209-4df3-b692-de71bb6a8528",
@@ -876,6 +880,10 @@
     "name": "G+D StarKey FIDO2-NFC"
   },
   {
+    "aaguid": "7a6110ff-b100-9d71-b547-3d2ff1b0ae73",
+    "name": "7a6110ff-b100-9d71-b547-3d2ff1b0ae73"
+  },
+  {
     "aaguid": "7b96457d-e3cd-432b-9ceb-c9fdd7ef7432",
     "name": "YubiKey 5 FIPS Series with Lightning"
   },
@@ -1028,6 +1036,10 @@
     "name": "HID Crescendo 4000 FIPS"
   },
   {
+    "aaguid": "8f3c2d71-5a84-4b9e-a2d7-6c1e9f4b8a30",
+    "name": "8f3c2d71-5a84-4b9e-a2d7-6c1e9f4b8a30"
+  },
+  {
     "aaguid": "9012593f-43e4-4461-a97a-d92777b55d74",
     "name": "VinCSS FIDO2 Fingerprint"
   },
@@ -1096,6 +1108,10 @@
     "name": "Somu Secp256R1 FIDO2 CTAP2 Authenticator"
   },
   {
+    "aaguid": "99001b4d-4c81-4590-b115-ed23a6633af1",
+    "name": "Wultra Authenticator WAU1.2"
+  },
+  {
     "aaguid": "9955a1cd-564c-d388-ad68-9878a27be9f1",
     "name": "StarSign Chase FIDO Card"
   },
@@ -1109,7 +1125,7 @@
   },
   {
     "aaguid": "99ed6c29-4573-4847-816d-78ad8f1c75ef",
-    "name": "VeroCard FIDO2 Authenticator"
+    "name": "Keyek FIDO2 Authenticator"
   },
   {
     "aaguid": "9a272558-5cfa-4424-be37-65509677b77d",
@@ -1198,6 +1214,10 @@
   {
     "aaguid": "a3975549-b191-fd67-b8fb-017e2917fdb3",
     "name": "Excelsecu eSecu FIDO2 NFC Security Key"
+  },
+  {
+    "aaguid": "a3b129e7-c506-4636-93af-f263c305f1dd",
+    "name": "KeltKey"
   },
   {
     "aaguid": "a3ee1074-c69c-4286-8b6b-93764136a919",
@@ -1529,7 +1549,7 @@
   },
   {
     "aaguid": "d53e7a41-8c2f-4b6e-9a07-3c51e2946b1f",
-    "name": "DeepVault"
+    "name": "DeepVault Password Manager"
   },
   {
     "aaguid": "d548826e-79b4-db40-a3d8-11116f7e8349",
@@ -1604,6 +1624,10 @@
     "name": "IDEMIA SOLVO Fly 80 R3 FIDO Card c"
   },
   {
+    "aaguid": "de244d52-5005-4bf9-8f4d-074192ecda80",
+    "name": "Nekos Vault"
+  },
+  {
     "aaguid": "de503f9c-21a4-4f76-b4b7-558eb55c6f89",
     "name": "Devolutions"
   },
@@ -1638,6 +1662,10 @@
   {
     "aaguid": "e41b42a3-60ac-4afb-8757-a98f2d7f6c9f",
     "name": "Deepnet SafeKey/Classic (FP)"
+  },
+  {
+    "aaguid": "e5015a9a-8dd6-4d6b-8783-abf5dc92f2ed",
+    "name": "MyGlue Extension"
   },
   {
     "aaguid": "e50e32f3-02ec-4afb-bdac-7205d12629df",
@@ -1722,6 +1750,14 @@
   {
     "aaguid": "f2145e86-211e-4931-b874-e22bba7d01cc",
     "name": "ID-One Key"
+  },
+  {
+    "aaguid": "f2434aed-748c-4ac9-9b8e-279044963321",
+    "name": "Keepass2Android"
+  },
+  {
+    "aaguid": "f292cc91-22a8-a7fc-a224-fbf6db11c7c4",
+    "name": "f292cc91-22a8-a7fc-a224-fbf6db11c7c4"
   },
   {
     "aaguid": "f3809540-7f14-49c1-a8b3-8f813b225541",

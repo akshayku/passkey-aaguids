@@ -79,9 +79,6 @@
               "userVerificationMethod": "voiceprint_internal"
             },
             {
-              "userVerificationMethod": "presence_internal"
-            },
-            {
               "userVerificationMethod": "location_internal"
             },
             {
@@ -89,6 +86,9 @@
             },
             {
               "userVerificationMethod": "faceprint_internal"
+            },
+            {
+              "userVerificationMethod": "presence_internal"
             }
           ]
         ]
@@ -185,9 +185,6 @@
             "userVerificationMethod": "voiceprint_internal"
           },
           {
-            "userVerificationMethod": "presence_internal"
-          },
-          {
             "userVerificationMethod": "location_internal"
           },
           {
@@ -195,6 +192,9 @@
           },
           {
             "userVerificationMethod": "faceprint_internal"
+          },
+          {
+            "userVerificationMethod": "presence_internal"
           }
         ]
       ]

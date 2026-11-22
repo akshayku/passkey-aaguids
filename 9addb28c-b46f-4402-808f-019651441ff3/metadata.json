@@ -1,8 +1,84 @@
 [
   {
-    "description": null,
-    "mds_entry": {},
-    "metadataStatement": {},
-    "name": "KeePassPasskey"
+    "description": "Passkey provider for Windows that stores passkeys in KeePass databases",
+    "mds_entry": {
+      "aaguid": "9addb28c-b46f-4402-808f-019651441ff3",
+      "metadataStatement": {
+        "aaguid": "9addb28c-b46f-4402-808f-019651441ff3",
+        "attestationRootCertificates": [],
+        "attestationTypes": [
+          "none"
+        ],
+        "authenticationAlgorithms": [
+          "ed25519_eddsa_sha512_raw",
+          "secp256r1_ecdsa_sha256_raw",
+          "rsassa_pkcsv15_sha256_raw"
+        ],
+        "authenticatorVersion": 1,
+        "description": "Passkey provider for Windows that stores passkeys in KeePass databases",
+        "friendlyNames": {
+          "en-US": "KeePassPasskey"
+        },
+        "keyProtection": [
+          "software"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "software"
+        ],
+        "multiDeviceCredentialSupport": "implicit",
+        "protocolFamily": "fido2",
+        "providerLogoDark": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48dGl0bGU+S2VlUGFzc1Bhc3NrZXk8L3RpdGxlPjxwb2x5Z29uIHBvaW50cz0iMTI2LDY0IDk1LDEwIDMzLDEwIDIsNjQgMzMsMTE4IDk1LDExOCIgZmlsbD0iIzFhMDg0OCIgc3Ryb2tlPSIjMmUxMjgwIiBzdHJva2Utd2lkdGg9IjIiLz48cG9seWdvbiBwb2ludHM9IjExNiw2NCA5MCwxOSAzOCwxOSAxMiw2NCAzOCwxMDkgOTAsMTA5IiBmaWxsPSIjMjAwZTVjIi8+PGNpcmNsZSBjeD0iNjQiIGN5PSI0NiIgcj0iMTUiIGZpbGw9IiMyMDBlNWMiIHN0cm9rZT0iI2MwYjBmOCIgc3Ryb2tlLXdpZHRoPSI1Ii8+PGNpcmNsZSBjeD0iNjQiIGN5PSI0NiIgcj0iNCIgZmlsbD0iI2MwYjBmOCIvPjxyZWN0IHg9IjYyIiB5PSI1OSIgd2lkdGg9IjUiIGhlaWdodD0iMzQiIHJ4PSIxLjUiIGZpbGw9IiNjMGIwZjgiLz48cmVjdCB4PSI1MyIgeT0iNjgiIHdpZHRoPSI5IiBoZWlnaHQ9IjUiIHJ4PSIxLjUiIGZpbGw9IiNjMGIwZjgiLz48cmVjdCB4PSI1MyIgeT0iODAiIHdpZHRoPSI5IiBoZWlnaHQ9IjUiIHJ4PSIxLjUiIGZpbGw9IiNjMGIwZjgiLz48Y2lyY2xlIGN4PSI1MyIgY3k9IjcwIiByPSIzLjUiIGZpbGw9IiNiMDQwZjgiLz48Y2lyY2xlIGN4PSI1MyIgY3k9IjgyIiByPSIzLjUiIGZpbGw9IiNiMDQwZjgiLz48Y2lyY2xlIGN4PSI2NCIgY3k9IjQ2IiByPSI0IiBmaWxsPSIjYjA0MGY4Ii8+PGNpcmNsZSBjeD0iNjQiIGN5PSI5MiIgcj0iMyIgZmlsbD0iI2IwNDBmOCIvPjxsaW5lIHgxPSI1MyIgeTE9IjcwIiB4Mj0iNDIiIHkyPSI3MCIgc3Ryb2tlPSIjYjA0MGY4IiBzdHJva2Utd2lkdGg9IjEuMiIgc3Ryb2tlLW9wYWNpdHk9IjAuNSIvPjxsaW5lIHgxPSI1MyIgeTE9IjgyIiB4Mj0iNDAiIHkyPSI4MiIgc3Ryb2tlPSIjYjA0MGY4IiBzdHJva2Utd2lkdGg9IjEuMiIgc3Ryb2tlLW9wYWNpdHk9IjAuNSIvPjwvc3ZnPg==",
+        "providerLogoLight": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48dGl0bGU+S2VlUGFzc1Bhc3NrZXk8L3RpdGxlPjxwb2x5Z29uIHBvaW50cz0iMTI2LDY0IDk1LDEwIDMzLDEwIDIsNjQgMzMsMTE4IDk1LDExOCIgZmlsbD0iI2YwZWNmZiIgc3Ryb2tlPSIjYzBhOGYwIiBzdHJva2Utd2lkdGg9IjIiLz48cG9seWdvbiBwb2ludHM9IjExNiw2NCA5MCwxOSAzOCwxOSAxMiw2NCAzOCwxMDkgOTAsMTA5IiBmaWxsPSIjZTZkZWZmIi8+PGNpcmNsZSBjeD0iNjQiIGN5PSI0NiIgcj0iMTUiIGZpbGw9IiNlNmRlZmYiIHN0cm9rZT0iIzFhMDg0OCIgc3Ryb2tlLXdpZHRoPSI1Ii8+PGNpcmNsZSBjeD0iNjQiIGN5PSI0NiIgcj0iNCIgZmlsbD0iIzFhMDg0OCIvPjxyZWN0IHg9IjYyIiB5PSI1OSIgd2lkdGg9IjUiIGhlaWdodD0iMzQiIHJ4PSIxLjUiIGZpbGw9IiMxYTA4NDgiLz48cmVjdCB4PSI1MyIgeT0iNjgiIHdpZHRoPSI5IiBoZWlnaHQ9IjUiIHJ4PSIxLjUiIGZpbGw9IiMxYTA4NDgiLz48cmVjdCB4PSI1MyIgeT0iODAiIHdpZHRoPSI5IiBoZWlnaHQ9IjUiIHJ4PSIxLjUiIGZpbGw9IiMxYTA4NDgiLz48Y2lyY2xlIGN4PSI1MyIgY3k9IjcwIiByPSIzLjUiIGZpbGw9IiM4MDIwZDAiLz48Y2lyY2xlIGN4PSI1MyIgY3k9IjgyIiByPSIzLjUiIGZpbGw9IiM4MDIwZDAiLz48Y2lyY2xlIGN4PSI2NCIgY3k9IjQ2IiByPSI0IiBmaWxsPSIjODAyMGQwIi8+PGNpcmNsZSBjeD0iNjQiIGN5PSI5MiIgcj0iMyIgZmlsbD0iIzgwMjBkMCIvPjxsaW5lIHgxPSI1MyIgeTE9IjcwIiB4Mj0iNDIiIHkyPSI3MCIgc3Ryb2tlPSIjODAyMGQwIiBzdHJva2Utd2lkdGg9IjEuMiIgc3Ryb2tlLW9wYWNpdHk9IjAuNiIvPjxsaW5lIHgxPSI1MyIgeTE9IjgyIiB4Mj0iNDAiIHkyPSI4MiIgc3Ryb2tlPSIjODAyMGQwIiBzdHJva2Utd2lkdGg9IjEuMiIgc3Ryb2tlLW9wYWNpdHk9IjAuNiIvPjwvc3ZnPg==",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "tcDisplay": [],
+        "upv": []
+      },
+      "statusReports": [
+        {
+          "effectiveDate": "2026-11-18",
+          "status": "NOT_FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2026-11-18"
+    },
+    "metadataStatement": {
+      "aaguid": "9addb28c-b46f-4402-808f-019651441ff3",
+      "attestationRootCertificates": [],
+      "attestationTypes": [
+        "none"
+      ],
+      "authenticationAlgorithms": [
+        "ed25519_eddsa_sha512_raw",
+        "secp256r1_ecdsa_sha256_raw",
+        "rsassa_pkcsv15_sha256_raw"
+      ],
+      "authenticatorVersion": 1,
+      "description": "Passkey provider for Windows that stores passkeys in KeePass databases",
+      "friendlyNames": {
+        "en-US": "KeePassPasskey"
+      },
+      "keyProtection": [
+        "software"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "software"
+      ],
+      "multiDeviceCredentialSupport": "implicit",
+      "protocolFamily": "fido2",
+      "providerLogoDark": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48dGl0bGU+S2VlUGFzc1Bhc3NrZXk8L3RpdGxlPjxwb2x5Z29uIHBvaW50cz0iMTI2LDY0IDk1LDEwIDMzLDEwIDIsNjQgMzMsMTE4IDk1LDExOCIgZmlsbD0iIzFhMDg0OCIgc3Ryb2tlPSIjMmUxMjgwIiBzdHJva2Utd2lkdGg9IjIiLz48cG9seWdvbiBwb2ludHM9IjExNiw2NCA5MCwxOSAzOCwxOSAxMiw2NCAzOCwxMDkgOTAsMTA5IiBmaWxsPSIjMjAwZTVjIi8+PGNpcmNsZSBjeD0iNjQiIGN5PSI0NiIgcj0iMTUiIGZpbGw9IiMyMDBlNWMiIHN0cm9rZT0iI2MwYjBmOCIgc3Ryb2tlLXdpZHRoPSI1Ii8+PGNpcmNsZSBjeD0iNjQiIGN5PSI0NiIgcj0iNCIgZmlsbD0iI2MwYjBmOCIvPjxyZWN0IHg9IjYyIiB5PSI1OSIgd2lkdGg9IjUiIGhlaWdodD0iMzQiIHJ4PSIxLjUiIGZpbGw9IiNjMGIwZjgiLz48cmVjdCB4PSI1MyIgeT0iNjgiIHdpZHRoPSI5IiBoZWlnaHQ9IjUiIHJ4PSIxLjUiIGZpbGw9IiNjMGIwZjgiLz48cmVjdCB4PSI1MyIgeT0iODAiIHdpZHRoPSI5IiBoZWlnaHQ9IjUiIHJ4PSIxLjUiIGZpbGw9IiNjMGIwZjgiLz48Y2lyY2xlIGN4PSI1MyIgY3k9IjcwIiByPSIzLjUiIGZpbGw9IiNiMDQwZjgiLz48Y2lyY2xlIGN4PSI1MyIgY3k9IjgyIiByPSIzLjUiIGZpbGw9IiNiMDQwZjgiLz48Y2lyY2xlIGN4PSI2NCIgY3k9IjQ2IiByPSI0IiBmaWxsPSIjYjA0MGY4Ii8+PGNpcmNsZSBjeD0iNjQiIGN5PSI5MiIgcj0iMyIgZmlsbD0iI2IwNDBmOCIvPjxsaW5lIHgxPSI1MyIgeTE9IjcwIiB4Mj0iNDIiIHkyPSI3MCIgc3Ryb2tlPSIjYjA0MGY4IiBzdHJva2Utd2lkdGg9IjEuMiIgc3Ryb2tlLW9wYWNpdHk9IjAuNSIvPjxsaW5lIHgxPSI1MyIgeTE9IjgyIiB4Mj0iNDAiIHkyPSI4MiIgc3Ryb2tlPSIjYjA0MGY4IiBzdHJva2Utd2lkdGg9IjEuMiIgc3Ryb2tlLW9wYWNpdHk9IjAuNSIvPjwvc3ZnPg==",
+      "providerLogoLight": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHZpZXdCb3g9IjAgMCAxMjggMTI4Ij48dGl0bGU+S2VlUGFzc1Bhc3NrZXk8L3RpdGxlPjxwb2x5Z29uIHBvaW50cz0iMTI2LDY0IDk1LDEwIDMzLDEwIDIsNjQgMzMsMTE4IDk1LDExOCIgZmlsbD0iI2YwZWNmZiIgc3Ryb2tlPSIjYzBhOGYwIiBzdHJva2Utd2lkdGg9IjIiLz48cG9seWdvbiBwb2ludHM9IjExNiw2NCA5MCwxOSAzOCwxOSAxMiw2NCAzOCwxMDkgOTAsMTA5IiBmaWxsPSIjZTZkZWZmIi8+PGNpcmNsZSBjeD0iNjQiIGN5PSI0NiIgcj0iMTUiIGZpbGw9IiNlNmRlZmYiIHN0cm9rZT0iIzFhMDg0OCIgc3Ryb2tlLXdpZHRoPSI1Ii8+PGNpcmNsZSBjeD0iNjQiIGN5PSI0NiIgcj0iNCIgZmlsbD0iIzFhMDg0OCIvPjxyZWN0IHg9IjYyIiB5PSI1OSIgd2lkdGg9IjUiIGhlaWdodD0iMzQiIHJ4PSIxLjUiIGZpbGw9IiMxYTA4NDgiLz48cmVjdCB4PSI1MyIgeT0iNjgiIHdpZHRoPSI5IiBoZWlnaHQ9IjUiIHJ4PSIxLjUiIGZpbGw9IiMxYTA4NDgiLz48cmVjdCB4PSI1MyIgeT0iODAiIHdpZHRoPSI5IiBoZWlnaHQ9IjUiIHJ4PSIxLjUiIGZpbGw9IiMxYTA4NDgiLz48Y2lyY2xlIGN4PSI1MyIgY3k9IjcwIiByPSIzLjUiIGZpbGw9IiM4MDIwZDAiLz48Y2lyY2xlIGN4PSI1MyIgY3k9IjgyIiByPSIzLjUiIGZpbGw9IiM4MDIwZDAiLz48Y2lyY2xlIGN4PSI2NCIgY3k9IjQ2IiByPSI0IiBmaWxsPSIjODAyMGQwIi8+PGNpcmNsZSBjeD0iNjQiIGN5PSI5MiIgcj0iMyIgZmlsbD0iIzgwMjBkMCIvPjxsaW5lIHgxPSI1MyIgeTE9IjcwIiB4Mj0iNDIiIHkyPSI3MCIgc3Ryb2tlPSIjODAyMGQwIiBzdHJva2Utd2lkdGg9IjEuMiIgc3Ryb2tlLW9wYWNpdHk9IjAuNiIvPjxsaW5lIHgxPSI1MyIgeTE9IjgyIiB4Mj0iNDAiIHkyPSI4MiIgc3Ryb2tlPSIjODAyMGQwIiBzdHJva2Utd2lkdGg9IjEuMiIgc3Ryb2tlLW9wYWNpdHk9IjAuNiIvPjwvc3ZnPg==",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "tcDisplay": [],
+      "upv": []
+    },
+    "name": "Passkey provider for Windows that stores passkeys in KeePass databases"
   }
 ]

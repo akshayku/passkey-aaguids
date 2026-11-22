@@ -85,16 +85,16 @@
         "userVerificationDetails": [
           [
             {
-              "userVerificationMethod": "fingerprint_internal"
-            },
-            {
-              "userVerificationMethod": "passcode_internal"
-            },
-            {
               "userVerificationMethod": "presence_internal"
             },
             {
               "userVerificationMethod": "none"
+            },
+            {
+              "userVerificationMethod": "fingerprint_internal"
+            },
+            {
+              "userVerificationMethod": "passcode_internal"
             }
           ]
         ]
@@ -199,16 +199,16 @@
       "userVerificationDetails": [
         [
           {
-            "userVerificationMethod": "fingerprint_internal"
-          },
-          {
-            "userVerificationMethod": "passcode_internal"
-          },
-          {
             "userVerificationMethod": "presence_internal"
           },
           {
             "userVerificationMethod": "none"
+          },
+          {
+            "userVerificationMethod": "fingerprint_internal"
+          },
+          {
+            "userVerificationMethod": "passcode_internal"
           }
         ]
       ]

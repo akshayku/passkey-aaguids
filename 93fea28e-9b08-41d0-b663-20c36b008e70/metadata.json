@@ -1,8 +1,80 @@
 [
   {
-    "description": null,
-    "mds_entry": {},
-    "metadataStatement": {},
-    "name": "Share Credentials"
+    "description": "Share Credentials team password manager supporting passkeys and passwords, with passkeys offered through its Chrome extension on Windows, macOS and Linux",
+    "mds_entry": {
+      "aaguid": "93fea28e-9b08-41d0-b663-20c36b008e70",
+      "metadataStatement": {
+        "aaguid": "93fea28e-9b08-41d0-b663-20c36b008e70",
+        "attestationRootCertificates": [],
+        "attestationTypes": [
+          "none"
+        ],
+        "authenticationAlgorithms": [
+          "secp256r1_ecdsa_sha256_raw"
+        ],
+        "authenticatorVersion": 1,
+        "description": "Share Credentials team password manager supporting passkeys and passwords, with passkeys offered through its Chrome extension on Windows, macOS and Linux",
+        "friendlyNames": {
+          "en-US": "Share Credentials"
+        },
+        "keyProtection": [
+          "software"
+        ],
+        "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+        "matcherProtection": [
+          "software"
+        ],
+        "multiDeviceCredentialSupport": "implicit",
+        "protocolFamily": "fido2",
+        "providerLogoDark": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHRpdGxlPlNoYXJlIENyZWRlbnRpYWxzPC90aXRsZT48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InJpbmciIHgxPSI5NiIgeTE9Ijk2IiB4Mj0iNDE2IiB5Mj0iNDE2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNjdFOEY5Ii8+PHN0b3Agb2Zmc2V0PSIwLjQ4IiBzdG9wLWNvbG9yPSIjMkRENEJGIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNjBBNUZBIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImRpc2MiIHgxPSIyNTYiIHkxPSIxNzgiIHgyPSIyNTYiIHkyPSIzMzQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMzOEJERjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyNTYzRUIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBkPSJNMTA1IDM5OUM0MC42IDMzOS42OSAyOC44OCAyNDIuMzYgNzcuMzggMTY5LjQ3QzEyNS44NyA5Ni41NyAyMjAuMTcgNjkuNzcgMjk5Ljc2IDEwNi4yNUMzNzkuMzQgMTQyLjc0IDQyMC41OCAyMzEuNjggMzk3IDMxNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI3JpbmcpIiBzdHJva2Utd2lkdGg9IjI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNMTM5IDMzNUMxMDIuNDcgMzAyLjEzIDg4LjggMjUwLjc5IDEwNC4xNCAyMDQuMUMxMTkuNDkgMTU3LjQyIDE2MC45NiAxMjQuMiAyMDkuODcgMTE5LjQxQzI1OC43NyAxMTQuNjMgMzA1LjkgMTM5LjE4IDMzMCAxODIiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNyaW5nKSIgc3Ryb2tlLXdpZHRoPSIxNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0iTTE4NyA0MjJDMjUyLjM0IDQzMy40NiAzMTguNjMgNDA3LjY0IDM1OSAzNTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNyaW5nKSIgc3Ryb2tlLXdpZHRoPSIyNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMjU2IiBjeT0iMjU2IiByPSI3NiIgZmlsbD0idXJsKCNkaXNjKSIvPjxwYXRoIGQ9Ik0yMjUgMjQ4VjIyNEMyMjUgMjA2Ljg4IDIzOC44OCAxOTMgMjU2IDE5M0MyNzMuMTIgMTkzIDI4NyAyMDYuODggMjg3IDIyNFYyNDgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0Y4RkFGQyIgc3Ryb2tlLXdpZHRoPSIxMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHJlY3QgeD0iMjE1IiB5PSIyNDIiIHdpZHRoPSI4MiIgaGVpZ2h0PSI3NSIgcng9IjEwIiBmaWxsPSIjRjhGQUZDIiBzdHJva2U9IiMwRjE3MkEiIHN0cm9rZS13aWR0aD0iNCIvPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI3NSIgcj0iMTAiIGZpbGw9IiMyNTYzRUIiLz48cGF0aCBkPSJNMjUwIDI4MUgyNjJMMjY3IDMwNEgyNDVMMjUwIDI4MVoiIGZpbGw9IiMyNTYzRUIiLz48L3N2Zz4=",
+        "providerLogoLight": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHRpdGxlPlNoYXJlIENyZWRlbnRpYWxzPC90aXRsZT48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InJpbmciIHgxPSI5NiIgeTE9Ijk2IiB4Mj0iNDE2IiB5Mj0iNDE2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMjJEM0VFIi8+PHN0b3Agb2Zmc2V0PSIwLjQ4IiBzdG9wLWNvbG9yPSIjMDhDQUI2Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMjU2M0VCIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImRpc2MiIHgxPSIyNTYiIHkxPSIxNzgiIHgyPSIyNTYiIHkyPSIzMzQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwRUE1RTkiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyNTYzRUIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBkPSJNMTA1IDM5OUM0MC42IDMzOS42OSAyOC44OCAyNDIuMzYgNzcuMzggMTY5LjQ3QzEyNS44NyA5Ni41NyAyMjAuMTcgNjkuNzcgMjk5Ljc2IDEwNi4yNUMzNzkuMzQgMTQyLjc0IDQyMC41OCAyMzEuNjggMzk3IDMxNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI3JpbmcpIiBzdHJva2Utd2lkdGg9IjI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNMTM5IDMzNUMxMDIuNDcgMzAyLjEzIDg4LjggMjUwLjc5IDEwNC4xNCAyMDQuMUMxMTkuNDkgMTU3LjQyIDE2MC45NiAxMjQuMiAyMDkuODcgMTE5LjQxQzI1OC43NyAxMTQuNjMgMzA1LjkgMTM5LjE4IDMzMCAxODIiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNyaW5nKSIgc3Ryb2tlLXdpZHRoPSIxNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0iTTE4NyA0MjJDMjUyLjM0IDQzMy40NiAzMTguNjMgNDA3LjY0IDM1OSAzNTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNyaW5nKSIgc3Ryb2tlLXdpZHRoPSIyNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMjU2IiBjeT0iMjU2IiByPSI3NiIgZmlsbD0idXJsKCNkaXNjKSIvPjxwYXRoIGQ9Ik0yMjUgMjQ4VjIyNEMyMjUgMjA2Ljg4IDIzOC44OCAxOTMgMjU2IDE5M0MyNzMuMTIgMTkzIDI4NyAyMDYuODggMjg3IDIyNFYyNDgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBGMTcyQSIgc3Ryb2tlLXdpZHRoPSIxMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHJlY3QgeD0iMjE1IiB5PSIyNDIiIHdpZHRoPSI4MiIgaGVpZ2h0PSI3NSIgcng9IjEwIiBmaWxsPSIjMEYxNzJBIiBzdHJva2U9IiNGOEZBRkMiIHN0cm9rZS13aWR0aD0iNCIvPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI3NSIgcj0iMTAiIGZpbGw9IiNGOEZBRkMiLz48cGF0aCBkPSJNMjUwIDI4MUgyNjJMMjY3IDMwNEgyNDVMMjUwIDI4MVoiIGZpbGw9IiNGOEZBRkMiLz48L3N2Zz4=",
+        "publicKeyAlgAndEncodings": [
+          "cose"
+        ],
+        "schema": 3,
+        "tcDisplay": [],
+        "upv": []
+      },
+      "statusReports": [
+        {
+          "effectiveDate": "2026-11-18",
+          "status": "NOT_FIDO_CERTIFIED"
+        }
+      ],
+      "timeOfLastStatusChange": "2026-11-18"
+    },
+    "metadataStatement": {
+      "aaguid": "93fea28e-9b08-41d0-b663-20c36b008e70",
+      "attestationRootCertificates": [],
+      "attestationTypes": [
+        "none"
+      ],
+      "authenticationAlgorithms": [
+        "secp256r1_ecdsa_sha256_raw"
+      ],
+      "authenticatorVersion": 1,
+      "description": "Share Credentials team password manager supporting passkeys and passwords, with passkeys offered through its Chrome extension on Windows, macOS and Linux",
+      "friendlyNames": {
+        "en-US": "Share Credentials"
+      },
+      "keyProtection": [
+        "software"
+      ],
+      "legalHeader": "Submission of this statement and retrieval and use of this statement indicates acceptance of the appropriate agreement located at https://fidoalliance.org/metadata/metadata-legal-terms/.",
+      "matcherProtection": [
+        "software"
+      ],
+      "multiDeviceCredentialSupport": "implicit",
+      "protocolFamily": "fido2",
+      "providerLogoDark": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHRpdGxlPlNoYXJlIENyZWRlbnRpYWxzPC90aXRsZT48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InJpbmciIHgxPSI5NiIgeTE9Ijk2IiB4Mj0iNDE2IiB5Mj0iNDE2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjNjdFOEY5Ii8+PHN0b3Agb2Zmc2V0PSIwLjQ4IiBzdG9wLWNvbG9yPSIjMkRENEJGIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjNjBBNUZBIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImRpc2MiIHgxPSIyNTYiIHkxPSIxNzgiIHgyPSIyNTYiIHkyPSIzMzQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMzOEJERjgiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyNTYzRUIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBkPSJNMTA1IDM5OUM0MC42IDMzOS42OSAyOC44OCAyNDIuMzYgNzcuMzggMTY5LjQ3QzEyNS44NyA5Ni41NyAyMjAuMTcgNjkuNzcgMjk5Ljc2IDEwNi4yNUMzNzkuMzQgMTQyLjc0IDQyMC41OCAyMzEuNjggMzk3IDMxNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI3JpbmcpIiBzdHJva2Utd2lkdGg9IjI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNMTM5IDMzNUMxMDIuNDcgMzAyLjEzIDg4LjggMjUwLjc5IDEwNC4xNCAyMDQuMUMxMTkuNDkgMTU3LjQyIDE2MC45NiAxMjQuMiAyMDkuODcgMTE5LjQxQzI1OC43NyAxMTQuNjMgMzA1LjkgMTM5LjE4IDMzMCAxODIiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNyaW5nKSIgc3Ryb2tlLXdpZHRoPSIxNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0iTTE4NyA0MjJDMjUyLjM0IDQzMy40NiAzMTguNjMgNDA3LjY0IDM1OSAzNTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNyaW5nKSIgc3Ryb2tlLXdpZHRoPSIyNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMjU2IiBjeT0iMjU2IiByPSI3NiIgZmlsbD0idXJsKCNkaXNjKSIvPjxwYXRoIGQ9Ik0yMjUgMjQ4VjIyNEMyMjUgMjA2Ljg4IDIzOC44OCAxOTMgMjU2IDE5M0MyNzMuMTIgMTkzIDI4NyAyMDYuODggMjg3IDIyNFYyNDgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI0Y4RkFGQyIgc3Ryb2tlLXdpZHRoPSIxMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHJlY3QgeD0iMjE1IiB5PSIyNDIiIHdpZHRoPSI4MiIgaGVpZ2h0PSI3NSIgcng9IjEwIiBmaWxsPSIjRjhGQUZDIiBzdHJva2U9IiMwRjE3MkEiIHN0cm9rZS13aWR0aD0iNCIvPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI3NSIgcj0iMTAiIGZpbGw9IiMyNTYzRUIiLz48cGF0aCBkPSJNMjUwIDI4MUgyNjJMMjY3IDMwNEgyNDVMMjUwIDI4MVoiIGZpbGw9IiMyNTYzRUIiLz48L3N2Zz4=",
+      "providerLogoLight": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMiIgYmFzZVByb2ZpbGU9InRpbnktcHMiIHdpZHRoPSI1MTIiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiI+PHRpdGxlPlNoYXJlIENyZWRlbnRpYWxzPC90aXRsZT48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9InJpbmciIHgxPSI5NiIgeTE9Ijk2IiB4Mj0iNDE2IiB5Mj0iNDE2IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHN0b3Agb2Zmc2V0PSIwIiBzdG9wLWNvbG9yPSIjMjJEM0VFIi8+PHN0b3Agb2Zmc2V0PSIwLjQ4IiBzdG9wLWNvbG9yPSIjMDhDQUI2Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMjU2M0VCIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9ImRpc2MiIHgxPSIyNTYiIHkxPSIxNzgiIHgyPSIyNTYiIHkyPSIzMzQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwRUE1RTkiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMyNTYzRUIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cGF0aCBkPSJNMTA1IDM5OUM0MC42IDMzOS42OSAyOC44OCAyNDIuMzYgNzcuMzggMTY5LjQ3QzEyNS44NyA5Ni41NyAyMjAuMTcgNjkuNzcgMjk5Ljc2IDEwNi4yNUMzNzkuMzQgMTQyLjc0IDQyMC41OCAyMzEuNjggMzk3IDMxNiIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI3JpbmcpIiBzdHJva2Utd2lkdGg9IjI4IiBzdHJva2UtbGluZWNhcD0icm91bmQiLz48cGF0aCBkPSJNMTM5IDMzNUMxMDIuNDcgMzAyLjEzIDg4LjggMjUwLjc5IDEwNC4xNCAyMDQuMUMxMTkuNDkgMTU3LjQyIDE2MC45NiAxMjQuMiAyMDkuODcgMTE5LjQxQzI1OC43NyAxMTQuNjMgMzA1LjkgMTM5LjE4IDMzMCAxODIiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNyaW5nKSIgc3Ryb2tlLXdpZHRoPSIxNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHBhdGggZD0iTTE4NyA0MjJDMjUyLjM0IDQzMy40NiAzMTguNjMgNDA3LjY0IDM1OSAzNTUiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNyaW5nKSIgc3Ryb2tlLXdpZHRoPSIyNCIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PGNpcmNsZSBjeD0iMjU2IiBjeT0iMjU2IiByPSI3NiIgZmlsbD0idXJsKCNkaXNjKSIvPjxwYXRoIGQ9Ik0yMjUgMjQ4VjIyNEMyMjUgMjA2Ljg4IDIzOC44OCAxOTMgMjU2IDE5M0MyNzMuMTIgMTkzIDI4NyAyMDYuODggMjg3IDIyNFYyNDgiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzBGMTcyQSIgc3Ryb2tlLXdpZHRoPSIxMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+PHJlY3QgeD0iMjE1IiB5PSIyNDIiIHdpZHRoPSI4MiIgaGVpZ2h0PSI3NSIgcng9IjEwIiBmaWxsPSIjMEYxNzJBIiBzdHJva2U9IiNGOEZBRkMiIHN0cm9rZS13aWR0aD0iNCIvPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjI3NSIgcj0iMTAiIGZpbGw9IiNGOEZBRkMiLz48cGF0aCBkPSJNMjUwIDI4MUgyNjJMMjY3IDMwNEgyNDVMMjUwIDI4MVoiIGZpbGw9IiNGOEZBRkMiLz48L3N2Zz4=",
+      "publicKeyAlgAndEncodings": [
+        "cose"
+      ],
+      "schema": 3,
+      "tcDisplay": [],
+      "upv": []
+    },
+    "name": "Share Credentials team password manager supporting passkeys and passwords, with passkeys offered through its Chrome extension on Windows, macOS and Linux"
   }
 ]

@@ -75,11 +75,11 @@
         "upv": [
           {
             "major": 1,
-            "minor": 1
+            "minor": 0
           },
           {
             "major": 1,
-            "minor": 0
+            "minor": 1
           }
         ],
         "userVerificationDetails": [
@@ -100,10 +100,10 @@
           ],
           [
             {
-              "userVerificationMethod": "presence_internal"
+              "userVerificationMethod": "passcode_external"
             },
             {
-              "userVerificationMethod": "passcode_external"
+              "userVerificationMethod": "presence_internal"
             }
           ]
         ]
@@ -201,11 +201,11 @@
       "upv": [
         {
           "major": 1,
-          "minor": 1
+          "minor": 0
         },
         {
           "major": 1,
-          "minor": 0
+          "minor": 1
         }
       ],
       "userVerificationDetails": [
@@ -226,10 +226,10 @@
         ],
         [
           {
-            "userVerificationMethod": "presence_internal"
+            "userVerificationMethod": "passcode_external"
           },
           {
-            "userVerificationMethod": "passcode_external"
+            "userVerificationMethod": "presence_internal"
           }
         ]
       ]
